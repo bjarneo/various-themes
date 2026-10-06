@@ -1,0 +1,162 @@
+{
+ "persimmon": {
+  "night": [
+   { "name": "fuyu-persimmons", "file": "File:Fuyu persimmon fruits, one cut open.jpg", "crop": [0.5, 0.44], "grade": 0 },
+   { "name": "persimmons-at-dusk", "file": "File:Sooc fruit - Flickr - Robert Couse-Baker.jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ],
+  "day": [
+   { "name": "persimmons-bare-branch", "file": "File:Autumn in Qom Province - IRAN Nature 01.jpg", "crop": [0.5, 0.5], "grade": 0.25 },
+   { "name": "white-eye-persimmons", "file": "File:柿目白 (52094134594).jpg", "crop": [0.5, 0.5], "grade": 0.2 }
+  ]
+ },
+ "honeycomb": {
+  "night": [
+   { "name": "golden-comb-layers", "file": "File:Honeycomb structure (6248780733).jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "comb-cells-pollen", "file": "File:ComputerHotline - Alveoles pleines de pollen (by).jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ],
+  "day": [
+   { "name": "bee-on-honeycomb", "file": "File:Western honey bee on a honeycomb.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "comb-honey-pollen", "file": "File:Starr-180406-0674-bee monitoring training-comb with honey and pollen-HDOA Hilo-Hawaii (41326343022).jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ]
+ },
+ "pistachio": {
+  "night": [
+   { "name": "pistachios-on-board", "file": "File:Pistachios meet Avocados (26746999968).jpg", "crop": [0.5, 0.6], "grade": 0 },
+   { "name": "pistachio-cluster", "file": "File:Eagle Ranch Pistachios LLC, owned and operated by George and Marianne Schweers, with 105 acres insured with Risk Management Agency crop insurance as seen on 21 May 2024 - 2.jpg", "crop": [0.5, 0.36], "grade": 0.2 }
+  ],
+  "day": [
+   { "name": "pistachios-warm-wood", "file": "File:Pistachios (39799740255).jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "bronte-pistachios", "file": "File:Pistacchio di Bronte.jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ]
+ },
+ "aubergine": {
+  "night": [
+   { "name": "glossy-aubergine-pile", "file": "File:Shimla-Bazar-40-Auberginen-2016-gje.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "mini-aubergines-calyx", "file": "File:Mini eggplant.jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ],
+  "day": [
+   { "name": "cut-aubergine", "file": "File:AubergineGeschnitten.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "four-aubergines", "file": "File:Four eggplants 2017 A.jpg", "crop": [0.5, 0.47], "grade": 0 }
+  ]
+ },
+ "strawberry-mint": {
+  "night": [
+   { "name": "strawberry-on-leaves", "file": "File:Fresh strawberry resting on vibrant green leaves in a garden.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "strawberries-crystal-bowl", "file": "File:Still life with strawberries in a crystal bowl.jpg", "crop": [0.5, 0.5], "grade": 0.25 }
+  ],
+  "day": [
+   { "name": "halved-strawberry", "file": "File:Garden strawberry (Fragaria × ananassa) halved.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "strawberry-on-white", "file": "File:Strawberry on white background.jpg", "crop": [0.5, 0.4], "grade": 0 }
+  ]
+ },
+ "rhubarb-custard": {
+  "night": [
+   { "name": "rhubarb-stalks-market", "file": "File:Rhubarb in Borough Market.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "rhubarb-citrus-pan", "file": "File:Rhubarb & Lemon (7271176860).jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ],
+  "day": [
+   { "name": "pink-rhubarb-stalks", "file": "File:Rhubarb at the Kenny Lake fair - panoramio.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "rhubarb-bundle", "file": "File:CSA-Rhubarb.jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ]
+ },
+ "grapefruit": {
+  "night": [
+   { "name": "shady-grapefruit", "file": "File:Shady Grapefruit (Unsplash).jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "grapefruit-raspberries", "file": "File:Rød grape, hindbær og lakrids (5950896761).jpg", "crop": [0.5, 1], "grade": 0.25 }
+  ],
+  "day": [
+   { "name": "grapefruit-cut-half", "file": "File:Grapefruit cut.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "grapefruit-whole-and-split", "file": "File:Grapefruit-Whole-&-Split.jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ]
+ },
+ "bramble": {
+  "night": [
+   { "name": "thorny-bramble-berries", "file": "File:Unripe blackberries in Norrkila 2.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "bramble-flower-black", "file": "File:Rubus spp., 2 Howard County, MD, Helen Lowe Metzman 2017-07-25-19.16 (39292707851).jpg", "crop": [0.5, 0.5], "grade": 0.4 }
+  ],
+  "day": [
+   { "name": "blackberries-on-bramble", "file": "File:More di rovo.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "single-blackberry", "file": "File:Blackberry (Rubus fruticosus).jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ]
+ },
+ "mochi": {
+  "night": [
+   { "name": "pastel-mochi-trio", "file": "File:Kuyakansuke-mochi, Wagashi, Mie.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "pink-wagashi-lacquer", "file": "File:Pink wagashi - flower with two birds - Japan (150).jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ],
+  "day": [
+   { "name": "sanshoku-dango", "file": "File:Sanshoku Dango 001.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "matcha-mochi", "file": "File:Green Tea Mochi - 03.jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ]
+ },
+ "absinthe": {
+  "night": [
+   { "name": "wormwood-in-bloom", "file": "File:Artemisia absinthium in Austria.jpg", "crop": [0.5, 0.5], "grade": 0.2 },
+   { "name": "wormwood-flower-spray", "file": "File:Artemisia absinthium NoviPazar1.JPG", "crop": [0.5, 0.5], "grade": 0.2 }
+  ],
+  "day": [
+   { "name": "wormwood-foliage", "file": "File:Artemisia absinthium in Jardin Botanique de l'Aubrac.jpg", "crop": [0.5, 0.5], "grade": 0.3 },
+   { "name": "aniseed-on-leaf", "file": "File:Pimpinella anisum.jpg", "crop": [0.5, 0.5], "grade": 0.2 }
+  ]
+ },
+ "bottle-glass": {
+  "night": [
+   { "name": "glowing-green-glass", "file": "File:Glass Objects and Bottles Illuminated by Intense Color.jpg", "crop": [0.5, 0.55], "grade": 0.3 },
+   { "name": "inside-green-bottle", "file": "File:Green Glass Bottle (54182239626).jpg", "crop": [0.5, 0.5], "grade": 0.6 }
+  ],
+  "day": [
+   { "name": "bottles-on-windowsill", "file": "File:Dülmen, Alte Brennerei Löhning -- 2015 -- 8677-81.jpg", "crop": [0.5, 0.3], "grade": 0.7 },
+   { "name": "backlit-bottle-shelves", "file": "File:47 green bottles - Flickr - conall...jpg", "crop": [0.5, 0.5], "grade": 0.5 }
+  ]
+ },
+ "bordeaux": {
+  "night": [
+   { "name": "chateau-kirwan-cellar", "file": "File:Wine Cellar at Chateau Kirwan.jpg", "crop": [0.5, 0.5], "grade": 0.6 },
+   { "name": "red-wine-bottle-glass", "file": "File:Bottle and glass of red wine.jpg", "crop": [0.5, 0.5], "grade": 0.5 }
+  ],
+  "day": [
+   { "name": "saint-emilion-vines", "file": "File:Vignoble Saint-Emilion.jpg", "crop": [0.5, 0.5], "grade": 0.75 },
+   { "name": "medoc-tower-vineyard", "file": "File:Chateau La Tour de By Vignoble.jpg", "crop": [0.5, 0.5], "grade": 0.75 }
+  ]
+ },
+ "lava-lamp": {
+  "night": [
+   { "name": "lava-lamp-bar", "file": "File:Lava Lamp inside Encounter Restaurant & Bar at Los Angeles International Airport (11300546333).jpg", "crop": [0.5, 0.5], "grade": 0.25 },
+   { "name": "floating-wax-blobs", "file": "File:Ink&dye485 Flickr macro photo by Jordan Mudrack - close-up view colored ink dye paint wet transparent opaque mediums materials forming intricate simple abstract patterns shapes images.jpg", "crop": [0.5, 0.5], "grade": 0.25 }
+  ],
+  "day": [
+   { "name": "lava-lamp-shelves", "file": "File:Lava Lamps at Cloudflare 1 2022-12-04.jpeg", "crop": [0.5, 0.45], "grade": 0.2 },
+   { "name": "oil-water-blobs", "file": "File:Oil, Water, Food Coloring - Flickr - Jochen Spieker.jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ]
+ },
+ "aperitivo": {
+  "night": [
+   { "name": "orange-aperitivo-glass", "file": "File:Italian Aperitivo culture - pre-dinner evening drink as an appetizer (32876800955).jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "negroni-on-the-rocks", "file": "File:Negroni (cocktail).jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ],
+  "day": [
+   { "name": "orange-halves", "file": "File:Oranges - whole-halved-segment.jpg", "crop": [0.5, 0.5], "grade": 0.25 },
+   { "name": "olives-on-branch", "file": "File:OlivesCruzGrande.JPG", "crop": [0.5, 0.5], "grade": 0.15 }
+  ]
+ },
+ "sherbet": {
+  "night": [
+   { "name": "raspberry-sorbet-cup", "file": "File:Glass cup with sorbet (5186725623).jpg", "crop": [0.5, 0.5], "grade": 0.15 },
+   { "name": "sherbet-scoops-granite", "file": "File:Ice cream Cup.jpg", "crop": [0.5, 0.5], "grade": 0.25 }
+  ],
+  "day": [
+   { "name": "rainbow-sherbet", "file": "File:Rainbow Sherbet (38251341974).jpg", "crop": [0.5, 0.37], "grade": 0 },
+   { "name": "raspberry-sherbet", "file": "File:Homemade raspberry sherbert (4426007421).jpg", "crop": [0.5, 0.5], "grade": 0 }
+  ]
+ },
+ "gelato": {
+  "night": [
+   { "name": "gelato-black-bowl", "file": "File:Homemade ice cream in clipper lounge.jpg", "crop": [0.5, 0.52], "grade": 0 },
+   { "name": "gelato-display-case", "file": "File:\"\" Ice cream display (Crepes & Waffles, Quito) pic. bb8a.jpg", "crop": [0.5, 0.375], "grade": 0.15 }
+  ],
+  "day": [
+   { "name": "gelato-tubs-closeup", "file": "File:Gelato ice cream.jpg", "crop": [0.5, 0.5], "grade": 0 },
+   { "name": "gelato-roses-macarons", "file": "File:Amorino Gelato Flowers and Macaroons.jpg", "crop": [0.5, 0.6], "grade": 0 }
+  ]
+ }
+}

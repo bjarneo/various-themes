@@ -1,0 +1,170 @@
+{
+ "gouache": {
+  "night": [
+   {
+    "name": "vesuvius-eruption-gouache",
+    "file": "File:Gran Eruzione del 1794.jpg",
+    "crop": [
+     0.5,
+     0.4
+    ],
+    "grade": 0
+   },
+   {
+    "name": "jaxa-moonlit-pier",
+    "file": "File:Soter Jaxa-Małachowski - Pejzaż morski 1941.jpg",
+    "crop": [
+     0.5,
+     0.45
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "hodler-silvaplana-lake",
+    "file": "File:Hodler - Der Silvaplanersee im Herbst - 1907.jpg",
+    "crop": [
+     0.5,
+     0.55
+    ],
+    "grade": 0
+   },
+   {
+    "name": "reschreiter-hollental-glacier",
+    "file": "File:Rudolf Reschreiter Blick von der Höllentalangerhütte zum Höllentalgletscher und den Riffelwandspitzen 1921.jpg",
+    "crop": [
+     0.5,
+     0.44
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "fresco": {
+  "night": [
+   {
+    "name": "farnesina-black-wall",
+    "file": "File:Wall painting - figured frieze and garland and white miniaturistic landscapes on black background - Rome (Villa della Farnesina - triclinium C) - Roma MNR PMaT - 06.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "livia-garden-daisies",
+    "file": "File:Fresco from the triclinium of the villa of Livia, wife of the Emperor Augustus, 30-20 BCE; Palazzo Massimo alle Terme, Rome (7).jpg",
+    "crop": [
+     0.5,
+     0.45
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "akrotiri-spring-lilies",
+    "file": "File:Spring fresco from Akrotiri, NAMA BE 1974.29, 191200.jpg",
+    "crop": [
+     0.5,
+     0.58
+    ],
+    "grade": 0
+   },
+   {
+    "name": "pompeii-swallow-fresco",
+    "file": "File:Bird (Detail) - Garden painting (30-35 AD) from Pompeii, House of the Golden Bracelet - Exhibition \"Myth and Nature\" at Archaeological Museum of Naples, until September 30, 2016 - 27699416421.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "watercolor": {
+  "night": [
+   {
+    "name": "spilliaert-beach-moon",
+    "file": "File:Strand met maan, Léon Spilliaert, Mu.ZEE Oostende, K000433.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "spilliaert-blue-basin",
+    "file": "File:De blauwe teil, Léon Spilliaert, Mu.ZEE Oostende, SM000058.jpg",
+    "crop": [
+     0.5,
+     0.4
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "cezanne-provence-landscape",
+    "file": "File:Paul Cézanne - Landscape in Provence - Google Art Project.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "spilliaert-dunes",
+    "file": "File:Duinen, Léon Spilliaert, Mu.ZEE Oostende, SM000477.jpg",
+    "crop": [
+     0.5,
+     0.42
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "darkroom": {
+  "night": [
+   {
+    "name": "safelight-darkroom-bench",
+    "file": "File:WAU 2025 Congress - Casa del Mango 022.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.3
+   },
+   {
+    "name": "safelight-developing-tray",
+    "file": "File:WAU 2025 Congress - Casa del Mango 020.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.3
+   }
+  ],
+  "day": [
+   {
+    "name": "prints-drying-line",
+    "file": "File:WAU 2025 Congress - Casa del Mango 026.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.75
+   },
+   {
+    "name": "darkroom-developing-tray",
+    "file": "File:Eastman Kodak Darkroom Tray - DPLA - 6d4d4f5c4399519ab48bed18a53562eb (page 1).jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.7
+   }
+  ]
+ }
+}

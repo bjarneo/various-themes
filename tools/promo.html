@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Promo renderer</title>
+<style>html,body{margin:0;background:#000}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script>
+// Promo video frames. tools/promo.mjs calls setup(), prepare() and frame().
+// Segments: the intro, 2 beats for each theme, and the outro. In the first
+// beat of a theme its desktop comes in at night. In the second beat it turns
+// to day. Each pattern has its own transition, and the transition into a
+// theme uses the pattern of that theme. The video shows desktops only, no
+// backgrounds.
+
+const W = 1920, H = 1080;
+const MONO = '"JetBrainsMono Nerd Font", "JetBrains Mono", monospace';
+const SERIF = '"Noto Serif", serif';
+const SLOTS = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan'];
+const cv = document.getElementById('c');
+let ctx = cv.getContext('2d');
+let S = null, LOGO = [], images = new Map(), stills = {}, noise = null;
+
+function rgb(hex) { return [1, 3, 5].map(i => parseInt(hex.slice(i, i + 2), 16)); }
+function rgba(hex, a) { const n = rgb(hex); return `rgba(${n[0]},${n[1]},${n[2]},${a})`; }
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+function ease(t) { t = clamp(t); return 1 - Math.pow(1 - t, 3); }
+function inout(t) { t = clamp(t); return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+function load(src) { return new Promise((res, rej) => { const im = new Image(); im.onload = () => res(im); im.onerror = () => rej(new Error(`cannot load ${src}`)); im.src = src; }); }
+function lum(hex) { const [r, g, b] = rgb(hex).map(v => { v /= 255; return v <= .04045 ? v / 12.92 : ((v + .055) / 1.055) ** 2.4; }); return .2126 * r + .7152 * g + .0722 * b; }
+
+// A smooth noise field at low resolution, for the earth dissolve.
+function makeNoise() {
+  const w = 192, h = 108, data = new Float32Array(w * h);
+  let seed = 7; const r = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const grid = [];
+  for (let i = 0; i < 13 * 8; i++) grid.push(r());
+  const at = (x, y) => grid[(y % 8) * 13 + (x % 13)];
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+    let v = 0, amp = .55, fx = x / 9, fy = y / 9;
+    for (let o = 0; o < 3; o++) {
+      const x0 = Math.floor(fx), y0 = Math.floor(fy), tx = fx - x0, ty = fy - y0;
+      const sx = tx * tx * (3 - 2 * tx), sy = ty * ty * (3 - 2 * ty);
+      const a = at(x0, y0) * (1 - sx) + at(x0 + 1, y0) * sx, b = at(x0, y0 + 1) * (1 - sx) + at(x0 + 1, y0 + 1) * sx;
+      v += amp * (a * (1 - sy) + b * sy); amp *= .5; fx *= 2.1; fy *= 2.1;
+    }
+    data[y * w + x] = v;
+  }
+  let lo = Infinity, hi = -Infinity; data.forEach(v => { lo = Math.min(lo, v); hi = Math.max(hi, v); });
+  return { w, h, data: data.map(v => (v - lo) / (hi - lo)) };
+}
+
+window.setup = async (config) => {
+  S = config;
+  LOGO = config.logo.map(p => ({ path: new Path2D(p.d), rule: p.evenodd ? 'evenodd' : 'nonzero' }));
+  stills.wall = await load(config.wall);
+  noise = makeNoise();
+  await document.fonts.load(`40px ${MONO}`);
+  await document.fonts.load(`bold 40px ${MONO}`);
+  await document.fonts.load(`300 40px ${SERIF}`);
+  await document.fonts.load(`italic 300 40px ${SERIF}`);
+};
+
+// Keeps the images of the previous, the current and the next theme only.
+window.prepare = async (j) => {
+  for (const k of [...images.keys()]) if (k < j - 1) images.delete(k);
+  for (const k of [j, j + 1]) {
+    if (k < S.clips.length && !images.has(k)) {
+      const c = S.clips[k];
+      images.set(k, await Promise.all([load(c.src.night), load(c.src.day)]));
+    }
+  }
+};
+
+function drawLogo(x, y, width, fill, alpha = 1) {
+  const s = width / 1215;
+  ctx.save(); ctx.globalAlpha = alpha; ctx.translate(x, y); ctx.scale(s, s);
+  ctx.fillStyle = fill; LOGO.forEach(p => ctx.fill(p.path, p.rule));
+  ctx.restore();
+}
+
+function text(str, x, y, size, color, opts = {}) {
+  ctx.save();
+  ctx.font = `${opts.italic ? 'italic ' : ''}${opts.weight || (opts.bold ? 'bold' : '')} ${size}px ${opts.font || MONO}`;
+  ctx.fillStyle = color; ctx.textAlign = opts.align || 'left'; ctx.textBaseline = opts.baseline || 'alphabetic';
+  if (opts.glow) { ctx.shadowColor = opts.glow; ctx.shadowBlur = opts.blur || 24; }
+  if (opts.alpha !== undefined) ctx.globalAlpha = clamp(opts.alpha);
+  if (opts.spacing) ctx.letterSpacing = opts.spacing;
+  ctx.fillText(str, x, y);
+  const w = ctx.measureText(str).width;
+  ctx.restore();
+  return w;
+}
+
+// Draws an image so that it covers the whole frame.
+function cover(img, alpha = 1) {
+  const s = Math.max(W / img.width, H / img.height);
+  const w = img.width * s, h = img.height * s;
+  ctx.save(); ctx.globalAlpha = alpha; ctx.drawImage(img, (W - w) / 2, (H - h) / 2, w, h); ctx.restore();
+}
+
+// Draws a screenshot at full height in the middle of the frame. The bars at
+// the sides take the darker background of the theme, with the 8 normal ANSI
+// colors on the left and the 8 bright colors on the right.
+function screen(img, t) {
+  const w = Math.min(W, img.width * H / img.height), x = (W - w) / 2;
+  ctx.fillStyle = t.colors.darker_background; ctx.fillRect(0, 0, W, H);
+  if (x > 40) {
+    const sq = 40, gap = 14, y0 = (H - (8 * sq + 7 * gap)) / 2;
+    for (let k = 0; k < 8; k++) {
+      ctx.fillStyle = t.ansi[k]; ctx.fillRect(x / 2 - sq / 2, y0 + k * (sq + gap), sq, sq);
+      ctx.fillStyle = t.ansi[k + 8]; ctx.fillRect(W - x / 2 - sq / 2, y0 + k * (sq + gap), sq, sq);
+    }
+  }
+  ctx.drawImage(img, x, 0, w, H);
+  return x;
+}
+
+// ---------- transitions ----------
+//
+// Each one draws the frame that goes, then the frame that comes inside a
+// shape that grows with p from 0 to 1. t is the theme that comes.
+
+const TRANSITIONS = {
+  // A circle opens from a pop color, with a ring in the accent.
+  family(from, to, p, t) {
+    from();
+    if (p <= 0) return;
+    const cx = W * .68, cy = H * .42, r = inout(p) * Math.hypot(W, H) * .8;
+    ctx.save(); ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.clip(); to(); ctx.restore();
+    if (p < 1) {
+      ctx.save();
+      ctx.lineWidth = 14; ctx.strokeStyle = t.colors.accent; ctx.shadowColor = t.colors.accent; ctx.shadowBlur = 30;
+      ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
+      ctx.lineWidth = 5; ctx.strokeStyle = t.colors.red; ctx.shadowBlur = 0;
+      ctx.beginPath(); ctx.arc(cx, cy, Math.max(0, r - 22), 0, Math.PI * 2); ctx.stroke();
+      ctx.restore();
+    }
+  },
+  // Horizontal blinds open from the top, each slat in a step of the ladder.
+  mono(from, to, p, t) {
+    from();
+    const n = 9, slat = H / n;
+    const ladder = SLOTS.map(k => t.colors[k]).sort((a, b) => lum(a) - lum(b));
+    for (let i = 0; i < n; i++) {
+      const q = inout((p * 1.5) - i / n * .5);
+      if (q <= 0) continue;
+      const h = slat * q, y = i * slat + (slat - h) / 2;
+      ctx.save(); ctx.beginPath(); ctx.rect(0, y, W, h); ctx.clip(); to(); ctx.restore();
+      if (q < 1) { ctx.fillStyle = ladder[i % ladder.length]; ctx.fillRect(0, y - 3, W, 3); ctx.fillRect(0, y + h, W, 3); }
+    }
+  },
+  // A diagonal split moves across, led by 2 bands in the 2 main colors.
+  duotone(from, to, p, t) {
+    from();
+    const slant = H * .45, x = -slant - 120 + inout(p) * (W + slant + 240);
+    const band = (dx, w, color) => { ctx.beginPath(); ctx.moveTo(x + dx, 0); ctx.lineTo(x + dx + w, 0); ctx.lineTo(x + dx + w - slant, H); ctx.lineTo(x + dx - slant, H); ctx.closePath(); ctx.fillStyle = color; ctx.fill(); };
+    ctx.save(); ctx.beginPath(); ctx.moveTo(-slant - 400, 0); ctx.lineTo(x, 0); ctx.lineTo(x - slant, H); ctx.lineTo(-slant - 400, H); ctx.closePath(); ctx.clip(); to(); ctx.restore();
+    if (p > 0 && p < 1) { band(0, 46, t.border[0]); band(46, 46, t.border[1]); }
+  },
+  // A clock hand sweeps once around the middle, its edge in the hues of the arc.
+  analogous(from, to, p, t) {
+    from();
+    const a0 = -Math.PI / 2, a = a0 + inout(p) * Math.PI * 2, cx = W / 2, cy = H / 2, R = Math.hypot(W, H);
+    if (p > 0) { ctx.save(); ctx.beginPath(); ctx.moveTo(cx, cy); ctx.arc(cx, cy, R, a0, a); ctx.closePath(); ctx.clip(); to(); ctx.restore(); }
+    if (p > 0 && p < 1) {
+      const hues = SLOTS.map(k => t.colors[k]);
+      hues.forEach((c, i) => {
+        const w = .035, b = a - i * w;
+        ctx.beginPath(); ctx.moveTo(cx, cy); ctx.arc(cx, cy, R, b - w, b); ctx.closePath();
+        ctx.fillStyle = rgba(c, .9 - i * .12); ctx.fill();
+      });
+    }
+  },
+  // A grainy dissolve, as if the next picture seeps through paper.
+  earth(from, to, p, t) {
+    from();
+    if (p <= 0) return;
+    const { w, h, data } = noise, m = document.createElement('canvas');
+    m.width = w; m.height = h;
+    const mx = m.getContext('2d'), img = mx.createImageData(w, h), q = inout(p) * 1.32 - .16;
+    for (let i = 0; i < w * h; i++) { const a = clamp((q - data[i]) / .16 + .5); img.data[i * 4 + 3] = a * 255; }
+    mx.putImageData(img, 0, 0);
+    const layer = document.createElement('canvas'); layer.width = W; layer.height = H;
+    const lx = layer.getContext('2d');
+    const keep = ctx; ctx = lx; try { to(); } finally { ctx = keep; }
+    lx.globalCompositeOperation = 'destination-in'; lx.imageSmoothingQuality = 'high'; lx.drawImage(m, 0, 0, W, H);
+    ctx.drawImage(layer, 0, 0);
+    if (p < 1) {
+      const edge = document.createElement('canvas'); edge.width = w; edge.height = h;
+      const ex = edge.getContext('2d'), ei = ex.createImageData(w, h), [r, g, b] = rgb(t.colors.brown);
+      for (let i = 0; i < w * h; i++) { const d = Math.abs(q - data[i]); const a = clamp(1 - d / .05) * .7; ei.data[i * 4] = r; ei.data[i * 4 + 1] = g; ei.data[i * 4 + 2] = b; ei.data[i * 4 + 3] = a * 200; }
+      ex.putImageData(ei, 0, 0); ctx.imageSmoothingQuality = 'high'; ctx.drawImage(edge, 0, 0, W, H);
+    }
+  },
+  // A bar in the signal color crosses the frame.
+  signal(from, to, p, t) {
+    from();
+    const sig = chroma(t.colors.accent) > .12 ? t.colors.accent : t.colors.red;
+    const x = -80 + inout(p) * (W + 160);
+    if (p > 0) { ctx.save(); ctx.beginPath(); ctx.rect(0, 0, x, H); ctx.clip(); to(); ctx.restore(); }
+    if (p > 0 && p < 1) {
+      ctx.save(); ctx.shadowColor = sig; ctx.shadowBlur = 40; ctx.fillStyle = sig; ctx.fillRect(x - 28, 0, 28, H); ctx.restore();
+      ctx.fillStyle = rgba(t.colors.foreground, .9); ctx.fillRect(x - 32, 0, 4, H);
+    }
+  },
+  // 6 bars in the 6 slot colors fall in turn, and each one reveals its column.
+  spectrum(from, to, p, t) {
+    from();
+    const n = 6, cw = W / n;
+    for (let i = 0; i < n; i++) {
+      const q = inout(p * 1.6 - i * .12);
+      if (q <= 0) continue;
+      const h = q * H;
+      ctx.save(); ctx.beginPath(); ctx.rect(i * cw, 0, cw + 1, h); ctx.clip(); to(); ctx.restore();
+      if (q < 1) { ctx.fillStyle = t.colors[SLOTS[i]]; ctx.fillRect(i * cw, h - 18, cw + 1, 18); }
+    }
+  },
+  // A soft haze: both pictures blur into each other through pastel light.
+  pastel(from, to, p, t) {
+    const q = inout(p);
+    ctx.save(); ctx.filter = `blur(${(q * 18).toFixed(1)}px)`; from(); ctx.restore();
+    ctx.save(); ctx.globalAlpha = q; ctx.filter = `blur(${((1 - q) * 18).toFixed(1)}px)`; to(); ctx.restore();
+    if (p > 0 && p < 1) {
+      const glow = Math.sin(q * Math.PI);
+      ['bright_magenta', 'bright_cyan', 'bright_yellow', 'bright_blue'].forEach((k, i) => {
+        const cx = W * (.2 + i * .2) + Math.sin(i * 2 + q * 3) * 80, cy = H * (.3 + (i % 2) * .4);
+        const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, 380);
+        g.addColorStop(0, rgba(t.colors[k], .35 * glow)); g.addColorStop(1, rgba(t.colors[k], 0));
+        ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+      });
+    }
+  },
+};
+function chroma(hex) { const [r, g, b] = rgb(hex); return (Math.max(r, g, b) - Math.min(r, g, b)) / 255; }
+
+// ---------- overlays ----------
+
+// The chip in the top right corner.
+function chip(t, alpha = 1, right = 60) {
+  ctx.save(); ctx.globalAlpha = alpha;
+  ctx.font = `bold 22px ${MONO}`;
+  const label = `${S.count} themes × night and day`, w = ctx.measureText(label).width + 40;
+  ctx.fillStyle = rgba(t.colors.background, .92); ctx.beginPath(); ctx.roundRect(W - right - w, 36, w, 50, 25); ctx.fill();
+  ctx.strokeStyle = t.colors.accent; ctx.lineWidth = 2; ctx.stroke();
+  ctx.fillStyle = t.colors.foreground; ctx.textBaseline = 'middle'; ctx.fillText(label, W - right + 20 - w, 62);
+  ctx.restore();
+}
+
+function label(t, top, name, pill, a, x0) {
+  ctx.save(); ctx.font = `300 66px ${SERIF}`; const nameW = ctx.measureText(name).width; ctx.restore();
+  ctx.save(); ctx.font = `22px ${MONO}`; ctx.letterSpacing = '2px'; const topW = ctx.measureText(top).width; ctx.restore();
+  const bx = x0 + 36 - (1 - a) * 40, bh = 186, by = H - 56 - bh, bw = Math.max(nameW + 170, topW) + 72;
+  ctx.save(); ctx.globalAlpha = a;
+  ctx.fillStyle = rgba(t.colors.background, .94); ctx.beginPath(); ctx.roundRect(bx, by, bw, bh, 18); ctx.fill();
+  const border = ctx.createLinearGradient(bx, 0, bx + bw, 0);
+  border.addColorStop(0, t.border[0]); border.addColorStop(1, t.border[1]);
+  ctx.lineWidth = 3; ctx.strokeStyle = border; ctx.stroke();
+  ctx.restore();
+  text(top, bx + 36, by + 48, 22, t.colors.dark_foreground, { alpha: a, spacing: '2px' });
+  text(name, bx + 32, by + 124, 66, t.colors.foreground, { font: SERIF, weight: '300', alpha: a });
+  ctx.save(); ctx.globalAlpha = a; ctx.font = `bold 20px ${MONO}`;
+  const pw = ctx.measureText(pill).width + 30, px = bx + 40 + nameW + 10, py = by + 88;
+  ctx.fillStyle = t.colors.accent; ctx.beginPath(); ctx.roundRect(px, py, pw, 38, 19); ctx.fill();
+  ctx.fillStyle = t.colors.background; ctx.textBaseline = 'middle'; ctx.fillText(pill, px + 15, py + 20);
+  ctx.restore();
+  t.ansi.forEach((h, k) => { ctx.globalAlpha = a; ctx.fillStyle = h; ctx.fillRect(bx + 36 + k * ((bw - 72) / 16), by + bh - 34, (bw - 72) / 16 - 3, 10); });
+  ctx.globalAlpha = 1;
+}
+
+// The name and rule of a pattern, at the top left, on its first theme.
+function patternCard(c, t, a) {
+  if (a <= 0) return;
+  const x = 96, y = 96;
+  ctx.save(); ctx.font = `300 64px ${SERIF}`; const w = Math.max(ctx.measureText(c.patternLabel).width, 620); ctx.restore();
+  ctx.save(); ctx.globalAlpha = a * .94; ctx.fillStyle = t.colors.background; ctx.beginPath(); ctx.roundRect(x - 36, y - 36, w + 72, 250, 18); ctx.fill(); ctx.restore();
+  text(`PATTERN ${c.patternIndex} / 8`, x, y + 10, 22, t.colors.accent, { alpha: a, spacing: '4px', bold: true });
+  text(c.patternLabel, x - 4, y + 86, 64, t.colors.foreground, { font: SERIF, weight: '300', alpha: a });
+  ctx.save(); ctx.globalAlpha = a; ctx.font = `22px ${MONO}`; ctx.fillStyle = t.colors.light_foreground;
+  const words = c.patternDesc.split(' '); let line = '', yy = y + 136;
+  for (const word of words) { const test = line ? `${line} ${word}` : word; if (ctx.measureText(test).width > w && line) { ctx.fillText(line, x, yy); line = word; yy += 32; if (yy > y + 180) break; } else line = test; }
+  if (line && yy <= y + 180) ctx.fillText(line, x, yy);
+  ctx.restore();
+}
+
+function progress(t, prog) {
+  ctx.fillStyle = rgba(t.colors.background, .7); ctx.fillRect(0, H - 8, W, 8);
+  const g = ctx.createLinearGradient(0, 0, W, 0);
+  g.addColorStop(0, t.border[0]); g.addColorStop(1, t.border[1]);
+  ctx.fillStyle = g; ctx.fillRect(0, H - 8, W * prog, 8);
+}
+
+// ---------- segments ----------
+
+// The intro ground: the background of the hero theme, with its 16 colors as
+// bars that rise from the bottom one after the other.
+function introGround(f) {
+  const t = S.intro;
+  ctx.fillStyle = t.colors.darker_background; ctx.fillRect(0, 0, W, H);
+  const bw = W / 16;
+  for (let k = 0; k < 16; k++) {
+    const h = H * .16 * ease((f - k * 1.5) / 14) * (.55 + .45 * Math.abs(Math.sin(k * 1.7)));
+    ctx.fillStyle = rgba(t.ansi[k], .85); ctx.fillRect(k * bw + 2, H - h, bw - 4, h);
+  }
+}
+
+function intro(f, n) {
+  const t = S.intro;
+  introGround(f);
+  const g = ctx.createRadialGradient(W / 2, H * .4, 0, W / 2, H * .4, W * .55);
+  g.addColorStop(0, rgba(t.colors.accent, .18 * ease(f / 20))); g.addColorStop(1, rgba(t.colors.accent, 0));
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  const width = 780, a = ease((f - 4) / 14);
+  const grad = ctx.createLinearGradient(0, 0, 1215, 0);
+  grad.addColorStop(0, t.border[0]); grad.addColorStop(1, t.border[1]);
+  ctx.save(); ctx.shadowColor = rgba('#000000', .6); ctx.shadowBlur = 30; ctx.shadowOffsetY = 8;
+  drawLogo((W - width) / 2, H * .25 - width * 285 / 1215 / 2, width, grad, a); ctx.restore();
+  const steps = [[`${S.count} themes`, 26, 64, t.colors.foreground, false], ['× night and day', 46, 64, t.colors.foreground, true], [`= ${S.count * 2} Omarchy themes`, 66, 84, t.colors.accent, false]];
+  steps.forEach(([lbl, start, size, color, italic], i) => {
+    text(lbl, W / 2, H * (.5 + i * .12), size, color, { align: 'center', font: SERIF, weight: '300', italic, alpha: ease((f - start) / 12), glow: 'rgba(0,0,0,.7)', blur: 30 });
+  });
+  text('8 patterns  ·  real Omarchy desktops, night and day', W / 2, H * .76, 26, t.colors.light_foreground, { align: 'center', alpha: ease((f - 80) / 12), spacing: '1px' });
+  const fade = 1 - f / 10; if (fade > 0) { ctx.fillStyle = `rgba(0,0,0,${fade})`; ctx.fillRect(0, 0, W, H); }
+}
+
+// The last frame of a theme: its day desktop, with its label.
+function lastFrameOf(j) {
+  const c = S.clips[j], [, day] = images.get(j);
+  return () => screen(day, c.day);
+}
+
+function themeFrame(seg, f, n) {
+  const j = seg.index, c = S.clips[j], [night, day] = images.get(j);
+  const tr = TRANSITIONS[c.pattern];
+  const half = n / 2, x0 = (W - Math.min(W, night.width * H / night.height)) / 2;
+  const top = `${c.patternLabel.toUpperCase()}  ·  ${String(c.index).padStart(3, '0')} / ${S.count}`;
+  if (f < half) {
+    // Beat 1: the desktop comes in at night over the last frame of the theme before.
+    const p = clamp(f / (half * .55));
+    const from = j === 0 ? () => introGround(99) : lastFrameOf(j - 1);
+    tr(from, () => screen(night, c.night), p, c.night);
+    label(c.night, top, c.name, 'night', ease((f - half * .3) / 8), x0);
+    if (c.first) patternCard(c, c.night, ease((f - half * .35) / 8) * (1 - ease((f - half * .92) / 6)));
+    chip(c.night, 1, x0 + 40);
+    progress(c.night, (j + f / n) / S.clips.length);
+  } else {
+    // Beat 2: the same desktop turns to day.
+    const g = f - half, p = clamp((g / half - .3) / .5);
+    tr(() => screen(night, c.night), () => screen(day, c.day), p, c.day);
+    const t = p > .5 ? c.day : c.night;
+    label(t, top, c.name, p > .5 ? 'day' : 'night', 1, x0);
+    chip(t, 1, x0 + 40);
+    progress(t, (j + f / n) / S.clips.length);
+  }
+}
+
+function outro(f, n) {
+  const t = S.intro;
+  ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
+  if (images.has(S.clips.length - 1)) {
+    const prev = lastFrameOf(S.clips.length - 1);
+    TRANSITIONS[S.clips[S.clips.length - 1].pattern](prev, () => cover(stills.wall), ease(f / 14), t);
+  } else cover(stills.wall, ease(f / 8));
+  ctx.fillStyle = rgba(t.colors.darker_background, .8 * ease((f - 14) / 12)); ctx.fillRect(0, 0, W, H);
+  const b = ease((f - 18) / 10);
+  const grad = ctx.createLinearGradient(0, 0, 1215, 0);
+  grad.addColorStop(0, t.border[0]); grad.addColorStop(1, t.border[1]);
+  drawLogo((W - 560) / 2, H * .17, 560, grad, b);
+  text(`${S.count * 2} themes`, W / 2, H * .5, 120, t.colors.foreground, { align: 'center', font: SERIF, weight: '300', alpha: b, glow: 'rgba(0,0,0,.8)', blur: 30 });
+  text(`${S.count} themes  ×  night and day  ·  8 patterns`, W / 2, H * .6, 30, t.colors.light_foreground, { align: 'center', alpha: ease((f - 26) / 10) });
+  text(S.url, W / 2, H * .71, 40, t.colors.accent, { align: 'center', bold: true, alpha: ease((f - 32) / 10) });
+  text(`curl -fsSL https://${S.url}/install.sh | bash -s -- kyoto-moss --set`, W / 2, H * .8, 24, t.colors.foreground, { align: 'center', alpha: ease((f - 38) / 10) });
+  const end = f > n - 30 ? (f - (n - 30)) / 30 : 0;
+  if (end > 0) { ctx.fillStyle = `rgba(0,0,0,${end})`; ctx.fillRect(0, 0, W, H); }
+}
+
+window.frame = (seg, f, n, quality = .92) => {
+  if (seg.kind === 'intro') intro(f, n);
+  else if (seg.kind === 'outro') outro(f, n);
+  else themeFrame(seg, f, n);
+  return cv.toDataURL('image/jpeg', quality);
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+{
+  "poppy-field": {
+    "night": [
+      { "name": "poppy-field-sunset-dorset", "file": "File:At the Going Down of the Sun (49982266856).jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "red-poppy-sunset", "file": "File:Red Poppy Sunset (49995207452).jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ],
+    "day": [
+      { "name": "monet-poppy-field-giverny", "file": "File:Monet, Claude - Poppy Field.jpg", "crop": [0.5, 0.43], "grade": 0 },
+      { "name": "wild-poppy-field-lida", "file": "File:Wild poppy field near Lida.jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ]
+  },
+  "marigold": {
+    "night": [
+      { "name": "pot-marigolds-on-black", "file": "File:Calendula 0023-2.jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "orange-marigold-kobona", "file": "File:Кобона, бархатцы в саду 2.jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ],
+    "day": [
+      { "name": "marigolds-in-the-sun", "file": "File:Tagetes erecta(marigold).jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "orange-marigold-bloom", "file": "File:Tagetes erecta DSC 4440.jpg", "crop": [0.5, 0.45], "grade": 0 }
+    ]
+  },
+  "mimosa": {
+    "night": [
+      { "name": "wattle-pompoms-on-black", "file": "File:Acacia pycnantha 1DS-II 3-8849.jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "silver-wattle-at-night", "file": "File:Acacia baileyana inflorescences Girraween National Park Wyberba Queensland 1980s IMG 0082 (4).jpg", "crop": [0.5, 0.5], "grade": 0.25 }
+    ],
+    "day": [
+      { "name": "mimosa-in-snow-rome", "file": "File:Unexpected snowfall in Rome, 2018.jpg", "crop": [0.5, 0.55], "grade": 0 },
+      { "name": "mimosa-esterel-sky", "file": "File:Acacia dealbata in Massif de l'Esterel (5).jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ]
+  },
+  "iris": {
+    "night": [
+      { "name": "violet-bearded-iris-on-black", "file": "File:Iris pallida subsp. cengialti (Ambrosi ex A.Kern.) Foster in Gard. Chron.- n.s.- 25- 555 (1886) 20240425 093420.jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "bearded-iris-gold-beard", "file": "File:Schwertlilie -- 2025 -- 7594.jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ],
+    "day": [
+      { "name": "van-gogh-irises", "file": "File:Vincent van Gogh - Irises (1889).jpg", "crop": [0.5, 0.45], "grade": 0 },
+      { "name": "siberian-iris-sunlit", "file": "File:Beautiful Siberian iris flower.jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ]
+  },
+  "wisteria": {
+    "night": [
+      { "name": "wisteria-wall-berkeley", "file": "File:N20170406-0018—Wisteria sinensis—Shoko—DxO (33762273152).jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "wisteria-pergola-okayama", "file": "File:岡山城の藤花 by takeokahp - panoramio.jpg", "crop": [0.5, 0.6], "grade": 0 }
+    ],
+    "day": [
+      { "name": "wisteria-raceme-pale-wall", "file": "File:Wisteria–IMG 5784~2.jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "wisteria-over-woerthersee", "file": "File:Pörtschach Halbinsel Johannes-Brahms-Promenade blühende Wisteria 03052015 3119.jpg", "crop": [0.5, 0.45], "grade": 0 }
+    ]
+  },
+  "bougainvillea": {
+    "night": [
+      { "name": "magenta-bougainvillea-dark-wall", "file": "File:Bougainvillea à Mangily, Toliary (85105).jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "bougainvillea-bract-macro", "file": "File:Bougainvillea spectabilis (19387284339).jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ],
+    "day": [
+      { "name": "bougainvillea-white-facade-mogan", "file": "File:Bougainvilleas - Puerto de Mogán - 03.jpg", "crop": [0.5, 0.55], "grade": 0 },
+      { "name": "bougainvillea-white-wall-santorini", "file": "File:Santorin (GR), Akrotiri -- 2017 -- 2452.jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ]
+  },
+  "peony": {
+    "night": [
+      { "name": "pink-peonies-on-black", "file": "File:Peony Summer (4736000345).jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "pink-peony-dark-garden", "file": "File:Pink peony (14516653971).jpg", "crop": [0.5, 0.45], "grade": 0 }
+    ],
+    "day": [
+      { "name": "pink-peony-on-white", "file": "File:Peony Summer (4736003501).jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "pale-peony-petals", "file": "File:Pink Peony (48224703141).jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ]
+  },
+  "heliotrope": {
+    "night": [
+      { "name": "heliotrope-cyme-close-up", "file": "File:Heliotrope flower (Heliotropium arborescens), Fundação Calouste Gulbenkian, Lisbon, Portugal julesvernex2.jpg", "crop": [0.5, 0.5], "grade": 0.6 },
+      { "name": "heliotrope-lilac-clusters", "file": "File:Heliotropium arborescens-IMG 8742.JPG", "crop": [0.5, 0.5], "grade": 0.85 }
+    ],
+    "day": [
+      { "name": "heliotrope-violet-mass", "file": "File:Boraginaceae - Heliotropium arborescens - 3.jpg", "crop": [0.5, 0.5], "grade": 0.5 },
+      { "name": "heliotrope-marine-silver-leaves", "file": "File:Heliotropium arborescens JRVdH 03.jpg", "crop": [0.5, 0.45], "grade": 0.7 }
+    ]
+  },
+  "nightshade": {
+    "night": [
+      { "name": "bittersweet-nightshade-on-black", "file": "File:Solanum dulcamara kz17.jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "purple-nightshade-santa-monica", "file": "File:Purple Night Shade (33330524931).jpg", "crop": [0.5, 0.45], "grade": 0 }
+    ],
+    "day": [
+      { "name": "potato-bush-flowers-pale-green", "file": "File:Solanum (Lycianthes) rantonnetii close-up.jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "chilean-potato-vine-flowers", "file": "File:Solanum crispum JdP 2013-04-28 n02.jpg", "crop": [0.5, 0.45], "grade": 0 }
+    ]
+  },
+  "hydrangea": {
+    "night": [
+      { "name": "blue-hydrangeas-unshoji-night", "file": "File:Blue hydrangea in Unsho-ji, Oga at night 20190703c.jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "blue-hydrangea-tokyo-shade", "file": "File:Hydrangea, May 2016.jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ],
+    "day": [
+      { "name": "hydrangea-blue-to-pink", "file": "File:Blue Hydrangea (Pink Hydrangea?) (5888804015).jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "pink-hydrangea-pale-wall", "file": "File:Hortensia June 2013-2.jpg", "crop": [0.5, 0.45], "grade": 0 }
+    ]
+  },
+  "eucalyptus": {
+    "night": [
+      { "name": "gum-tree-under-the-moon", "file": "File:Gum tree with moon, Mount Majura Nature Reserve.jpg", "crop": [0.5, 0.5], "grade": 0.3 },
+      { "name": "silver-dollar-gum-in-shade", "file": "File:Eucalyptus polyanthemos plantas santa fe salida villa california-35.jpg", "crop": [0.5, 0.5], "grade": 0.15 }
+    ],
+    "day": [
+      { "name": "silver-dollar-eucalyptus-leaves", "file": "File:Eucalyptus cinerea Silver Dollar in Parc de la Tete d'Or (2).jpg", "crop": [0.5, 0.45], "grade": 0 },
+      { "name": "silver-gum-branch-sky", "file": "File:Starr-140203-3271-Eucalyptus pulverulenta-leaves-Kula Ag Station-Maui (25146913871).jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ]
+  },
+  "bracken": {
+    "night": [
+      { "name": "golden-bracken-frond-on-black", "file": "File:Clermont - 20191025 (2).jpg", "crop": [0.5, 0.45], "grade": 0 },
+      { "name": "backlit-bracken-myrstigen", "file": "File:Contre-jour bracken at Myrstigen 9.jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ],
+    "day": [
+      { "name": "dried-bracken-frond", "file": "File:Pteridium aquilinum kz10.jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "golden-bracken-merthyr-mawr", "file": "File:Merthyr Mawr October.jpg", "crop": [0.5, 0.6], "grade": 0 }
+    ]
+  },
+  "night-garden": {
+    "night": [
+      { "name": "rose-in-the-night-garden", "file": "File:Rose flowers in the night - Flickr - e27182818284.jpg", "crop": [0.5, 0.48], "grade": 0 },
+      { "name": "flower-garden-lit-at-night", "file": "File:Lit up flower garden at night.jpg", "crop": [0.5, 0.6], "grade": 0 }
+    ],
+    "day": [
+      { "name": "phlox-border-walled-garden", "file": "File:Herbaceous border at Mount Ephraim Gardens - geograph.org.uk - 5450049.jpg", "crop": [0.5, 0.55], "grade": 0 },
+      { "name": "summer-border-harlow-carr", "file": "File:RHS Harlow Carr, Herbaceous border - geograph.org.uk - 6652141.jpg", "crop": [0.5, 0.5], "grade": 0 }
+    ]
+  },
+  "rosewater": {
+    "night": [
+      { "name": "peach-rose-in-the-dark", "file": "File:Roses in dark.jpg", "crop": [0.5, 0.5], "grade": 0.15 },
+      { "name": "rose-petals-in-rosewater", "file": "File:مراسم گلابگیری در قمصر کاشان Golabgiri (\"making Rosewater\") - Ghamsar- Kashan- Iran 27.jpg", "crop": [0.5, 0.5], "grade": 0.25 }
+    ],
+    "day": [
+      { "name": "pink-rose-petal-swirl", "file": "File:Rose Petals (5850444953).jpg", "crop": [0.5, 0.5], "grade": 0 },
+      { "name": "roses-in-a-vase-on-white", "file": "File:Roses (Unsplash PwWkzeJeJZE).jpg", "crop": [0.5, 0.35], "grade": 0 }
+    ]
+  }
+}

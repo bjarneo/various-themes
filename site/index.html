@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Various Themes for Omarchy</title>
+<meta name="description" content="100 Omarchy themes in 8 patterns. Each theme has a night and a day variant.">
+<meta property="og:title" content="Various Themes for Omarchy">
+<meta property="og:description" content="100 Omarchy themes in 8 patterns. Each theme has a night and a day variant.">
+<meta property="og:image" content="https://bjarneo.github.io/various-themes/assets/mosaic.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="assets/themes.js"></script>
+<script>
+// Pick night or day before the first paint, so the page does not flash. A
+// theme address such as #kyoto-moss/day sets the variant. Night shows the page
+// in dark colors, day in light colors.
+(() => {
+  let mode = null;
+  try { mode = localStorage.getItem('mode'); } catch {}
+  const v = decodeURIComponent(location.hash.slice(1)).split('/')[1];
+  if (v === 'night' || v === 'day') mode = v;
+  if (mode !== 'night' && mode !== 'day') mode = matchMedia('(prefers-color-scheme: light)').matches ? 'day' : 'night';
+  document.documentElement.dataset.mode = mode;
+  document.querySelector('meta[name="theme-color"]').content = mode === 'day' ? '#fafafa' : '#0a0a0a';
+})();
+</script>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #0a0a0a;
+  --surface: #111111;
+  --surface-2: #171717;
+  --line: #222222;
+  --line-2: #333333;
+  --text: #ededed;
+  --text-2: #a1a1a1;
+  --text-3: #8b8b8b;
+  --primary: #ededed;
+  --on-primary: #0a0a0a;
+  --ring: #52a8ff;
+  --header: rgba(10, 10, 10, .72);
+  --shadow: 0 1px 2px rgba(0, 0, 0, .35), 0 6px 16px -8px rgba(0, 0, 0, .6);
+  --glow-strength: .5;
+  --radius: 12px;
+  --wrap: 1240px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --sans: Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+:root[data-mode="day"] {
+  color-scheme: light;
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --surface-2: #f2f2f2;
+  --line: #e5e5e5;
+  --line-2: #d4d4d4;
+  --text: #171717;
+  --text-2: #5c5c5c;
+  --text-3: #6b6b6b;
+  --primary: #171717;
+  --on-primary: #ffffff;
+  --ring: #0070f3;
+  --header: rgba(250, 250, 250, .78);
+  --shadow: 0 1px 2px rgba(0, 0, 0, .05), 0 6px 16px -8px rgba(0, 0, 0, .14);
+  --glow-strength: .38;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { background: var(--bg); scroll-padding-top: 118px; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.6 var(--sans);
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: color-mix(in srgb, var(--ring) 35%, transparent); }
+h1, h2, h3, p, figure { margin: 0; }
+a { color: inherit; text-decoration: none; }
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+code, kbd, pre { font-family: var(--mono); }
+:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.wrap { max-width: var(--wrap); margin: 0 auto; padding-inline: var(--gutter); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+svg.i { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Header */
+.hdr { position: sticky; top: 0; z-index: 30; background: var(--header); backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid var(--line); }
+.hdr-in { display: flex; align-items: center; gap: 24px; height: 60px; }
+.logo { display: inline-flex; align-items: baseline; gap: 8px; font-weight: 600; letter-spacing: -.02em; white-space: nowrap; }
+.logo .for { display: inline-flex; align-items: center; gap: 6px; color: var(--text-3); font-weight: 400; letter-spacing: 0; font-size: 14px; }
+.wordmark { display: inline-block; width: 58px; height: 13px; transform: translateY(1px); background: currentColor; -webkit-mask: url(assets/omarchy-wordmark.svg) center / contain no-repeat; mask: url(assets/omarchy-wordmark.svg) center / contain no-repeat; }
+.nav { display: flex; gap: 4px; }
+.nav a { padding: 6px 10px; border-radius: 6px; color: var(--text-2); font-size: 14px; transition: color .15s, background-color .15s; }
+.nav a:hover { color: var(--text); background: var(--surface-2); }
+.hdr-end { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+
+.hdr .menu-btn { display: none; }
+.menu { inset: 64px var(--gutter) auto auto; min-width: 200px; margin: 0; padding: 6px; border: 1px solid var(--line-2); border-radius: 10px; background: var(--surface); color: var(--text); box-shadow: var(--shadow); }
+.menu a { display: block; padding: 8px 10px; border-radius: 6px; font-size: 14px; }
+.menu a:hover { background: var(--surface-2); }
+
+/* Segmented control and buttons */
+.seg { display: inline-flex; padding: 3px; gap: 2px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.seg button { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; border: 0; border-radius: 6px; background: none; color: var(--text-2); font-size: 13px; font-weight: 500; transition: color .15s, background-color .15s; }
+.seg button:hover { color: var(--text); }
+.seg button[aria-pressed="true"] { background: var(--surface-2); color: var(--text); box-shadow: 0 0 0 1px var(--line-2); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 36px; padding: 0 14px; border: 1px solid var(--line-2); border-radius: 8px; background: var(--surface); color: var(--text); font-size: 14px; font-weight: 500; white-space: nowrap; transition: background-color .15s, border-color .15s; }
+.btn:hover { background: var(--surface-2); border-color: color-mix(in srgb, var(--text) 25%, var(--line-2)); }
+.btn.primary { background: var(--primary); border-color: var(--primary); color: var(--on-primary); }
+.btn.primary:hover { background: color-mix(in srgb, var(--primary) 86%, var(--bg)); }
+.btn.sm { height: 32px; padding: 0 10px; font-size: 13px; }
+.btn.icon { width: 32px; padding: 0; }
+
+/* Intro */
+.intro { padding-block: 56px 24px; }
+.intro h1 { font-size: clamp(34px, 4.6vw, 48px); font-weight: 600; line-height: 1.05; letter-spacing: -.04em; text-wrap: balance; }
+.lede { margin-top: 12px; max-width: 60ch; color: var(--text-2); font-size: 16px; line-height: 1.55; }
+
+/* Toolbar: pattern tabs and search */
+.toolbar { position: sticky; top: 61px; z-index: 20; background: var(--header); backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid var(--line); }
+.tb-in { display: flex; align-items: center; gap: 16px; min-height: 56px; }
+.tabs { display: flex; gap: 2px; min-width: 0; overflow-x: auto; scrollbar-width: none; mask-image: linear-gradient(90deg, #000 calc(100% - 24px), transparent); }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 10px; border: 0; border-radius: 6px; background: none; color: var(--text-2); font-size: 14px; white-space: nowrap; transition: color .15s, background-color .15s; }
+.tab:hover { color: var(--text); background: var(--surface-2); }
+.tab span { color: var(--text-3); font-family: var(--mono); font-size: 12px; }
+.tab[aria-pressed="true"] { color: var(--text); background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--line-2); }
+.search { position: relative; display: flex; align-items: center; flex: 0 1 260px; margin-left: auto; }
+.search svg { position: absolute; left: 10px; color: var(--text-3); pointer-events: none; }
+.search input { width: 100%; height: 36px; padding: 0 36px 0 34px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); outline: none; font-size: 14px; transition: border-color .15s, box-shadow .15s; }
+.search input::placeholder { color: var(--text-3); }
+.search input:focus { border-color: var(--ring); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ring) 25%, transparent); }
+.search input::-webkit-search-cancel-button { display: none; }
+kbd { display: inline-grid; place-items: center; min-width: 20px; height: 20px; padding: 0 5px; border: 1px solid var(--line-2); border-radius: 5px; background: var(--surface-2); color: var(--text-2); font-size: 11px; line-height: 1; }
+.search kbd { position: absolute; right: 8px; }
+
+/* The groups and the grid of desktops */
+.groups { padding-block: 24px; }
+.group + .group { margin-top: 56px; }
+.ghead { display: grid; grid-template-columns: auto 1fr; align-items: baseline; gap: 2px 12px; margin-bottom: 16px; }
+.ghead h2 { font-size: 20px; font-weight: 600; letter-spacing: -.02em; }
+.ghead .n { color: var(--text-3); font-family: var(--mono); font-size: 13px; }
+.ghead p { grid-column: 1 / -1; max-width: 72ch; color: var(--text-2); font-size: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 268px), 1fr)); gap: 20px; }
+.card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); transition: border-color .2s, box-shadow .2s, transform .2s cubic-bezier(.2, .8, .2, 1); }
+.card:hover { border-color: var(--line-2); box-shadow: var(--shadow); transform: translateY(-2px); }
+.card:focus-visible { outline-offset: 3px; }
+.card .shot { position: relative; aspect-ratio: 16 / 10; overflow: hidden; border-bottom: 1px solid var(--line); background: var(--surface-2); }
+.card img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.card .meta { display: flex; align-items: center; gap: 12px; padding: 12px 14px; }
+.card .name { min-width: 0; overflow: hidden; font-size: 14px; font-weight: 500; text-overflow: ellipsis; white-space: nowrap; }
+.dots { display: flex; gap: 4px; margin-left: auto; }
+.dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--c); box-shadow: inset 0 0 0 1px rgba(127, 127, 127, .3); }
+.empty { padding: 64px 0; color: var(--text-2); text-align: center; }
+.empty .btn { margin-top: 16px; }
+
+/* Sections under the grid */
+.section { padding-block: 64px; border-top: 1px solid var(--line); }
+.section h2 { font-size: 28px; font-weight: 600; letter-spacing: -.03em; }
+.section .wrap > p { margin-top: 10px; max-width: 70ch; color: var(--text-2); }
+.codebox { margin-top: 20px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.codebar { display: flex; align-items: center; gap: 2px; padding: 6px; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.codebar .copy { margin-left: auto; }
+.code { position: relative; display: flex; align-items: flex-start; gap: 12px; padding: 16px; }
+.code pre { flex: 1; min-width: 0; margin: 0; overflow-x: auto; font-size: 13px; line-height: 1.7; white-space: pre; scrollbar-width: thin; }
+.code .p { color: var(--text-3); user-select: none; }
+.ln { display: block; }
+.code .copy { flex: none; }
+.notes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px 32px; margin-top: 20px; color: var(--text-2); font-size: 14px; }
+.notes a { color: var(--text); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 3px; }
+.notes code, .section code, .hint code, .caption code { padding: 1px 5px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface-2); color: var(--text); font-size: 12.5px; white-space: nowrap; }
+.video { position: relative; margin-top: 20px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #000; }
+.video video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.play { position: absolute; left: 50%; top: 50%; display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 20px 0 16px; border: 0; border-radius: 999px; background: var(--primary); color: var(--on-primary); font-size: 15px; font-weight: 500; box-shadow: 0 8px 24px -8px rgba(0, 0, 0, .5); transform: translate(-50%, -50%); transition: transform .2s cubic-bezier(.2, .8, .2, 1); }
+.play:hover { transform: translate(-50%, -50%) scale(1.04); }
+.play svg { width: 18px; height: 18px; fill: currentColor; }
+.foot { padding-block: 40px 56px; border-top: 1px solid var(--line); color: var(--text-3); font-size: 13px; }
+.foot-in { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px 48px; }
+.foot p { max-width: 72ch; }
+.foot nav { display: flex; gap: 20px; }
+.foot a { color: var(--text-2); }
+.foot a:hover { color: var(--text); }
+
+/* The detail page of a theme */
+.detail { padding-block: 24px 64px; }
+.dnav { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+.back { display: inline-flex; align-items: center; gap: 6px; height: 32px; white-space: nowrap; padding: 0 10px 0 6px; margin-left: -6px; border-radius: 6px; color: var(--text-2); font-size: 14px; transition: color .15s, background-color .15s; }
+.back:hover { color: var(--text); background: var(--surface-2); }
+.pn { display: flex; align-items: center; gap: 8px; margin-left: auto; white-space: nowrap; color: var(--text-3); font-size: 13px; font-variant-numeric: tabular-nums; }
+.keys { margin-right: 8px; font-family: var(--sans); font-size: 12px; }
+.keys kbd { margin: 0 2px; }
+.dgrid { display: grid; grid-template-columns: minmax(0, 1fr) 440px; gap: 40px; align-items: start; }
+.dmain { position: sticky; top: 84px; min-width: 0; }
+/* A soft glow in the accent of the theme lights the preview. */
+.stage { position: relative; isolation: isolate; }
+.stage::before { content: ''; position: absolute; z-index: -1; inset: 4% -2% -10%; border-radius: 50%; background: var(--glow, transparent); filter: blur(80px); opacity: var(--glow-strength); }
+.frame { position: relative; overflow: hidden; aspect-ratio: 16 / 10; border: 1px solid var(--line-2); border-radius: var(--radius); background: var(--surface-2); box-shadow: var(--shadow); }
+.frame img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+.frame .cmp { clip-path: inset(0 0 0 var(--x, 50%)); }
+.split { position: absolute; inset: 0; cursor: ew-resize; touch-action: none; }
+.split .tag { position: absolute; bottom: 12px; padding: 2px 8px; border-radius: 999px; background: rgba(0, 0, 0, .66); color: #fff; font-size: 12px; font-weight: 500; }
+.split .tag.l { left: 12px; }
+.split .tag.r { right: 12px; }
+.handle { position: absolute; top: 0; bottom: 0; left: var(--x, 50%); width: 2px; margin-left: -1px; background: #fff; box-shadow: 0 0 0 1px rgba(0, 0, 0, .25); }
+.handle::after { content: ''; position: absolute; top: 50%; left: 50%; width: 30px; height: 30px; margin: -15px 0 0 -15px; border-radius: 50%; background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23171717' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 7-5 5 5 5M15 7l5 5-5 5'/%3E%3C/svg%3E") center / 18px no-repeat; box-shadow: 0 2px 8px rgba(0, 0, 0, .35); }
+.handle:focus-visible { outline: none; }
+.handle:focus-visible::after { box-shadow: 0 0 0 3px var(--ring); }
+.vrow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+#d-compare[aria-pressed="true"] { background: var(--surface-2); border-color: var(--line-2); box-shadow: inset 0 0 0 1px var(--line-2); }
+.caption { min-height: 42px; margin-top: 12px; color: var(--text-3); font-size: 13px; line-height: 1.6; }
+.caption a { color: var(--text-2); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 3px; }
+.caption a:hover { color: var(--text); }
+.thumbs { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; margin-top: 8px; }
+.thumb { display: grid; gap: 6px; min-width: 0; padding: 0; border: 0; background: none; text-align: left; }
+.thumb span:first-child { display: block; overflow: hidden; aspect-ratio: 16 / 10; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-2); transition: border-color .15s, box-shadow .15s; }
+.thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.thumb span:last-child { display: -webkit-box; overflow: hidden; color: var(--text-3); font-size: 12px; line-height: 1.4; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; }
+.thumb:hover span:first-child { border-color: var(--line-2); }
+.thumb[aria-selected="true"] span:first-child { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
+.thumb[aria-selected="true"] span:last-child { color: var(--text); }
+.dside { display: grid; gap: 28px; min-width: 0; }
+.dhead { display: grid; gap: 10px; }
+.crumbs { display: flex; align-items: center; gap: 2px; min-width: 0; color: var(--text-3); }
+.crumbs span { padding: 0 2px; }
+#d-crumb { padding-left: 10px; margin-left: 0; white-space: nowrap; }
+.dname { font-size: 40px; font-weight: 600; line-height: 1.05; letter-spacing: -.04em; text-wrap: balance; }
+.ddesc { color: var(--text-2); }
+.block { display: grid; gap: 12px; padding-top: 24px; border-top: 1px solid var(--line); }
+.block h2 { font-size: 14px; font-weight: 600; letter-spacing: -.01em; }
+.block .codebox { margin-top: 0; }
+.block .code { padding: 12px 14px; }
+.block .code pre { font-size: 12px; }
+.cb-label { padding-left: 8px; color: var(--text-3); font-size: 12px; }
+.btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.hint { color: var(--text-3); font-size: 13px; }
+.hint a { color: var(--text-2); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 3px; }
+.palette { display: grid; gap: 2px; }
+.prow { display: grid; grid-template-columns: 40px 1fr auto; align-items: center; gap: 12px; padding: 4px 8px; margin-inline: -8px; border-radius: 6px; font-size: 13px; }
+.prow:hover { background: var(--surface-2); }
+.pair { display: flex; }
+.pair i { width: 20px; height: 20px; background: var(--c); box-shadow: inset 0 0 0 1px rgba(127, 127, 127, .3); }
+.pair i:first-child { border-radius: 5px 0 0 5px; }
+.pair i:last-child { border-radius: 0 5px 5px 0; }
+.pair i:only-child { border-radius: 5px; }
+.prow .nm small { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--surface-2); color: var(--text-2); font-size: 11px; box-shadow: inset 0 0 0 1px var(--line); }
+.hexes { display: flex; gap: 4px; }
+.hex { padding: 2px 6px; border: 0; border-radius: 5px; background: none; color: var(--text-2); font-family: var(--mono); font-size: 12px; transition: color .15s, background-color .15s; }
+button.hex:hover { color: var(--text); background: var(--surface); box-shadow: inset 0 0 0 1px var(--line-2); }
+.pnote { color: var(--text-3); font-size: 13px; }
+.links { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; }
+.links a { display: inline-flex; align-items: center; gap: 4px; color: var(--text-2); }
+.links a:hover { color: var(--text); }
+
+.toast { position: fixed; z-index: 50; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border: 1px solid var(--line-2); border-radius: 999px; background: var(--surface); box-shadow: var(--shadow); font-size: 13px; font-weight: 500; white-space: nowrap; transform: translate(-50%, 8px); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s cubic-bezier(.2, .8, .2, 1); }
+.toast.show { transform: translate(-50%, 0); opacity: 1; }
+
+/* A card desktop grows into the detail preview, and back. */
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: .22s; }
+::view-transition-group(hero) { animation-duration: .38s; animation-timing-function: cubic-bezier(.2, .8, .2, 1); }
+::view-transition-old(hero), ::view-transition-new(hero) { height: 100%; object-fit: cover; }
+
+@media (max-width: 1100px) {
+  .dgrid { display: flex; flex-direction: column; align-items: stretch; gap: 28px; }
+  .dside { display: contents; }
+  .dhead { order: -1; }
+  .dmain { position: static; }
+}
+@media (max-width: 760px) {
+  .nav, .keys, .seg .lbl, .gh { display: none; }
+  .hdr .menu-btn { display: inline-flex; }
+  .hdr-in { gap: 12px; }
+  .seg button { padding: 0 8px; }
+  .intro { padding-block: 40px 20px; }
+  .lede { font-size: 16px; }
+  .tb-in { flex-wrap: wrap; gap: 8px; padding-block: 10px; }
+  .search { flex: 1 1 100%; order: -1; margin: 0; }
+  .search kbd { display: none; }
+  .thumbs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .dname { font-size: 32px; }
+}
+@media (max-width: 560px) {
+  #d-pos { display: none; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .card .meta { flex-direction: column; align-items: flex-start; gap: 6px; padding: 10px 12px; }
+  .card .name { max-width: 100%; font-size: 13px; }
+  .dots { margin-left: 0; gap: 3px; }
+  .dots i { width: 8px; height: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; }
+  .card:hover { transform: none; }
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+}
+</style>
+</head>
+<body>
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a class="logo" href="#themes" aria-label="Various Themes for Omarchy, all themes">Various Themes<span class="for">for <i class="wordmark" role="img" aria-label="Omarchy"></i></span></a>
+    <nav class="nav" aria-label="Sections"><a href="#themes">Themes</a><a href="#install">Install</a><a href="#video">Video</a></nav>
+    <div class="hdr-end">
+      <div class="seg" role="group" aria-label="Night or day">
+        <button data-variant="night" aria-pressed="true"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg><span class="lbl">Night</span></button>
+        <button data-variant="day" aria-pressed="false"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg><span class="lbl">Day</span></button>
+      </div>
+      <button class="btn sm icon menu-btn" popovertarget="menu" aria-label="Menu"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <a class="btn sm gh" href="https://github.com/bjarneo/various-themes" aria-label="Source on GitHub"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="fill:currentColor;stroke:none"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg><span class="gh-label">GitHub</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" popover><a href="#themes">Themes</a><a href="#install">Install</a><a href="#video">Video</a><a href="https://github.com/bjarneo/various-themes">GitHub</a></div>
+
+<main id="home">
+  <section class="wrap intro" aria-labelledby="title">
+    <h1 id="title">Various Themes</h1>
+    <p class="lede">100 themes for Omarchy. Each theme has a night and a day variant, and every screenshot is a real desktop.</p>
+  </section>
+
+  <div class="toolbar" id="themes">
+    <div class="wrap tb-in">
+      <div class="tabs" id="tabs" role="group" aria-label="Show the themes of 1 pattern"></div>
+      <label class="search"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="sr">Search themes</span><input id="q" type="search" placeholder="Search themes" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
+    </div>
+  </div>
+
+  <div class="wrap groups" id="groups"></div>
+  <div class="wrap empty" id="empty" hidden><p id="empty-text"></p><button class="btn" id="clear">Clear the search</button></div>
+
+  <section class="section" id="install" aria-labelledby="install-title"><div class="wrap">
+    <h2 id="install-title">Install</h2>
+    <p><code>install.sh</code> copies themes into <code>~/.config/omarchy/themes</code>. It installs the night and the day variant of a theme unless you pick one with <code>--variant</code>. It never replaces a theme that you made.</p>
+    <div class="codebox">
+      <div class="codebar" role="group" aria-label="Install method" id="install-tabs">
+        <button class="tab" data-cmd="one" aria-pressed="true">One theme</button>
+        <button class="tab" data-cmd="variant" aria-pressed="false">One variant</button>
+        <button class="tab" data-cmd="all" aria-pressed="false">All 200 themes</button>
+        <button class="btn sm icon copy" id="install-copy" aria-label="Copy the command"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg></button>
+      </div>
+      <div class="code"><pre id="install-cmd"></pre></div>
+    </div>
+    <div class="notes">
+      <p>Theme names end in <code>-night</code> or <code>-day</code>, for example <code>kyoto-moss-night</code>. Other options: <code>--all</code>, <code>--list</code>, <code>--update</code>, <code>--remove</code>, <code>--link</code> and <code>--force</code>. Run <code>install.sh --help</code> for details.</p>
+      <p>To apply a theme at once, open it and select Apply with Aether. <a href="https://github.com/omacom/aether">Aether</a> downloads <code>colors.toml</code> and a 3840x2160 copy of the background. Install as Omarchy theme adds the variant to the Omarchy theme menu.</p>
+    </div>
+  </div></section>
+
+  <section class="section" id="video" aria-labelledby="video-title"><div class="wrap">
+    <h2 id="video-title">Video</h2>
+    <p>All 100 themes, 2 beats each. A real Omarchy desktop comes in at night and turns to day, with a transition for each pattern. The music is Late Night Color Mixing.</p>
+    <div class="video"><video id="vid" playsinline preload="none" poster="assets/mosaic.jpg" src="assets/promo.mp4" aria-label="Promo video of all 100 themes"></video><button class="play" id="play" aria-label="Play the video"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>Play</button></div>
+  </div></section>
+</main>
+
+<main id="detail" class="wrap detail" hidden aria-labelledby="d-name">
+  <div class="dnav">
+    <nav class="crumbs" aria-label="Breadcrumb"><a class="back" href="#themes" id="d-back"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>All themes</a><span aria-hidden="true">/</span><a class="back" href="#themes" id="d-crumb"></a></nav>
+    <div class="pn">
+      <span class="keys"><kbd>←</kbd><kbd>→</kbd> browse <kbd>Esc</kbd> close</span>
+      <span id="d-pos"></span>
+      <button class="btn sm icon" id="d-prev" aria-label="Previous theme"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+      <button class="btn sm icon" id="d-next" aria-label="Next theme"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+    </div>
+  </div>
+  <div class="dgrid">
+    <div class="dmain">
+      <div class="stage" id="d-stage"><div class="frame" id="d-frame"><img id="d-img" src="assets/thumbs/kyoto-moss/night.webp" alt="" width="1440" height="900" loading="lazy"><img class="cmp" id="d-cmp" alt="" hidden><div class="split" id="d-split" hidden><span class="tag l">Night</span><span class="tag r">Day</span><div class="handle" id="d-handle" role="slider" tabindex="0" aria-label="Divider between the night and the day desktop" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"></div></div></div></div>
+      <p class="caption" id="d-caption"></p>
+      <div class="thumbs" id="d-thumbs" role="tablist" aria-label="Image"></div>
+    </div>
+    <div class="dside">
+      <div class="dhead">
+        <h1 class="dname" id="d-name"></h1>
+        <p class="ddesc" id="d-desc"></p>
+      </div>
+      <div class="vrow">
+      <div class="seg" role="group" aria-label="Night or day">
+        <button data-variant="night" aria-pressed="true"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>Night</button>
+        <button data-variant="day" aria-pressed="false"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>Day</button>
+      </div>
+      <button class="btn sm" id="d-compare" aria-pressed="false"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 4v16"/></svg>Compare</button>
+      </div>
+      <section class="block" aria-labelledby="d-install-title">
+        <h2 id="d-install-title">Install</h2>
+        <div class="codebox"><div class="codebar"><span class="cb-label">Terminal</span><button class="btn sm icon copy" id="d-copy" aria-label="Copy the install command"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg></button></div><div class="code"><pre id="d-cmd"></pre></div></div>
+      </section>
+      <section class="block" aria-labelledby="d-aether-title">
+        <h2 id="d-aether-title">Aether</h2>
+        <div class="btns" id="aether">
+          <a class="btn primary" id="a-apply">Apply with Aether</a>
+          <a class="btn" id="a-install">Install as Omarchy theme</a>
+          <a class="btn" id="a-edit">Open in editor</a>
+        </div>
+        <p class="hint" id="a-hint"></p>
+      </section>
+      <section class="block" aria-labelledby="d-colors-title">
+        <h2 id="d-colors-title">Colors</h2>
+        <div class="palette" id="d-palette"></div>
+        <p class="pnote" id="d-moved"></p>
+      </section>
+      <section class="block" aria-labelledby="d-files-title">
+        <h2 id="d-files-title">Files</h2>
+        <div class="links" id="d-files"></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>The screenshots are real captures of an Omarchy desktop. The 6 main colors and their brights reach at least 4.5:1 against the background. The wallpapers come from Wikimedia Commons, and each theme page credits them.</p>
+    <nav aria-label="Links"><a href="https://github.com/bjarneo/various-themes">GitHub</a><a href="https://omarchy.org">Omarchy</a></nav>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const { patterns: PATTERNS, themes: T } = window.THEMES;
+const REPO = 'https://github.com/bjarneo/various-themes';
+const SITE = 'https://bjarneo.github.io/various-themes';
+const RAW = 'https://raw.githubusercontent.com/bjarneo/various-themes/main';
+const NAMES = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
+const SLOTS = [1, 2, 3, 4, 5, 6];
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// A command for display: 1 block per line. A line that starts with spaces continues the line before it.
+const lines = list => list.map(l => `<span class="ln">${l.startsWith(' ') ? '' : '<span class="p">$ </span>'}${esc(l)}</span>`).join('');
+const curl = (url, args) => [`curl -fsSL \\`, `    ${url} \\`, `  | bash -s -- ${args}`];
+const words = s => s.replace(/^\d+-/, '').replace(/-/g, ' ');
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+const ICON_COPY = $('d-copy').innerHTML;
+const ICON_CHECK = '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>';
+let variant = document.documentElement.dataset.mode, pat = 'all', cur = -1, view = 'shot', last = T.findIndex(t => t.slug === 'kyoto-moss'), gridY = 0, toThemes = false, comparing = false;
+
+// The backgrounds of a variant, in the order that Omarchy shows them: the 3
+// drawn ones, then the wallpapers from Wikimedia Commons.
+const backgrounds = t => [
+  { key: 'wordmark', file: '0-omarchy-wordmark', label: 'Wordmark' },
+  { key: 'scene', file: `1-${t.scene}`, label: cap(words(t.scene)) },
+  { key: 'card', file: '2-palette-card', label: 'Palette card' },
+  ...(t.variants[variant].walls || []).map(w => ({ key: w.file, file: w.file, label: cap(words(w.file)), credit: w })),
+];
+const views = t => [{ key: 'shot', label: 'Desktop' }, ...backgrounds(t)];
+const thumbOf = (t, v = variant) => `assets/thumbs/${t.slug}/${v}.webp`;
+const imageFor = (t, key = view) => key === 'shot' ? `assets/shots/${t.slug}/${variant}.webp` : `assets/bg/${t.slug}/${variant}/${backgrounds(t).find(b => b.key === key).file}.webp`;
+
+function toast(html, ms = 1800) {
+  const el = $('toast'); el.innerHTML = html; el.classList.add('show');
+  clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), ms);
+}
+function copy(text, label, btn) {
+  const fail = () => toast('Copy failed. Select the text and copy it.', 3000);
+  if (!navigator.clipboard) return fail();
+  navigator.clipboard.writeText(text).then(() => {
+    toast(`${ICON_CHECK}${esc(label)}`);
+    if (btn) { btn.innerHTML = ICON_CHECK; clearTimeout(btn.t); btn.t = setTimeout(() => { btn.innerHTML = ICON_COPY; }, 1400); }
+  }, fail);
+}
+
+// Pattern tabs
+$('tabs').innerHTML = [{ key: 'all', short: 'All' }, ...PATTERNS].map(p => {
+  const n = p.key === 'all' ? T.length : T.filter(t => t.pattern === p.key).length;
+  return `<button class="tab" data-pattern="${p.key}" aria-pressed="${p.key === 'all'}">${esc(p.short)}<span>${n}</span></button>`;
+}).join('');
+
+// The grid: 1 group per pattern, with the description of the pattern.
+$('groups').innerHTML = PATTERNS.map(p => {
+  const items = T.map((t, i) => ({ t, i })).filter(x => x.t.pattern === p.key);
+  return `<section class="group" data-pattern="${p.key}" aria-labelledby="g-${p.key}">
+    <div class="ghead"><h2 id="g-${p.key}">${esc(p.label)}</h2><span class="n">${items.length}</span><p>${esc(p.desc)}</p></div>
+    <div class="grid">${items.map(({ t, i }) => `<a class="card" href="#${t.slug}" data-i="${i}">
+      <div class="shot"><img alt="" width="720" height="450" loading="lazy" decoding="async"></div>
+      <div class="meta"><span class="name">${esc(t.name)}</span><span class="dots" aria-hidden="true">${SLOTS.map(() => '<i></i>').join('')}</span></div>
+    </a>`).join('')}</div>
+  </section>`;
+}).join('');
+const cards = [...document.querySelectorAll('.card')];
+const cardOf = i => cards.find(c => +c.dataset.i === i);
+const hay = T.map(t => `${t.name} ${t.slug} ${t.desc} ${t.scene} ${t.pattern}`.toLowerCase());
+
+// Each card shows the desktop and the 6 slot colors of its theme in the selected variant.
+function paintCards() {
+  for (const el of cards) {
+    const t = T[+el.dataset.i], v = t.variants[variant], img = el.querySelector('img');
+    img.src = thumbOf(t);
+    img.alt = `${v.name} on an Omarchy desktop`;
+    el.querySelectorAll('.dots i').forEach((d, k) => d.style.setProperty('--c', v.ansi[SLOTS[k]]));
+  }
+}
+
+function render() {
+  const q = $('q').value.trim().toLowerCase();
+  let shown = 0;
+  document.querySelectorAll('.group').forEach(g => {
+    let n = 0;
+    g.querySelectorAll('.card').forEach(el => {
+      const i = +el.dataset.i, ok = (pat === 'all' || T[i].pattern === pat) && (!q || hay[i].includes(q));
+      el.hidden = !ok; if (ok) n++;
+    });
+    g.hidden = n === 0; shown += n;
+  });
+  $('empty').hidden = shown > 0;
+  if (!shown) $('empty-text').textContent = `No theme matches "${$('q').value.trim()}".`;
+}
+function setPattern(key) {
+  pat = key;
+  document.querySelectorAll('#tabs .tab').forEach(b => b.setAttribute('aria-pressed', b.dataset.pattern === key));
+  render();
+}
+
+// Night and day: the page colors and the variant of every theme change together.
+function setVariant(v, save = true) {
+  if (v === variant) return;
+  const apply = () => {
+    variant = v;
+    document.documentElement.dataset.mode = v;
+    document.querySelector('meta[name="theme-color"]').content = v === 'day' ? '#fafafa' : '#0a0a0a';
+    document.querySelectorAll('.seg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.variant === v));
+    paintCards();
+    updateInstall();
+    if (cur >= 0) { fillDetail(); history.replaceState(null, '', `#${T[cur].slug}/${variant}`); }
+  };
+  if (save) { try { localStorage.setItem('mode', v); } catch {} }
+  if (save && document.startViewTransition && !reduced.matches) document.startViewTransition(apply); else apply();
+}
+
+// Routes: the grid, or the detail page of 1 theme at #slug or #slug/variant.
+function parse() {
+  const [slug, v] = decodeURIComponent(location.hash.slice(1)).split('/');
+  return { i: T.findIndex(t => t.slug === slug), v, anchor: slug };
+}
+function showGrid(anchor, from) {
+  cur = -1;
+  $('detail').hidden = true; $('home').hidden = false;
+  document.title = 'Various Themes for Omarchy';
+  if (anchor && anchor !== 'themes' && $(anchor)) $(anchor).scrollIntoView();
+  else if (toThemes || from < 0) window.scrollTo(0, anchor === 'themes' ? $('themes').offsetTop - 61 : 0);
+  else window.scrollTo(0, gridY);
+  toThemes = false;
+}
+function showDetail(i) {
+  if (cur < 0) gridY = window.scrollY;
+  cur = last = i;
+  $('home').hidden = true; $('detail').hidden = false;
+  fillDetail();
+  updateInstall();
+  window.scrollTo(0, 0);
+}
+// A route change redraws the page with the View Transitions API. The desktop of
+// a card and the preview of the detail page share 1 name, so the card grows
+// into the preview, and the preview shrinks back into the card.
+function go(update, hero) {
+  if (!document.startViewTransition || reduced.matches) { update(); return; }
+  const [from, to] = hero || [];
+  if (from) from.style.viewTransitionName = 'hero';
+  const vt = document.startViewTransition(() => {
+    if (from) from.style.viewTransitionName = '';
+    update();
+    const target = to && to();
+    if (target) target.style.viewTransitionName = 'hero';
+  });
+  vt.finished.finally(() => document.querySelectorAll('[style*="view-transition-name"]').forEach(el => { el.style.viewTransitionName = ''; }));
+}
+function route() {
+  const { i, v, anchor } = parse();
+  if (i >= 0) {
+    if (v === 'night' || v === 'day') setVariant(v, false);
+    const card = cur < 0 ? cardOf(i)?.querySelector('img') : null;
+    go(() => showDetail(i), card ? [card, () => $('d-img')] : null);
+  } else if (cur >= 0) {
+    const back = cur;
+    go(() => showGrid(anchor, back), [$('d-img'), () => cardOf(back)?.querySelector('img')]);
+  } else showGrid(anchor, -1);
+}
+function step(d) {
+  const vis = cards.filter(c => !c.hidden && !c.closest('.group').hidden).map(c => +c.dataset.i);
+  const list = vis.includes(cur) ? vis : T.map((_, k) => k);
+  const next = list[(list.indexOf(cur) + d + list.length) % list.length];
+  history.replaceState(null, '', `#${T[next].slug}/${variant}`);
+  go(() => showDetail(next));
+}
+
+// aether:// links, built like the links in 100-themes. Aether stops a
+// download after 60 seconds, so the links use the 3840x2160 copies in
+// assets/aether. silent=true applies without the Aether window. The desktop
+// view uses the scene background, because Aether applies a still image.
+const aetherView = () => (view === 'shot' ? 'scene' : view);
+function aetherUrl(t, extra = {}) {
+  const file = backgrounds(t).find(b => b.key === aetherView()).file;
+  const q = new URLSearchParams({ colors: `${SITE}/${t.slug}/${variant}/colors.toml`, wallpaper: `${SITE}/assets/aether/${t.slug}/${variant}/${file}.jpg`, ...extra });
+  return `aether://apply?${q}`;
+}
+
+function fillDetail() {
+  const t = T[cur], v = t.variants[variant], c = v.colors, p = PATTERNS.find(x => x.key === t.pattern);
+  if (!views(t).some(x => x.key === view)) view = 'shot';
+  document.title = `${v.name}, Various Themes for Omarchy`;
+  $('d-stage').style.setProperty('--glow', c.accent);
+  $('d-pos').textContent = `${t.index} / ${T.length}`;
+  $('d-crumb').textContent = p.label;
+  $('d-crumb').dataset.pattern = p.key;
+  $('d-name').textContent = t.name;
+  $('d-desc').textContent = t.desc;
+  $('d-thumbs').innerHTML = views(t).map(x => `<button class="thumb" role="tab" data-view="${x.key}" aria-selected="${x.key === view}" aria-label="${esc(x.label)}"><span><img alt="" loading="lazy" decoding="async" src="${x.key === 'shot' ? thumbOf(t) : imageFor(t, x.key)}"></span><span>${esc(x.label)}</span></button>`).join('');
+  // The 16 colors, 1 slot per row: the normal and the bright color with their hex values.
+  const row = (name, hexes, note = '') => `<div class="prow"><span class="pair">${hexes.map(h => `<i style="--c:${h}"></i>`).join('')}</span><span class="nm">${name}${note}</span><span class="hexes">${hexes.map(h => `<button class="hex" data-hex="${h}" aria-label="Copy ${name} ${h}">${h}</button>`).join('')}</span></div>`;
+  $('d-palette').innerHTML = NAMES.map((name, j) => row(cap(name), [v.ansi[j], v.ansi[j + 8]], t.moved.includes(name) ? '<small>moved</small>' : '')).join('')
+    + row('Accent', [c.accent]) + row('Border', v.border)
+    + `<div class="prow"><span class="pair"></span><span class="nm">Icons</span><span class="hexes"><span class="hex">${esc(v.icons)}</span></span></div>`;
+  $('d-moved').textContent = t.moved.length
+    ? `A moved slot left its usual hue: ${t.moved.join(', ')}.`
+    : 'Every slot keeps its usual hue.';
+  $('d-cmd').innerHTML = lines(curl(`${SITE}/install.sh`, `${t.slug} --variant ${variant} --set`));
+  $('d-copy').dataset.copy = `curl -fsSL ${SITE}/install.sh | bash -s -- ${t.slug} --variant ${variant} --set`;
+  showView();
+}
+// The parts that follow the selected image: the preview, the caption and Aether.
+function showView() {
+  const t = T[cur], v = t.variants[variant], b = view === 'shot' ? null : backgrounds(t).find(x => x.key === view);
+  const img = $('d-img'), src = imageFor(t), split = comparing && view === 'shot';
+  img.onerror = () => { img.onerror = null; img.src = `assets/bg/${t.slug}/${variant}/0-omarchy-wordmark.webp`; };
+  $('d-cmp').hidden = $('d-split').hidden = !split;
+  $('d-compare').setAttribute('aria-pressed', comparing);
+  // The card thumbnail is in the cache already, so a transition shows it at
+  // once. The full size image replaces it when it has loaded.
+  if (split) {
+    img.src = `assets/shots/${t.slug}/night.webp`;
+    $('d-cmp').src = `assets/shots/${t.slug}/day.webp`;
+  } else if (view === 'shot') {
+    img.src = thumbOf(t);
+    const full = new Image();
+    full.onload = () => { if (T[cur] === t && view === 'shot') img.src = src; };
+    full.src = src;
+  } else img.src = src;
+  img.alt = split ? `${t.name} at night on the left and in the day on the right` : b ? `${v.name}, ${b.label.toLowerCase()} background` : `${v.name} on an Omarchy desktop`;
+  $('d-thumbs').querySelectorAll('.thumb').forEach(x => x.setAttribute('aria-selected', x.dataset.view === view));
+  const full = b ? `${RAW}/${t.slug}/${variant}/backgrounds/${b.file}.jpg` : `${RAW}/${t.slug}/${variant}/preview.png`;
+  if (!b) $('d-caption').innerHTML = `A real capture of an Omarchy desktop with <code>${esc(v.install)}</code>. <a href="${full}">Full size</a>`;
+  else if (b.credit) {
+    const w = b.credit, license = w.licenseUrl ? `<a href="${esc(w.licenseUrl)}">${esc(w.license)}</a>` : esc(w.license);
+    $('d-caption').innerHTML = `<a href="${esc(w.source)}">${esc(w.title)}</a> by ${esc(w.artist)}, ${license}. Cropped and scaled. <a href="${full}">Full size</a>`;
+  } else $('d-caption').innerHTML = `Drawn for this theme at 6144x3456. <a href="${full}">Full size</a>`;
+  $('a-apply').href = aetherUrl(t, { silent: 'true' });
+  $('a-install').href = aetherUrl(t, { silent: 'true', as_omarchy_theme: v.install });
+  $('a-edit').href = aetherUrl(t, { edit: 'true' });
+  const label = views(t).find(x => x.key === aetherView()).label.toLowerCase();
+  $('a-hint').innerHTML = `Needs <a href="https://github.com/omacom/aether">Aether</a>. It uses the ${esc(label)} background. Apply and Install change your theme at once. Install stops if <code>${esc(v.install)}</code> exists. Open in editor changes nothing until you select Apply.`;
+  $('d-files').innerHTML = [['colors.toml', `${t.slug}/${variant}/colors.toml`], ['Folder on GitHub', `${REPO}/tree/main/${t.slug}/${variant}`], ['preview.png', `${RAW}/${t.slug}/${variant}/preview.png`]]
+    .map(([n, h]) => `<a href="${h}">${esc(n)}<svg class="i" viewBox="0 0 24 24" aria-hidden="true" style="width:14px;height:14px"><path d="M7 17 17 7M8 7h9v9"/></svg></a>`).join('');
+}
+
+// The commands of the install section use the last theme that was open.
+const INSTALL = {
+  one: (t, url) => curl(url, `${t.slug} --set`),
+  variant: (t, url) => curl(url, `${t.slug} --variant ${variant} --set`),
+  all: t => [`git clone --depth 1 ${REPO} ~/.local/share/various-themes`, '~/.local/share/various-themes/install.sh --all', `omarchy theme set ${t.variants[variant].install}`],
+};
+let installKey = 'one';
+function updateInstall() {
+  const t = T[last >= 0 ? last : 0], list = INSTALL[installKey](t, `${SITE}/install.sh`);
+  $('install-cmd').innerHTML = lines(list);
+  // A line that ends in a backslash continues on the next line.
+  $('install-copy').dataset.copy = list.join('\n').replace(/ \\\n +/g, ' ');
+}
+
+// Events
+document.querySelectorAll('.seg').forEach(s => s.addEventListener('click', e => { const b = e.target.closest('button'); if (b) setVariant(b.dataset.variant); }));
+$('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) setPattern(b.dataset.pattern); });
+$('q').addEventListener('input', render);
+$('clear').addEventListener('click', () => { $('q').value = ''; render(); $('q').focus(); });
+$('install-tabs').addEventListener('click', e => {
+  const b = e.target.closest('.tab'); if (!b) return;
+  installKey = b.dataset.cmd;
+  $('install-tabs').querySelectorAll('.tab').forEach(x => x.setAttribute('aria-pressed', x === b));
+  updateInstall();
+});
+$('install-copy').addEventListener('click', e => copy(e.currentTarget.dataset.copy, 'Copied the command', e.currentTarget));
+$('d-copy').addEventListener('click', e => copy(e.currentTarget.dataset.copy, 'Copied the install command', e.currentTarget));
+$('d-palette').addEventListener('click', e => { const b = e.target.closest('button.hex'); if (b) copy(b.dataset.hex, `Copied ${b.dataset.hex}`); });
+$('d-thumbs').addEventListener('click', e => { const b = e.target.closest('.thumb'); if (b) { view = b.dataset.view; comparing = false; showView(); } });
+$('d-compare').addEventListener('click', () => { comparing = !comparing; if (comparing) view = 'shot'; showView(); });
+// Drag the divider, or move it with the arrow keys when it has focus.
+const setSplit = x => { x = Math.max(0, Math.min(100, x)); $('d-frame').style.setProperty('--x', `${x}%`); $('d-handle').setAttribute('aria-valuenow', Math.round(x)); };
+$('d-split').addEventListener('pointerdown', e => {
+  const split = $('d-split'), move = ev => { const r = $('d-frame').getBoundingClientRect(); setSplit((ev.clientX - r.left) / r.width * 100); };
+  move(e); split.setPointerCapture(e.pointerId);
+  split.addEventListener('pointermove', move);
+  split.addEventListener('pointerup', () => split.removeEventListener('pointermove', move), { once: true });
+});
+$('d-handle').addEventListener('keydown', e => {
+  if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+  setSplit(+$('d-handle').getAttribute('aria-valuenow') + (e.key === 'ArrowRight' ? 5 : -5));
+  e.preventDefault(); e.stopPropagation();
+});
+$('d-crumb').addEventListener('click', e => { e.preventDefault(); setPattern(e.currentTarget.dataset.pattern); toThemes = true; location.hash = 'themes'; });
+$('d-prev').addEventListener('click', () => step(-1));
+$('d-next').addEventListener('click', () => step(1));
+// The browser cannot tell if Aether accepted the link, so confirm the click only.
+$('aether').addEventListener('click', e => {
+  const a = e.target.closest('.btn'); if (!a) return;
+  toast(a.id === 'a-edit' ? 'Opening Aether' : 'Sent to Aether. The download takes a few seconds.', 3000);
+});
+document.addEventListener('keydown', e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  const el = e.target;
+  if (el === $('q')) { if (e.key === 'Escape') { $('q').value = ''; render(); $('q').blur(); } return; }
+  if (el.closest?.('input, textarea, select, video')) return;
+  if (cur >= 0) {
+    if (e.key === 'ArrowLeft') step(-1);
+    else if (e.key === 'ArrowRight') step(1);
+    else if (e.key === 'Escape') location.hash = 'themes';
+    else if (e.key === 'n' || e.key === 'd') setVariant(e.key === 'n' ? 'night' : 'day');
+    else return;
+  } else {
+    if (e.key === '/') $('q').focus();
+    else if (e.key === 'n' || e.key === 'd') setVariant(e.key === 'n' ? 'night' : 'day');
+    else return;
+  }
+  e.preventDefault();
+});
+addEventListener('hashchange', route);
+// A jump to a section lands its top rule under the bottom rule of the sticky toolbar.
+const pad = () => { document.documentElement.style.scrollPaddingTop = `${document.querySelector('.hdr').offsetHeight + $('themes').offsetHeight}px`; };
+addEventListener('resize', pad);
+$('menu').addEventListener('click', e => { if (e.target.closest('a')) $('menu').hidePopover(); });
+// The browser controls appear when the video starts.
+$('play').addEventListener('click', () => { const v = $('vid'); v.controls = true; $('play').hidden = true; v.play(); });
+
+// Start
+pad();
+document.querySelectorAll('.seg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.variant === variant));
+paintCards();
+render();
+updateInstall();
+route();
+</script>
+</body>
+</html>

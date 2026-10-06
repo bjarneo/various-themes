@@ -1,0 +1,590 @@
+{
+ "brickwork": {
+  "night": [
+   {
+    "name": "fauti-masjid-brick-arches",
+    "file": "File:Fauti Masjid Interior.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "creeper-on-brick-wall",
+    "file": "File:Heale House and Garden Clematis.JPG",
+    "crop": [
+     0.5,
+     0.75
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "ivy-on-orange-brick",
+    "file": "File:11-11-28-angermuende-17.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "creeper-tendrils-brick",
+    "file": "File:11-11-28-angermuende-16.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "delft": {
+  "night": [
+   {
+    "name": "delftware-shelf-rijksmuseum",
+    "file": "File:Delft blue,rijksmuseum (54) (15009164407).jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "delft-tile-plaques",
+    "file": "File:Delft blue,rijksmuseum (23) (15195780795).jpg",
+    "crop": [
+     0.5,
+     0.52
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "delft-tile-wall-lille",
+    "file": "File:Lille hospice comtesse carreaux cuisine.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "delft-blue-vases",
+    "file": "File:Maakproces Delfts blauw aardewerk.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "byzantine": {
+  "night": [
+   {
+    "name": "galla-placidia-deer",
+    "file": "File:The deer (left). Detail of the mosaic in Mausoleum of Galla Placidia. Ravenna, Italy.jpg",
+    "crop": [
+     0.5,
+     0.55
+    ],
+    "grade": 0
+   },
+   {
+    "name": "galla-placidia-star-ceiling",
+    "file": "File:Mausoleum of Galla Placidia ceiling mosaics.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "hagia-sophia-gold-vault",
+    "file": "File:1. Ceiling mosaics, Hagia Sophia, Istanbul, Turkey.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "byzantine-glass-tesserae",
+    "file": "File:Mosaic Tesserae MET 2016 11 1 50 MED s01.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "bauhaus": {
+  "night": [
+   {
+    "name": "bauhaus-dessau-workshop-wing",
+    "file": "File:Erleuchtete Fassadenseite des Bauhausgebäudes in Dessau, 2019.jpg",
+    "crop": [
+     0.5,
+     0.4
+    ],
+    "grade": 0
+   },
+   {
+    "name": "bauhaus-dessau-prellerhaus",
+    "file": "File:Wohnheimseite des Bauhausgebäudes in Dessau, 2019.jpg",
+    "crop": [
+     0.5,
+     0.4
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "kandinsky-yellow-red-blue",
+    "file": "File:Gelb-Rot-Blau, by Wassily Kandinsky.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "kandinsky-transverse-line",
+    "file": "File:Durchgehender Strich - Wassily Kandinsky.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "mid-century": {
+  "night": [
+   {
+    "name": "ph5-lamp-teal",
+    "file": "File:Louis Poulsen PH5 Poul Hennigsen.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "la-concha-googie-night",
+    "file": "File:Neon Museum, Googie DSC02218 (29097352858).jpg",
+    "crop": [
+     0.5,
+     0
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "mid-century-living-room",
+    "file": "File:Mid 20th-century interior design, Museum of the Home.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "eames-lcw-plywood-chair",
+    "file": "File:First Generation LCW Plywood Lounge Chair attributed to Charles Eames - DPLA - 224bbbffbe211a35a03a26190e716884 (page 2).jpg",
+    "crop": [
+     0.5,
+     0.47
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "stained-glass": {
+  "night": [
+   {
+    "name": "nasir-al-mulk-light",
+    "file": "File:Nasir-al molk -1.jpg",
+    "crop": [
+     0.5,
+     0.42
+    ],
+    "grade": 0
+   },
+   {
+    "name": "saint-denis-rose-window",
+    "file": "File:Basilica of Saint Denis North Transept Rose Window, Paris, France - Diliff.jpg",
+    "crop": [
+     0.5,
+     0.6
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "sagrada-familia-warm-glass",
+    "file": "File:Sagrada Familia Stained Glass 10.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "sagrada-familia-cool-glass",
+    "file": "File:Stained Glass paintings at Sagrada Familia, Barcelona 09.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "tin-toy": {
+  "night": [
+   {
+    "name": "tin-toy-firemen",
+    "file": "File:Antique tin toy firemen (28413717583).jpg",
+    "crop": [
+     0.5,
+     0.6
+    ],
+    "grade": 0
+   },
+   {
+    "name": "clockwork-tin-ship",
+    "file": "File:Old tin toy clock work ship, pic1.JPG",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "tin-rooster",
+    "file": "File:GKN-Blechhahn, um 1948 (Foto Sp b).JPG",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "tin-fire-engine",
+    "file": "File:Feuerwehrauto von Günthermann - tin toy (um 1950).jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "oxblood": {
+  "night": [
+   {
+    "name": "leather-banquette-cinema",
+    "file": "File:Salle d'attente, Cinéma du Parc.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.25
+   },
+   {
+    "name": "burgundy-leather-hides",
+    "file": "File:A bunch of magenta leather.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "oxblood-wingback-chair",
+    "file": "File:Oxblood queen anne chair.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "chesterfield-hotel-lounge",
+    "file": "File:University Arms Hotel, Cambridge, July 2010 (01).JPG",
+    "crop": [
+     0.5,
+     0.3
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "shibori": {
+  "night": [
+   {
+    "name": "indigo-resist-cloth",
+    "file": "File:Blaudruckerei Wagner Blaudruck Musterstoffe 04.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.3
+   },
+   {
+    "name": "arimatsu-shibori-cloths",
+    "file": "File:Arimatsu Shibori 2019-06 ac (1).jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.3
+   }
+  ],
+  "day": [
+   {
+    "name": "itajime-shibori-cloths",
+    "file": "File:Zeugfärberei Gutau Workshopergebnisse 10.jpg",
+    "crop": [
+     0.5,
+     0.35
+    ],
+    "grade": 0
+   },
+   {
+    "name": "shibori-circles-indigo",
+    "file": "File:Zeugfärberei Gutau Workshopergebnisse 9.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "mauve": {
+  "night": [
+   {
+    "name": "purple-silk-kosode",
+    "file": "File:Kosode (garment with small wrist openings), view 2, Edo period, 19th century, stream, flowing plant, house and insect cage design on purple and light green tussah silk crepe ground - Tokyo National Museum - DSC06000.JPG",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.7
+   },
+   {
+    "name": "baroque-silk-damask",
+    "file": "File:Damask with floral sprigs, Italy, Baroque, 1600-1650, silk two-tone damask - Royal Ontario Museum - DSC04376.JPG",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.75
+   }
+  ],
+  "day": [
+   {
+    "name": "lilac-silk-damask",
+    "file": "File:Damask - pearlescent shine.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.3
+   },
+   {
+    "name": "woven-silk-texture",
+    "file": "File:Pink Woven Cotton Silk Fabric Texture Free Creative Commons (6962346249).jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.7
+   }
+  ]
+ },
+ "tweed": {
+  "night": [
+   {
+    "name": "brown-twill-tweed",
+    "file": "File:Harristweed16.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "slate-check-tweed",
+    "file": "File:Harristweed17.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.15
+   }
+  ],
+  "day": [
+   {
+    "name": "houndstooth-tweed-weave",
+    "file": "File:Harris Tweed Sakko - Ausschnitt Stoff - Bild 001.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "donegal-herringbone-flecks",
+    "file": "File:Donegal Tweed.JPG",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "tapestry": {
+  "night": [
+   {
+    "name": "millefleur-unicorn-stag",
+    "file": "File:Tapestry Unicorn Stag.jpg",
+    "crop": [
+     0.5,
+     0.45
+    ],
+    "grade": 0
+   },
+   {
+    "name": "millefleur-rabbits-cluny",
+    "file": "File:Cluny-Dame à la licorne-Detail 16.JPG",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "verdure-swans",
+    "file": "File:Interieur, gobelin in de Burgerzaal- De Verdures. De zwanen. Detail. T18 - Nijmegen - 20421953 - RCE.jpg",
+    "crop": [
+     0.5,
+     0.45
+    ],
+    "grade": 0.15
+   },
+   {
+    "name": "millefleur-madder-cluny",
+    "file": "File:Cluny-Dame à la licorne-Detail 03.JPG",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.15
+   }
+  ]
+ },
+ "celadon": {
+  "night": [
+   {
+    "name": "longquan-celadon-censer",
+    "file": "File:Celadon Tripod Incense Burner with Bowstring Patterns, Longquan Ware.jpg",
+    "crop": [
+     0.5,
+     0.4
+    ],
+    "grade": 0
+   },
+   {
+    "name": "goryeo-crackled-crane-bowl",
+    "file": "File:Celadon, Goryeo Dynasty (17671504592).jpg",
+    "crop": [
+     0.5,
+     0.4
+    ],
+    "grade": 0.25
+   }
+  ],
+  "day": [
+   {
+    "name": "joseon-crackled-bowl",
+    "file": "File:Bowl with greyish green, crackled glaze, Korea, Joseon, 15th century AD, stoneware - Östasiatiska museet, Stockholm - DSC09428.JPG",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "incised-celadon-bowl",
+    "file": "File:Celadon Guimet 11.JPG",
+    "crop": [
+     0.5,
+     0.45
+    ],
+    "grade": 0
+   }
+  ]
+ },
+ "terracotta": {
+  "night": [
+   {
+    "name": "upturned-clay-pots",
+    "file": "File:Terracotta Pots (Unsplash).jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0.15
+   },
+   {
+    "name": "etruscan-clay-amphora",
+    "file": "File:Ánfora etrusca de vino. MARQ 01.jpg",
+    "crop": [
+     0.5,
+     0.3
+    ],
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "pile-of-clay-pots",
+    "file": "File:Clay Pots-IMG 7301-2.jpg",
+    "crop": [
+     0.5,
+     0.5
+    ],
+    "grade": 0
+   },
+   {
+    "name": "pompeii-amphorae",
+    "file": "File:Cart and amphoras (Pompeii).jpg",
+    "crop": [
+     0.5,
+     0.55
+    ],
+    "grade": 0
+   }
+  ]
+ }
+}

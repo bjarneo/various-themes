@@ -1,0 +1,4202 @@
+{
+ "seaglass": {
+  "night": [
+   {
+    "file": "3-glass-beach-rocks.jpg",
+    "title": "Glass Beach - 36767310643",
+    "artist": "a200/a77Wells",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glass_Beach_-_36767310643.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-fort-bragg-amber-glass.jpg",
+    "title": "Sea glass at Glass Beach in Fort Bragg 2",
+    "artist": "Grendelkhan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sea_glass_at_Glass_Beach_in_Fort_Bragg_2.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-glass-bay-aqua-glass.jpg",
+    "title": "Кусочки битого стекла в бухте Стеклянная во Владивостоке",
+    "artist": "Angelikagub",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D1%81%D0%BE%D1%87%D0%BA%D0%B8_%D0%B1%D0%B8%D1%82%D0%BE%D0%B3%D0%BE_%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B0_%D0%B2_%D0%B1%D1%83%D1%85%D1%82%D0%B5_%D0%A1%D1%82%D0%B5%D0%BA%D0%BB%D1%8F%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%B5.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-glass-bay-surf.jpg",
+    "title": "Бухте Стеклянная во Владивостоке усыпана кусочками битого стекла",
+    "artist": "Angelikagub",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%91%D1%83%D1%85%D1%82%D0%B5_%D0%A1%D1%82%D0%B5%D0%BA%D0%BB%D1%8F%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%B5_%D1%83%D1%81%D1%8B%D0%BF%D0%B0%D0%BD%D0%B0_%D0%BA%D1%83%D1%81%D0%BE%D1%87%D0%BA%D0%B0%D0%BC%D0%B8_%D0%B1%D0%B8%D1%82%D0%BE%D0%B3%D0%BE_%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B0.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "seafoam": {
+  "night": [
+   {
+    "file": "3-crashing-waves-aerial.jpg",
+    "title": "Crashing waves (Unsplash)",
+    "artist": "Matt Palmer visualworld",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Crashing_waves_(Unsplash).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-oahu-surf-aerial.jpg",
+    "title": "Hawaii helicopter view of ocean Oahu",
+    "artist": "David Paul Pinter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hawaii_helicopter_view_of_ocean_Oahu.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-palm-coast-surf-aerial.jpg",
+    "title": "Ocean waves drone view of Palm Coast beach",
+    "artist": "Lance Asper lance_asper",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Ocean_waves_drone_view_of_Palm_Coast_beach.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-sea-foam-rock.jpg",
+    "title": "Sea foam around a rock (Unsplash)",
+    "artist": "Clark yu clarkyu",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Sea_foam_around_a_rock_(Unsplash).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "regatta": {
+  "night": [
+   {
+    "file": "3-sailboat-sunset-storm.jpg",
+    "title": "Sailboat on water at sunset",
+    "artist": "Johannes Plenio",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Sailboat_on_water_at_sunset.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-sloop-orange-dusk.jpg",
+    "title": "Ship at sunset",
+    "artist": "J.R.Photography",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ship_at_sunset.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-cowes-week-fleet.jpg",
+    "title": "Cowes Week 2017 - geograph.org.uk - 5487433",
+    "artist": "Peter Trimming",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cowes_Week_2017_-_geograph.org.uk_-_5487433.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-cowes-week-start.jpg",
+    "title": "Cowes Week 2018 - geograph.org.uk - 5867927",
+    "artist": "Peter Trimming",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cowes_Week_2018_-_geograph.org.uk_-_5867927.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "poolside": {
+  "night": [
+   {
+    "file": "3-livingstone-pool-night.jpg",
+    "title": "Swimming pool Livingstone by night - panoramio",
+    "artist": "René Bongard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Swimming_pool_Livingstone_by_night_-_panoramio.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pool-glow-palms-night.jpg",
+    "title": "Swimming pool at night (37833944571)",
+    "artist": "oatsy40",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Swimming_pool_at_night_(37833944571).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-twin-palms-pool.jpg",
+    "title": "Frank Sinatra's Twin Palms Estate, a spectacular example of mid-century architecture in…",
+    "artist": "Carol M. Highsmith",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank_Sinatra%27s_Twin_Palms_Estate,_a_spectacular_example_of_mid-century_architecture_in_the_heart_of_Palm_Springs,_California_LCCN2013635061.tif",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pool-palm-reflections.jpg",
+    "title": "Swimming Pool in a hotel in Tamil Nadu 03",
+    "artist": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Swimming_Pool_in_a_hotel_in_Tamil_Nadu_03.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "koi-pond": {
+  "night": [
+   {
+    "file": "3-koi-tuntorp-red.jpg",
+    "title": "Koi in a garden pond in Tuntorp 5",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Koi_in_a_garden_pond_in_Tuntorp_5.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-koi-dark-pond-hong-kong.jpg",
+    "title": "Koi in a fish pond in Hong Kong (Feb. 2016)",
+    "artist": "Alice Mourou alicemourou",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Koi_in_a_fish_pond_in_Hong_Kong_(Feb._2016).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-koi-almaty-green-pond.jpg",
+    "title": "Алматы, ботсад, карпы кои в пруду (1)",
+    "artist": "Nikolai Bulykin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B,_%D0%B1%D0%BE%D1%82%D1%81%D0%B0%D0%B4,_%D0%BA%D0%B0%D1%80%D0%BF%D1%8B_%D0%BA%D0%BE%D0%B8_%D0%B2_%D0%BF%D1%80%D1%83%D0%B4%D1%83_(1).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-koi-pale-pond.jpg",
+    "title": "Koi in a fish pond-1",
+    "artist": "Pogaface",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Koi_in_a_fish_pond-1.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "kelp": {
+  "night": [
+   {
+    "file": "3-kelp-forest-beagle-channel.jpg",
+    "title": "Macrocystis pyrifera Canal Beagle",
+    "artist": "BravoGonzalo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Macrocystis_pyrifera_Canal_Beagle.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-kelp-bed-ouessant.jpg",
+    "title": "Paysage de laminaires à Ouessant (Ifremer 00565-67735 - 24712)",
+    "artist": "Olivier Dugornay (Ifremer)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paysage_de_laminaires_%C3%A0_Ouessant_(Ifremer_00565-67735_-_24712).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-kelp-bed-molene.jpg",
+    "title": "Paysage de laminaires à Molène (Ifremer 00753-86498 - 44332)",
+    "artist": "Olivier Dugornay (Ifremer)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paysage_de_laminaires_%C3%A0_Mol%C3%A8ne_(Ifremer_00753-86498_-_44332).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-kelp-canopy-glacier-bay.jpg",
+    "title": "Kelp forest aerial survey view Glacier Bay National Park-Alaska-RM-009 (52503070553)",
+    "artist": "Forest Service Alaska Region, USDA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kelp_forest_aerial_survey_view_Glacier_Bay_National_Park-Alaska-RM-009_(52503070553).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "mariana": {
+  "night": [
+   {
+    "file": "3-glowing-moon-jellies.jpg",
+    "title": "Pilatph8",
+    "artist": "Alexandpilat",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pilatph8.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-chrysaora-dark-water.jpg",
+    "title": "Meduse-Chrysaora hysoscella-Nausicaa-07-2024-Luc-Viatour",
+    "artist": "Lviatour",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Meduse-Chrysaora_hysoscella-Nausicaa-07-2024-Luc-Viatour.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-moon-jellies-pale-blue.jpg",
+    "title": "Aurelia aurita 03",
+    "artist": "Σ64",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aurelia_aurita_03.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-barrel-jellyfish-sunlit.jpg",
+    "title": "Fatamorgana - Rhizostoma Pulmo",
+    "artist": "Francesco Ranieri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fatamorgana_-_Rhizostoma_Pulmo.JPG",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "harbor": {
+  "night": [
+   {
+    "file": "3-stykkisholmur-harbour-night.jpg",
+    "title": "Stykkisholmur Harbour at night (21907475888)",
+    "artist": "Richard Whitaker",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stykkisholmur_Harbour_at_night_(21907475888).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-hjalteyri-boats-night.jpg",
+    "title": "Hafen Hjalteyri - panoramio",
+    "artist": "Jürgen Regel, Marian…",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hafen_Hjalteyri_-_panoramio.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-koyilandy-harbour-boats.jpg",
+    "title": "Koyilandy harbour 03736",
+    "artist": "Vengolis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Koyilandy_harbour_03736.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-yvoire-harbour-sailboats.jpg",
+    "title": "Sailing boats moored in the harbour, Yvoire, Haute-Savoie",
+    "artist": "Christian David",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sailing_boats_moored_in_the_harbour,_Yvoire,_Haute-Savoie.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "flamingo": {
+  "night": [
+   {
+    "file": "3-flamingos-sunset-lagoon.jpg",
+    "title": "Doha beach with flamingos at sunset in Kuwait 01",
+    "artist": "Mfalhajji",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Doha_beach_with_flamingos_at_sunset_in_Kuwait_01.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-flamingo-head-dark.jpg",
+    "title": "American Flamingo Head Profile Close-Up - Looking Right 4",
+    "artist": "Amaury Laporte",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Flamingo_Head_Profile_Close-Up_-_Looking_Right_4.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-flamingos-djerba-lagoon.jpg",
+    "title": "Un groupe de flamants roses à Guellala - Djerba",
+    "artist": "Skander zarrad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Un_groupe_de_flamants_roses_%C3%A0_Guellala_-_Djerba.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-flamingos-pink-bay.jpg",
+    "title": "Greater flamingos at sunset in Kuwait Bay",
+    "artist": "هويج محمود هويج",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Greater_flamingos_at_sunset_in_Kuwait_Bay.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "peacock": {
+  "night": [
+   {
+    "file": "3-peacock-feather-eye.jpg",
+    "title": "Beautiful peacock feathers",
+    "artist": "Gausanchennai",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beautiful_peacock_feathers.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-peacock-feather-barbs.jpg",
+    "title": "Перо павлина",
+    "artist": "Михайлюк Кирилл Александрович",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%80%D0%BE_%D0%BF%D0%B0%D0%B2%D0%BB%D0%B8%D0%BD%D0%B0.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-peacock-feathers-white.jpg",
+    "title": "Peacock Feather02",
+    "artist": "Ashlyak",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Peacock_Feather02.JPG",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-peacock-train-eyes.jpg",
+    "title": "Wall of Peacock Feathers - Flickr - Eric Kilby",
+    "artist": "Eric Kilby",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wall_of_Peacock_Feathers_-_Flickr_-_Eric_Kilby.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "kingfisher": {
+  "night": [
+   {
+    "file": "3-kingfisher-diving-splash.jpg",
+    "title": "Létající drahokam",
+    "artist": "Luckhy86",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:L%C3%A9taj%C3%ADc%C3%AD_drahokam.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-kingfisher-river-rock.jpg",
+    "title": "Ledňáček říční (Alcedo atthis), říčka Rokytka v Praze 05",
+    "artist": "Skot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Led%C5%88%C3%A1%C4%8Dek_%C5%99%C3%AD%C4%8Dn%C3%AD_(Alcedo_atthis),_%C5%99%C3%AD%C4%8Dka_Rokytka_v_Praze_05.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-kingfisher-blue-water.jpg",
+    "title": "Common Kingfisher 2025 09 12",
+    "artist": "Alexis Lours",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_2025_09_12.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-kingfisher-flight-reflection.jpg",
+    "title": "Common Kingfisher in flight with a catch",
+    "artist": "Sunuwargr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_in_flight_with_a_catch.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "jewel-beetle": {
+  "night": [
+   {
+    "file": "3-chrysodema-wings-open.jpg",
+    "title": "Chrysodema dalmanni",
+    "artist": "Kramthenik27",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chrysodema_dalmanni.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-emerald-ash-borer-macro.jpg",
+    "title": "Emerald ash borer, side, md 2016-03-03-17.18",
+    "artist": "Sam Droege",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Emerald_ash_borer,_side,_md_2016-03-03-17.18.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-tamamushi-beetle.jpg",
+    "title": "Chrysochroa fulgidissima (48723501341)",
+    "artist": "Auckland Museum Collections",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chrysochroa_fulgidissima_(48723501341).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-teal-jewel-beetle-flowers.jpg",
+    "title": "Jewel Beetle (6368395285)",
+    "artist": "John Tann",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jewel_Beetle_(6368395285).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "pastel-goth": {
+  "night": [
+   {
+    "file": "3-rosy-maple-moth-verbena.jpg",
+    "title": "- 7715 – Dryocampa rubicunda – Rosy Maple Moth (46880929995)",
+    "artist": "Andy Reago & Chrissy McClarren",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:-_7715_%E2%80%93_Dryocampa_rubicunda_%E2%80%93_Rosy_Maple_Moth_(46880929995).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-lilac-dawn-crescent.jpg",
+    "title": "Crescent moon at dawn over Kolukkumalai Peak, Kerala",
+    "artist": "Musheer1999",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Crescent_moon_at_dawn_over_Kolukkumalai_Peak,_Kerala.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-belt-of-venus-sea.jpg",
+    "title": "Venus belt minus 5",
+    "artist": "LouisHeon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Venus_belt_minus_5.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-luna-moth-white.jpg",
+    "title": "Actias luna UMFS 2",
+    "artist": "Fredlyfish4",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Actias_luna_UMFS_2.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "poppy-field": {
+  "night": [
+   {
+    "file": "3-poppy-field-sunset-dorset.jpg",
+    "title": "At the Going Down of the Sun (49982266856)",
+    "artist": "JackPeasePhotography",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:At_the_Going_Down_of_the_Sun_(49982266856).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-red-poppy-sunset.jpg",
+    "title": "Red Poppy Sunset (49995207452)",
+    "artist": "Theo Crazzolara",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Poppy_Sunset_(49995207452).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-monet-poppy-field-giverny.jpg",
+    "title": "Poppy Field",
+    "artist": "Claude Monet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Monet,_Claude_-_Poppy_Field.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-wild-poppy-field-lida.jpg",
+    "title": "Wild poppy field near Lida",
+    "artist": "Budgawl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wild_poppy_field_near_Lida.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "marigold": {
+  "night": [
+   {
+    "file": "3-pot-marigolds-on-black.jpg",
+    "title": "Calendula 0023-2",
+    "artist": "Borisbg88",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calendula_0023-2.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-orange-marigold-kobona.jpg",
+    "title": "Кобона, бархатцы в саду 2",
+    "artist": "Екатерина Борисова",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%B1%D0%BE%D0%BD%D0%B0,_%D0%B1%D0%B0%D1%80%D1%85%D0%B0%D1%82%D1%86%D1%8B_%D0%B2_%D1%81%D0%B0%D0%B4%D1%83_2.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-marigolds-in-the-sun.jpg",
+    "title": "Tagetes erecta(marigold)",
+    "artist": "Ahtk2000",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tagetes_erecta(marigold).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-orange-marigold-bloom.jpg",
+    "title": "Tagetes erecta DSC 4440",
+    "artist": "Ranjithsiji",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tagetes_erecta_DSC_4440.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "mimosa": {
+  "night": [
+   {
+    "file": "3-wattle-pompoms-on-black.jpg",
+    "title": "Acacia pycnantha 1DS-II 3-8849",
+    "artist": "SAplants",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Acacia_pycnantha_1DS-II_3-8849.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-silver-wattle-at-night.jpg",
+    "title": "Acacia baileyana inflorescences Girraween National Park Wyberba Queensland 1980s IMG…",
+    "artist": "John Robert McPherson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Acacia_baileyana_inflorescences_Girraween_National_Park_Wyberba_Queensland_1980s_IMG_0082_(4).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-mimosa-in-snow-rome.jpg",
+    "title": "Unexpected snowfall in Rome, 2018",
+    "artist": "Albarubescens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Unexpected_snowfall_in_Rome,_2018.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-mimosa-esterel-sky.jpg",
+    "title": "Acacia dealbata in Massif de l'Esterel (5)",
+    "artist": "Tournasol7",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Acacia_dealbata_in_Massif_de_l%27Esterel_(5).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "iris": {
+  "night": [
+   {
+    "file": "3-violet-bearded-iris-on-black.jpg",
+    "title": "Iris pallida subsp. cengialti (Ambrosi ex A.Kern.) Foster in Gard. Chron.- n.s.- 25…",
+    "artist": "Motohiro Sunouchi",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Iris_pallida_subsp._cengialti_(Ambrosi_ex_A.Kern.)_Foster_in_Gard._Chron.-_n.s.-_25-_555_(1886)_20240425_093420.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-bearded-iris-gold-beard.jpg",
+    "title": "Schwertlilie -- 2025 -- 7594",
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Schwertlilie_--_2025_--_7594.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-van-gogh-irises.jpg",
+    "title": "Irises",
+    "artist": "Vincent van Gogh",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Irises_(1889).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-siberian-iris-sunlit.jpg",
+    "title": "Beautiful Siberian iris flower",
+    "artist": "Retro Lenses",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beautiful_Siberian_iris_flower.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "wisteria": {
+  "night": [
+   {
+    "file": "3-wisteria-wall-berkeley.jpg",
+    "title": "N20170406-0018—Wisteria sinensis—Shoko—DxO (33762273152)",
+    "artist": "John Rusk",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:N20170406-0018%E2%80%94Wisteria_sinensis%E2%80%94Shoko%E2%80%94DxO_(33762273152).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-wisteria-pergola-okayama.jpg",
+    "title": "岡山城の藤花 by takeokahp - panoramio",
+    "artist": "takeokahp",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%B2%A1%E5%B1%B1%E5%9F%8E%E3%81%AE%E8%97%A4%E8%8A%B1_by_takeokahp_-_panoramio.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-wisteria-raceme-pale-wall.jpg",
+    "title": "Wisteria–IMG 5784~2",
+    "artist": "Kızıl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wisteria%E2%80%93IMG_5784~2.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-wisteria-over-woerthersee.jpg",
+    "title": "Pörtschach Halbinsel Johannes-Brahms-Promenade blühende Wisteria 03052015 3119",
+    "artist": "Johann Jaritz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:P%C3%B6rtschach_Halbinsel_Johannes-Brahms-Promenade_bl%C3%BChende_Wisteria_03052015_3119.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "bougainvillea": {
+  "night": [
+   {
+    "file": "3-magenta-bougainvillea-dark-wall.jpg",
+    "title": "Bougainvillea à Mangily, Toliary (85105)",
+    "artist": "Anai171",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bougainvillea_%C3%A0_Mangily,_Toliary_(85105).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-bougainvillea-bract-macro.jpg",
+    "title": "Bougainvillea spectabilis (19387284339)",
+    "artist": "Graham Wise",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bougainvillea_spectabilis_(19387284339).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-bougainvillea-white-facade-mogan.jpg",
+    "title": "Bougainvilleas - Puerto de Mogán - 03",
+    "artist": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bougainvilleas_-_Puerto_de_Mog%C3%A1n_-_03.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-bougainvillea-white-wall-santorini.jpg",
+    "title": "Santorin (GR), Akrotiri -- 2017 -- 2452",
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Akrotiri_--_2017_--_2452.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "peony": {
+  "night": [
+   {
+    "file": "3-pink-peonies-on-black.jpg",
+    "title": "Peony Summer (4736000345)",
+    "artist": "THOR",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Peony_Summer_(4736000345).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pink-peony-dark-garden.jpg",
+    "title": "Pink peony (14516653971)",
+    "artist": "Valentin Hintikka",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pink_peony_(14516653971).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-pink-peony-on-white.jpg",
+    "title": "Peony Summer (4736003501)",
+    "artist": "THOR",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Peony_Summer_(4736003501).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pale-peony-petals.jpg",
+    "title": "Pink Peony (48224703141)",
+    "artist": "Mustang Joe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Pink_Peony_(48224703141).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "heliotrope": {
+  "night": [
+   {
+    "file": "3-heliotrope-cyme-close-up.jpg",
+    "title": "Heliotrope flower (Heliotropium arborescens), Fundação Calouste Gulbenkian, Lisbon…",
+    "artist": "Jules Verne Times Two",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Heliotrope_flower_(Heliotropium_arborescens),_Funda%C3%A7%C3%A3o_Calouste_Gulbenkian,_Lisbon,_Portugal_julesvernex2.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-heliotrope-lilac-clusters.jpg",
+    "title": "Heliotropium arborescens-IMG 8742",
+    "artist": "C T Johansson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Heliotropium_arborescens-IMG_8742.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-heliotrope-violet-mass.jpg",
+    "title": "Boraginaceae - Heliotropium arborescens - 3",
+    "artist": "Emőke Dénes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boraginaceae_-_Heliotropium_arborescens_-_3.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-heliotrope-marine-silver-leaves.jpg",
+    "title": "Heliotropium arborescens JRVdH 03",
+    "artist": "Cephas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Heliotropium_arborescens_JRVdH_03.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "nightshade": {
+  "night": [
+   {
+    "file": "3-bittersweet-nightshade-on-black.jpg",
+    "title": "Solanum dulcamara kz17",
+    "artist": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Solanum_dulcamara_kz17.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-purple-nightshade-santa-monica.jpg",
+    "title": "Purple Night Shade (33330524931)",
+    "artist": "Santa Monica Mountains National Recreation Area",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Purple_Night_Shade_(33330524931).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-potato-bush-flowers-pale-green.jpg",
+    "title": "Solanum (Lycianthes) rantonnetii close-up",
+    "artist": "BlackLotus1987",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Solanum_(Lycianthes)_rantonnetii_close-up.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-chilean-potato-vine-flowers.jpg",
+    "title": "Solanum crispum JdP 2013-04-28 n02",
+    "artist": "Marie-Lan Nguyen",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Solanum_crispum_JdP_2013-04-28_n02.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "hydrangea": {
+  "night": [
+   {
+    "file": "3-blue-hydrangeas-unshoji-night.jpg",
+    "title": "Blue hydrangea in Unsho-ji, Oga at night 20190703c",
+    "artist": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_hydrangea_in_Unsho-ji,_Oga_at_night_20190703c.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-blue-hydrangea-tokyo-shade.jpg",
+    "title": "Hydrangea, May 2016",
+    "artist": "Alexandar Vujadinovic",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hydrangea,_May_2016.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-hydrangea-blue-to-pink.jpg",
+    "title": "Blue Hydrangea (Pink Hydrangea?) (5888804015)",
+    "artist": "Dwight Sipler",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Hydrangea_(Pink_Hydrangea%3F)_(5888804015).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pink-hydrangea-pale-wall.jpg",
+    "title": "Hortensia June 2013-2",
+    "artist": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hortensia_June_2013-2.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "eucalyptus": {
+  "night": [
+   {
+    "file": "3-gum-tree-under-the-moon.jpg",
+    "title": "Gum tree with moon, Mount Majura Nature Reserve",
+    "artist": "Thennicke",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gum_tree_with_moon,_Mount_Majura_Nature_Reserve.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-silver-dollar-gum-in-shade.jpg",
+    "title": "Eucalyptus polyanthemos plantas santa fe salida villa california-35",
+    "artist": "TitiNicola",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eucalyptus_polyanthemos_plantas_santa_fe_salida_villa_california-35.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-silver-dollar-eucalyptus-leaves.jpg",
+    "title": "Eucalyptus cinerea Silver Dollar in Parc de la Tete d'Or (2)",
+    "artist": "Tournasol7",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eucalyptus_cinerea_Silver_Dollar_in_Parc_de_la_Tete_d%27Or_(2).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-silver-gum-branch-sky.jpg",
+    "title": "Starr-140203-3271-Eucalyptus pulverulenta-leaves-Kula Ag Station-Maui (25146913871)",
+    "artist": "Forest and Kim Starr",
+    "license": "CC BY 3.0 us",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr-140203-3271-Eucalyptus_pulverulenta-leaves-Kula_Ag_Station-Maui_(25146913871).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "bracken": {
+  "night": [
+   {
+    "file": "3-golden-bracken-frond-on-black.jpg",
+    "title": "Clermont - 20191025 (2)",
+    "artist": "Olybrius",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Clermont_-_20191025_(2).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-backlit-bracken-myrstigen.jpg",
+    "title": "Contre-jour bracken at Myrstigen 9",
+    "artist": "W.carter",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Contre-jour_bracken_at_Myrstigen_9.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-dried-bracken-frond.jpg",
+    "title": "Pteridium aquilinum kz10",
+    "artist": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pteridium_aquilinum_kz10.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-golden-bracken-merthyr-mawr.jpg",
+    "title": "Merthyr Mawr October",
+    "artist": "WelshDave",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Merthyr_Mawr_October.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "night-garden": {
+  "night": [
+   {
+    "file": "3-rose-in-the-night-garden.jpg",
+    "title": "Rose flowers in the night - Flickr - e27182818284",
+    "artist": "Michael Figiel",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rose_flowers_in_the_night_-_Flickr_-_e27182818284.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-flower-garden-lit-at-night.jpg",
+    "title": "Lit up flower garden at night",
+    "artist": "Pseudopanax at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lit_up_flower_garden_at_night.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-phlox-border-walled-garden.jpg",
+    "title": "Herbaceous border at Mount Ephraim Gardens - geograph.org.uk - 5450049",
+    "artist": "Marathon",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Herbaceous_border_at_Mount_Ephraim_Gardens_-_geograph.org.uk_-_5450049.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-summer-border-harlow-carr.jpg",
+    "title": "RHS Harlow Carr, Herbaceous border - geograph.org.uk - 6652141",
+    "artist": "Michael Garlick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RHS_Harlow_Carr,_Herbaceous_border_-_geograph.org.uk_-_6652141.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "rosewater": {
+  "night": [
+   {
+    "file": "3-peach-rose-in-the-dark.jpg",
+    "title": "Roses in dark",
+    "artist": "Kuleczkaxx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Roses_in_dark.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-rose-petals-in-rosewater.jpg",
+    "title": "مراسم گلابگیری در قمصر کاشان Golabgiri (\"making Rosewater\") - Ghamsar- Kashan- Iran 27",
+    "artist": "Mostafameraji",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B1%D8%A7%D8%B3%D9%85_%DA%AF%D9%84%D8%A7%D8%A8%DA%AF%DB%8C%D8%B1%DB%8C_%D8%AF%D8%B1_%D9%82%D9%85%D8%B5%D8%B1_%DA%A9%D8%A7%D8%B4%D8%A7%D9%86_Golabgiri_(%22making_Rosewater%22)_-_Ghamsar-_Kashan-_Iran_27.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-pink-rose-petal-swirl.jpg",
+    "title": "Rose Petals (5850444953)",
+    "artist": "Eric Kilby",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rose_Petals_(5850444953).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-roses-in-a-vase-on-white.jpg",
+    "title": "Roses (Unsplash PwWkzeJeJZE)",
+    "artist": "Julia Janeta juliajanetawilling",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Roses_(Unsplash_PwWkzeJeJZE).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "mangrove": {
+  "night": [
+   {
+    "file": "3-mangrove-roots-dark-water.jpg",
+    "title": "Mangrove Roots 1",
+    "artist": "Amaury Laporte",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mangrove_Roots_1.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-mangrove-roots-detail.jpg",
+    "title": "Detail of mangrove roots",
+    "artist": "Jonathan Wilkins",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Detail_of_mangrove_roots.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-mangrove-islet.jpg",
+    "title": "Mangrove Islet",
+    "artist": "Armusaofficial",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mangrove_Islet.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-mangrove-ashtamudi-mist.jpg",
+    "title": "Mangrove Reflection Wide Ashtamudi Kollam Kerala Mar22 A7C 01464",
+    "artist": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mangrove_Reflection_Wide_Ashtamudi_Kollam_Kerala_Mar22_A7C_01464.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "kyoto-moss": {
+  "night": [
+   {
+    "file": "3-saihoji-moss-shadows.jpg",
+    "title": "Saihoji Temple moss gardens, Kyoto (6289621641)",
+    "artist": "Bryan Ledgard",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saihoji_Temple_moss_gardens,_Kyoto_(6289621641).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-sanzen-in-moss-lantern.jpg",
+    "title": "200828 Sanzen-in Kyoto Japan01s3",
+    "artist": "663highland",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:200828_Sanzen-in_Kyoto_Japan01s3.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-gioji-moss-mounds.jpg",
+    "title": "Giō-ji - Kyoto - DSC06276",
+    "artist": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Gi%C5%8D-ji_-_Kyoto_-_DSC06276.JPG",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-gioji-moss-garden.jpg",
+    "title": "Giō-ji - Kyoto - DSC06265",
+    "artist": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Gi%C5%8D-ji_-_Kyoto_-_DSC06265.JPG",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "spruce": {
+  "night": [
+   {
+    "file": "3-pokljuka-spruce-milky-way.jpg",
+    "title": "Winter night at Pokljuka forest in Slovenia",
+    "artist": "Dreamy Pixel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Winter_night_at_Pokljuka_forest_in_Slovenia.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-riisitunturi-spruce-twilight.jpg",
+    "title": "Riisitunturi, Finland - 49786050856",
+    "artist": "Ninara",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Riisitunturi,_Finland_-_49786050856.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-denali-first-snow-spruce.jpg",
+    "title": "Snowy Forest",
+    "artist": "NPS Photo / Emily Mesner",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Scene_from_the_first_snow,_near_mile_8_of_the_Denali_Park_Road,_on_Tuesday,_October_10,_2017._(c0f93981-ce54-46b2-9ed1-b8d44b6778ee).JPG",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-banff-frosty-spruce.jpg",
+    "title": "Banff park at frosty day (52718917178)",
+    "artist": "John D.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Banff_park_at_frosty_day_(52718917178).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "fjord": {
+  "night": [
+   {
+    "file": "3-lofoten-aurora-fjord.jpg",
+    "title": "Lofoten, Norway (Unsplash)",
+    "artist": "Johannes Groll followhansi",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Lofoten,_Norway_(Unsplash).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-lauklines-aurora-fjord.jpg",
+    "title": "Northern Lights at Lauklines Norway",
+    "artist": "Sebastian Kowalski",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Northern_Lights_at_Lauklines_Norway.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-austnesfjorden-cirrus.jpg",
+    "title": "Cirrus front over Austnesfjorden, Austvågøya, Lofoten, Norway, 2015 April",
+    "artist": "Ximonic (Simo Räsänen)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cirrus_front_over_Austnesfjorden,_Austv%C3%A5g%C3%B8ya,_Lofoten,_Norway,_2015_April.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-raftsundet-winter-peaks.jpg",
+    "title": "Raftsund Berge",
+    "artist": "Clemensfranz",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Raftsund_Berge.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "infrared": {
+  "night": [
+   {
+    "file": "3-infrared-park-pond.jpg",
+    "title": "Just another day at the park (9593736082)",
+    "artist": "greg westfall",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Just_another_day_at_the_park_(9593736082).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-infrared-pink-forest-bridge.jpg",
+    "title": "Meadowside Nature Center in Infrared (52356364638)",
+    "artist": "John Brighenti",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meadowside_Nature_Center_in_Infrared_(52356364638).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-infrared-pink-treeline.jpg",
+    "title": "Landschaft Ladeburger Schäferpfühle in Infrarot - Ansicht von Norden",
+    "artist": "Andromix12",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Landschaft_Ladeburger_Sch%C3%A4ferpf%C3%BChle_in_Infrarot_-_Ansicht_von_Norden.png",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-infrared-pagny-pond.jpg",
+    "title": "Pagny-le-Château 2011 08 20 08 IR",
+    "artist": "Bertrand GRONDIN",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pagny-le-Ch%C3%A2teau_2011_08_20_08_IR.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "meadow": {
+  "night": [
+   {
+    "file": "3-meadow-fireflies-field.jpg",
+    "title": "Field-of-fireflies-wilkes-ecology-preserve-photo-by-tyler-savitski",
+    "artist": "Tyler Savitski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Field-of-fireflies-wilkes-ecology-preserve-photo-by-tyler-savitski.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-meadow-lupines-fireflies.jpg",
+    "title": "Lupines and Fireflies No. 4 (14505155544)",
+    "artist": "Mike Lewinski",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lupines_and_Fireflies_No._4_(14505155544).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-smoky-mountains-meadow.jpg",
+    "title": "Meadow in the Smoky Mountains (41923p)",
+    "artist": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meadow_in_the_Smoky_Mountains_(41923p).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-steinalm-flower-meadow.jpg",
+    "title": "Blumenwiese bei der Steinalm",
+    "artist": "Hermann Hammer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blumenwiese_bei_der_Steinalm.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "peat": {
+  "night": [
+   {
+    "file": "3-luhasoo-bog-milky-way.jpg",
+    "title": "In the photo there is one Perseid, Milky Way and Andromega galaxy and light pollution…",
+    "artist": "Martin Mark",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:In_the_photo_there_is_one_Perseid,_Milky_Way_and_Andromega_galaxy_and_light_pollution_on_the_horizon_-_Luhasoo_bog_in_Estonia.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-kemeri-bog-pool-dawn.jpg",
+    "title": "Morning in Kemeri",
+    "artist": "VolodyaVoronin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Morning_in_Kemeri.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-kakerdaja-bog-fog.jpg",
+    "title": "Hommikune udu Kakerdaja rabas",
+    "artist": "Abrget47j",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hommikune_udu_Kakerdaja_rabas.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-mannikjarve-bog-pools.jpg",
+    "title": "Männikjärve raba tornist",
+    "artist": "Abrget47j",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%A4nnikj%C3%A4rve_raba_tornist.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "olive-grove": {
+  "night": [
+   {
+    "file": "3-moneglia-olive-grove-sunset.jpg",
+    "title": "Sunset at olive grove (Moneglia, IT) (15274111609)",
+    "artist": "Jan Remund",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_olive_grove_(Moneglia,_IT)_(15274111609).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-ripe-olives-branch.jpg",
+    "title": "Olive grove Kamou ac (2)",
+    "artist": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Olive_grove_Kamou_ac_(2).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-spello-olive-hillside.jpg",
+    "title": "Olive Groves Fields Spello Umbria Sep23 A7C 07785",
+    "artist": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Olive_Groves_Fields_Spello_Umbria_Sep23_A7C_07785.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-van-gogh-olive-trees-yellow-sky.jpg",
+    "title": "Olive Trees / Olive Trees with yellow sky and sun",
+    "artist": "Vincent van Gogh",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_Olive_Trees_MIA_517.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "moorland": {
+  "night": [
+   {
+    "file": "3-highland-heather-dusk.jpg",
+    "title": "Highland Heather - Flickr - ABel-Photo",
+    "artist": "Andy Belshaw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Highland_Heather_-_Flickr_-_ABel-Photo.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-dartmoor-dewstone-sunset.jpg",
+    "title": "Dewstone Sunset Landscape (30415175045)",
+    "artist": "Stephen Steven Hodge",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dewstone_Sunset_Landscape_(30415175045).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-north-york-moors-heather.jpg",
+    "title": "The sea of purple in North York Moors 03",
+    "artist": "Thelight00702",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_sea_of_purple_in_North_York_Moors_03.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-westruper-heide-mist.jpg",
+    "title": "Haltern am See, Westruper Heide -- 2021 -- 4752",
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Haltern_am_See,_Westruper_Heide_--_2021_--_4752.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "overcast": {
+  "night": [
+   {
+    "file": "3-sun-break-over-dark-sea.jpg",
+    "title": "Sun breaking through clouds over ocean.",
+    "artist": "bigwavephoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sun_breaking_through_clouds_over_ocean.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-dark-clouds-pale-sun.jpg",
+    "title": "Iridescent clouds during snowfall 1",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Iridescent_clouds_during_snowfall_1.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-lake-hawea-sun-rays.jpg",
+    "title": "Sun over Lake Hawea, New Zealand",
+    "artist": "Michal Klajban",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sun_over_Lake_Hawea,_New_Zealand.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-grey-sky-sun-rays-sea.jpg",
+    "title": "Sun Rays Clouds Beach Uthandi Chennai Aug22 D72 24916",
+    "artist": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sun_Rays_Clouds_Beach_Uthandi_Chennai_Aug22_D72_24916.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "planetarium": {
+  "night": [
+   {
+    "file": "3-southern-sky-milky-way-arch.jpg",
+    "title": "360-degree Panorama of the Southern Sky",
+    "artist": "ESO/H.H. Heyer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:360-degree_Panorama_of_the_Southern_Sky.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pedra-azul-milky-way.jpg",
+    "title": "Pedra Azul Milky Way",
+    "artist": "EduardoMSNeves",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedra_Azul_Milky_Way.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-eise-eisinga-orrery-ceiling.jpg",
+    "title": "Planetarium Eise Eisinga in Franeker",
+    "artist": "Erik Zachte",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Planetarium_Eise_Eisinga_in_Franeker.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-hemisferic-planetarium-valencia.jpg",
+    "title": "El Hemisférico, Ciudad de las Artes y las Ciencias, Valencia, España, 2014-06-29, DD 37",
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:El_Hemisf%C3%A9rico,_Ciudad_de_las_Artes_y_las_Ciencias,_Valencia,_Espa%C3%B1a,_2014-06-29,_DD_37.JPG",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "ice-cave": {
+  "night": [
+   {
+    "file": "3-blue-ice-cave-stream.jpg",
+    "title": "Blue Ice Cave - Flickr - Eric Kilby",
+    "artist": "Eric Kilby",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Ice_Cave_-_Flickr_-_Eric_Kilby.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-glacier-ice-cave-opening.jpg",
+    "title": "Natural glacier ice cave (16281963418)",
+    "artist": "sergejf",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Natural_glacier_ice_cave_(16281963418).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-blackcomb-glacier-ice-arch.jpg",
+    "title": "Ice cave inside glacier Whistler Blackcomb",
+    "artist": "Lianguanlun",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ice_cave_inside_glacier_Whistler_Blackcomb.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-bogdanovich-glacier-ice-cave.jpg",
+    "title": "Ледовая стена пещеры Октябрьская ледника Богдановича (3)",
+    "artist": "Exxocette",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D1%82%D0%B5%D0%BD%D0%B0_%D0%BF%D0%B5%D1%89%D0%B5%D1%80%D1%8B_%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0_%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%B0_(3).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "forge": {
+  "night": [
+   {
+    "file": "3-forge-glowing-coals.jpg",
+    "title": "Schmiedefeuer, Hammerschmiede, Mühlehorn",
+    "artist": "Rudolf H. Boettcher",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Schmiedefeuer,_Hammerschmiede,_M%C3%BChlehorn.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-forge-fire-flames.jpg",
+    "title": "Making a pan 03",
+    "artist": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Making_a_pan_03.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-smithy-anvil-hearth.jpg",
+    "title": "Schönberg am Kamp Museum Alte Schmiede Schauschmiede-0004",
+    "artist": "Isiwal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sch%C3%B6nberg_am_Kamp_Museum_Alte_Schmiede_Schauschmiede-0004.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-smithy-tongs-on-wall.jpg",
+    "title": "Münster, Freilichtmuseum Mühlenhof, Schmiede -- 2018 -- 2164",
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%BCnster,_Freilichtmuseum_M%C3%BChlenhof,_Schmiede_--_2018_--_2164.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "verdigris": {
+  "night": [
+   {
+    "file": "3-copper-dome.jpg",
+    "title": "Copper Dome (48514858807)",
+    "artist": "Rob Deutscher",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Copper_Dome_(48514858807).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-michaelerkuppel-night.jpg",
+    "title": "Michaelerplatz 9027",
+    "artist": "Karl Gruber",
+    "license": "CC BY 3.0 at",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/at/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Michaelerplatz_9027.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-helsinki-cathedral-dome.jpg",
+    "title": "Dome - Helsinki Lutheran Cathedral - DSC05574",
+    "artist": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Dome_-_Helsinki_Lutheran_Cathedral_-_DSC05574.JPG",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-copenhagen-spires.jpg",
+    "title": "View south east from Rundetårn, Copenhagen 2",
+    "artist": "Colin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:View_south_east_from_Rundet%C3%A5rn,_Copenhagen_2.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "oxide": {
+  "night": [
+   {
+    "file": "3-rusty-chain.jpg",
+    "title": "Very rusty chain in rain 4",
+    "artist": "W.carter",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Very_rusty_chain_in_rain_4.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-rusty-rebar.jpg",
+    "title": "Rusty rebar nets",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rusty_rebar_nets.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-rusty-plates.jpg",
+    "title": "Rusty scrap plates 1",
+    "artist": "W.carter",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Rusty_scrap_plates_1.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-weathering-steel-corner.jpg",
+    "title": "Richard Serra-Skulptur ohne Titel 1978-16-obere Ecke-2010-gje",
+    "artist": "Gerd Eichmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Richard_Serra-Skulptur_ohne_Titel_1978-16-obere_Ecke-2010-gje.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "brass": {
+  "night": [
+   {
+    "file": "3-orrery-gears.jpg",
+    "title": "Orrery-MnM 15 NA 13-IMG 6376",
+    "artist": "Rama",
+    "license": "CC BY-SA 3.0 fr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Orrery-MnM_15_NA_13-IMG_6376.JPG",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-clock-cogs.jpg",
+    "title": "Clock Cogs",
+    "artist": "SomeDriftwood",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Clock_Cogs.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-horn-valves.jpg",
+    "title": "Horn, french (52689892685)",
+    "artist": "Auckland Museum Collections",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Horn,_french_(52689892685).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-horn-tubing.jpg",
+    "title": "Horn, french (52689472151)",
+    "artist": "Auckland Museum Collections",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Horn,_french_(52689472151).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "gunmetal": {
+  "night": [
+   {
+    "file": "3-turbine-blades.jpg",
+    "title": "Munich - Deutsches Museum - 07-0153",
+    "artist": "Jorge Royan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Munich_-_Deutsches_Museum_-_07-0153.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-gear-teeth.jpg",
+    "title": "Duisburg, Landschaftspark Duisburg-Nord, Hochofen 5 -- 2016 -- 1177 (bw)",
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Duisburg,_Landschaftspark_Duisburg-Nord,_Hochofen_5_--_2016_--_1177_(bw).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-steel-wire-rope.jpg",
+    "title": "Stainless steel wire rope",
+    "artist": "Spring9910",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stainless_steel_wire_rope.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-machined-crankshaft.jpg",
+    "title": "Crankshaft jap grayscale",
+    "artist": "Alex Kovach and Saibo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Crankshaft_jap_grayscale.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "carbon": {
+  "night": [
+   {
+    "file": "3-carbon-weave.jpg",
+    "title": "Woven carbon fiber fabric",
+    "artist": "Acheolg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Woven_carbon_fiber_fabric.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-carbon-loom.jpg",
+    "title": "Carbon fibre weave",
+    "artist": "Christine Twigg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carbon_fibre_weave.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-carbon-sheet.jpg",
+    "title": "Ready to use carbon fiber sheet",
+    "artist": "Duboyong",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ready_to_use_carbon_fiber_sheet.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-carbon-tow.jpg",
+    "title": "Carbon fiber bundle",
+    "artist": "Acheolg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carbon_fiber_bundle.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "driftwood": {
+  "night": [
+   {
+    "file": "3-driftwood-aurora.jpg",
+    "title": "Lion Rock, driftwood and Aurora Australis",
+    "artist": "Jamen Percy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lion_Rock,_driftwood_and_Aurora_Australis.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-great-slave-lake-driftwood.jpg",
+    "title": "Great Slave Lake Sunset over Driftwood",
+    "artist": "Carl Young",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Great_Slave_Lake_Sunset_over_Driftwood.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-kaikoura-driftwood.jpg",
+    "title": "Driftwood on the beach north of Kaikoura, Canterbury, New Zealand 02",
+    "artist": "Michal Klajban",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Driftwood_on_the_beach_north_of_Kaikoura,_Canterbury,_New_Zealand_02.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-driftwood-grain.jpg",
+    "title": "Pattern Driftwood Double Bluff Whidbey Mar23 A7R 03958",
+    "artist": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pattern_Driftwood_Double_Bluff_Whidbey_Mar23_A7R_03958.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "lichen": {
+  "night": [
+   {
+    "file": "3-map-lichen.jpg",
+    "title": "Map Lichen - Rhizocarpon geographicum (22724651116)",
+    "artist": "Björn S...",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Map_Lichen_-_Rhizocarpon_geographicum_(22724651116).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-crustose-lichen-stone.jpg",
+    "title": "Crustose Lichen 7-13-10 (14328231290)",
+    "artist": "USFWSAlaska",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Crustose_Lichen_7-13-10_(14328231290).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-lichen-boulder.jpg",
+    "title": "Lichen, County Down, August 2009",
+    "artist": "Ardfern",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lichen,_County_Down,_August_2009.JPG",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-sunburst-lichen.jpg",
+    "title": "Yellow Map Lichen, Single-spored Map Lichen, and Elegant Sunburst Lichen at Huron…",
+    "artist": "U.S. Fish and Wildlife Service - Midwest Region",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Yellow_Map_Lichen,_Single-spored_Map_Lichen,_and_Elegant_Sunburst_Lichen_at_Huron_National_Wildlife_Refuge_(50009656537).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "pebble": {
+  "night": [
+   {
+    "file": "3-rethymno-pebbles.jpg",
+    "title": "Pebbles in Rethymno's beach",
+    "artist": "Quim Gil",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Pebbles_in_Rethymno%27s_beach.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-inukshuk-moonrise.jpg",
+    "title": "Vancouver Inukshuk",
+    "artist": "Rleslievideo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vancouver_Inukshuk.JPG",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-chesil-beach-stones.jpg",
+    "title": "Chesil Beach stones, Dorset, England",
+    "artist": "Rosser1954",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chesil_Beach_stones,_Dorset,_England.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-stone-cairn.jpg",
+    "title": "Каменная пирамидка на Айдаркуле",
+    "artist": "Arina Pan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B8%D1%80%D0%B0%D0%BC%D0%B8%D0%B4%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%90%D0%B9%D0%B4%D0%B0%D1%80%D0%BA%D1%83%D0%BB%D0%B5.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "nacre": {
+  "night": [
+   {
+    "file": "3-greenlip-abalone.jpg",
+    "title": "Haliotis laevigata 01",
+    "artist": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Haliotis_laevigata_01.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-polished-nautilus.jpg",
+    "title": "Nautilus shell Natural History Museum University of Pisa C 3302",
+    "artist": "Regione Toscana",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nautilus_shell_Natural_History_Museum_University_of_Pisa_C_3302.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-abalone-nacre.jpg",
+    "title": "Abalone shell (13785764994)",
+    "artist": "Paxson Woelber",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Abalone_shell_(13785764994).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-abalone-nacre-layers.jpg",
+    "title": "Abalone shell (13785447153)",
+    "artist": "Paxson Woelber",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Abalone_shell_(13785447153).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "reading-room": {
+  "night": [
+   {
+    "file": "3-sainte-genevieve-lamps.jpg",
+    "title": "Paris - bibliothèque Sainte-Geneviève - 2026-09-16 14-03-55 005",
+    "artist": "Matthias_Süßen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_-_biblioth%C3%A8que_Sainte-Genevi%C3%A8ve_-_2026-09-16_14-03-55_005.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-sainte-genevieve-green-lamp.jpg",
+    "title": "Paris - bibliothèque Sainte-Geneviève - 2026-09-16 14-03-55 009",
+    "artist": "Matthias_Süßen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_-_biblioth%C3%A8que_Sainte-Genevi%C3%A8ve_-_2026-09-16_14-03-55_009.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-salle-labrouste.jpg",
+    "title": "Salle Labrouste BNF INHA",
+    "artist": "Peccadille",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salle_Labrouste_BNF_INHA.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-sainte-genevieve-hall.jpg",
+    "title": "Salle de lecture Bibliotheque Sainte-Genevieve n01",
+    "artist": "Marie-Lan Nguyen",
+    "license": "CC BY 2.0 fr",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n01.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "adobe": {
+  "night": [
+   {
+    "file": "3-abo-pueblo-night.jpg",
+    "title": "Abo Pueblo ruins in New Mexico",
+    "artist": "Mcla2448",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Abo_Pueblo_ruins_in_New_Mexico.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pueblo-bonito-walls.jpg",
+    "title": "PUEBLO BONITO - Chaco Culture National Historical Park , New Mexico, US - panoramio (17)",
+    "artist": "MARELBU",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PUEBLO_BONITO_-_Chaco_Culture_National_Historical_Park_,_New_Mexico,_US_-_panoramio_(17).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-taos-pueblo-turquoise-doors.jpg",
+    "title": "Taos Pueblo, New Mexico",
+    "artist": "James Moyers",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taos_Pueblo,_New_Mexico.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-taos-pueblo-turquoise-trim.jpg",
+    "title": "Taos Pueblo (13) (15783703008)",
+    "artist": "Kyle Magnuson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taos_Pueblo_(13)_(15783703008).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "brutalist": {
+  "night": [
+   {
+    "file": "3-barbican-lake-night.jpg",
+    "title": "Barbican Estate 2023 night 04",
+    "artist": "Jonathan Platteau",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barbican_Estate_2023_night_04.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-park-hill-dusk.jpg",
+    "title": "Sunlight on Park Hill 19th January 2020",
+    "artist": "Graceimagery",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunlight_on_Park_Hill_19th_January_2020.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-habitat-67.jpg",
+    "title": "Habitat 67 (8126687023)",
+    "artist": "Matias Garabedian",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Habitat_67_(8126687023).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-barbican-towers.jpg",
+    "title": "London - Barbican Estate (5)",
+    "artist": "Fred Romero",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:London_-_Barbican_Estate_(5).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "resistor": {
+  "night": [
+   {
+    "file": "3-banded-resistors.jpg",
+    "title": "Dirty resistors (6952366994)",
+    "artist": "Dennis van Zuijlekom",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dirty_resistors_(6952366994).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-power-resistors.jpg",
+    "title": "Dirty resistors (6952368086)",
+    "artist": "Dennis van Zuijlekom",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dirty_resistors_(6952368086).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-precision-resistors-tape.jpg",
+    "title": "С2-10-1W individually-trimmed precision resistors (Erkon) 02",
+    "artist": "Retired electrician",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A12-10-1W_individually-trimmed_precision_resistors_(Erkon)_02.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pcb-solder-traces.jpg",
+    "title": "RS 42471-12 PCB solder side",
+    "artist": "Mister rf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RS_42471-12_PCB_solder_side.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "persimmon": {
+  "night": [
+   {
+    "file": "3-fuyu-persimmons.jpg",
+    "title": "Fuyu persimmon fruits, one cut open",
+    "artist": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fuyu_persimmon_fruits,_one_cut_open.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-persimmons-at-dusk.jpg",
+    "title": "Sooc fruit - Flickr - Robert Couse-Baker",
+    "artist": "Robert Couse-Baker",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sooc_fruit_-_Flickr_-_Robert_Couse-Baker.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-persimmons-bare-branch.jpg",
+    "title": "Autumn in Qom Province - IRAN Nature 01",
+    "artist": "Mostafameraji",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Autumn_in_Qom_Province_-_IRAN_Nature_01.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-white-eye-persimmons.jpg",
+    "title": "柿目白 (52094134594)",
+    "artist": "m-louis .®",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%9F%BF%E7%9B%AE%E7%99%BD_(52094134594).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "honeycomb": {
+  "night": [
+   {
+    "file": "3-golden-comb-layers.jpg",
+    "title": "Honeycomb structure (6248780733)",
+    "artist": "Gavin Mackintosh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Honeycomb_structure_(6248780733).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-comb-cells-pollen.jpg",
+    "title": "ComputerHotline - Alveoles pleines de pollen (by)",
+    "artist": "Thomas Bresson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ComputerHotline_-_Alveoles_pleines_de_pollen_(by).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-bee-on-honeycomb.jpg",
+    "title": "Western honey bee on a honeycomb",
+    "artist": "Matthew T Rader",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_on_a_honeycomb.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-comb-honey-pollen.jpg",
+    "title": "Starr-180406-0674-bee monitoring training-comb with honey and pollen-HDOA Hilo-Hawaii…",
+    "artist": "Forest and Kim Starr",
+    "license": "CC BY 3.0 us",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr-180406-0674-bee_monitoring_training-comb_with_honey_and_pollen-HDOA_Hilo-Hawaii_(41326343022).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "pistachio": {
+  "night": [
+   {
+    "file": "3-pistachios-on-board.jpg",
+    "title": "Pistachios meet Avocados (26746999968)",
+    "artist": "Theo Crazzolara",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pistachios_meet_Avocados_(26746999968).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pistachio-cluster.jpg",
+    "title": "Eagle Ranch Pistachios LLC, owned and operated by George and Marianne Schweers, with…",
+    "artist": "USDAgov",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Eagle_Ranch_Pistachios_LLC,_owned_and_operated_by_George_and_Marianne_Schweers,_with_105_acres_insured_with_Risk_Management_Agency_crop_insurance_as_seen_on_21_May_2024_-_2.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-pistachios-warm-wood.jpg",
+    "title": "Pistachios (39799740255)",
+    "artist": "Theo Crazzolara",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pistachios_(39799740255).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-bronte-pistachios.jpg",
+    "title": "Pistacchio di Bronte",
+    "artist": "Paolo Galli",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pistacchio_di_Bronte.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "aubergine": {
+  "night": [
+   {
+    "file": "3-glossy-aubergine-pile.jpg",
+    "title": "Shimla-Bazar-40-Auberginen-2016-gje",
+    "artist": "Gerd Eichmann",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shimla-Bazar-40-Auberginen-2016-gje.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-mini-aubergines-calyx.jpg",
+    "title": "Mini eggplant",
+    "artist": "Hannah Clover",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mini_eggplant.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-cut-aubergine.jpg",
+    "title": "AubergineGeschnitten",
+    "artist": "Frédérique Voisin-Demery",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AubergineGeschnitten.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-four-aubergines.jpg",
+    "title": "Four eggplants 2017 A",
+    "artist": "Fructibus",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Four_eggplants_2017_A.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "strawberry-mint": {
+  "night": [
+   {
+    "file": "3-strawberry-on-leaves.jpg",
+    "title": "Fresh strawberry resting on vibrant green leaves in a garden",
+    "artist": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fresh_strawberry_resting_on_vibrant_green_leaves_in_a_garden.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-strawberries-crystal-bowl.jpg",
+    "title": "Still life with strawberries in a crystal bowl",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Still_life_with_strawberries_in_a_crystal_bowl.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-halved-strawberry.jpg",
+    "title": "Garden strawberry (Fragaria × ananassa) halved",
+    "artist": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa)_halved.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-strawberry-on-white.jpg",
+    "title": "Strawberry on white background",
+    "artist": "Joselodos",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Strawberry_on_white_background.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "rhubarb-custard": {
+  "night": [
+   {
+    "file": "3-rhubarb-stalks-market.jpg",
+    "title": "Rhubarb in Borough Market",
+    "artist": "Cory Doctorow",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhubarb_in_Borough_Market.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-rhubarb-citrus-pan.jpg",
+    "title": "Rhubarb & Lemon (7271176860)",
+    "artist": "Rod Waddington",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhubarb_%26_Lemon_(7271176860).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-pink-rhubarb-stalks.jpg",
+    "title": "Rhubarb at the Kenny Lake fair - panoramio",
+    "artist": "olekinderhook",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhubarb_at_the_Kenny_Lake_fair_-_panoramio.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-rhubarb-bundle.jpg",
+    "title": "CSA-Rhubarb",
+    "artist": "Evan-Amos",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:CSA-Rhubarb.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "grapefruit": {
+  "night": [
+   {
+    "file": "3-shady-grapefruit.jpg",
+    "title": "Shady Grapefruit (Unsplash)",
+    "artist": "Hans Vivek rickyzden",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Shady_Grapefruit_(Unsplash).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-grapefruit-raspberries.jpg",
+    "title": "Rød grape, hindbær og lakrids (5950896761)",
+    "artist": "cyclonebill",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:R%C3%B8d_grape,_hindb%C3%A6r_og_lakrids_(5950896761).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-grapefruit-cut-half.jpg",
+    "title": "Grapefruit cut",
+    "artist": "Jedesto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grapefruit_cut.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-grapefruit-whole-and-split.jpg",
+    "title": "Grapefruit-Whole-&-Split",
+    "artist": "Evan-Amos",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Grapefruit-Whole-%26-Split.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "bramble": {
+  "night": [
+   {
+    "file": "3-thorny-bramble-berries.jpg",
+    "title": "Unripe blackberries in Norrkila 2",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Unripe_blackberries_in_Norrkila_2.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-bramble-flower-black.jpg",
+    "title": "Rubus spp., 2 Howard County, MD, Helen Lowe Metzman 2017-07-25-19.16 (39292707851)",
+    "artist": "USGS Bee Inventory and Monitoring Lab",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rubus_spp.,_2_Howard_County,_MD,_Helen_Lowe_Metzman_2017-07-25-19.16_(39292707851).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-blackberries-on-bramble.jpg",
+    "title": "More di rovo",
+    "artist": "Matulus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:More_di_rovo.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-single-blackberry.jpg",
+    "title": "Blackberry (Rubus fruticosus)",
+    "artist": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blackberry_(Rubus_fruticosus).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "mochi": {
+  "night": [
+   {
+    "file": "3-pastel-mochi-trio.jpg",
+    "title": "Kuyakansuke-mochi, Wagashi, Mie",
+    "artist": "大野 一将",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kuyakansuke-mochi,_Wagashi,_Mie.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pink-wagashi-lacquer.jpg",
+    "title": "Pink wagashi - flower with two birds - Japan (150)",
+    "artist": "Savannah Rivka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pink_wagashi_-_flower_with_two_birds_-_Japan_(150).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-sanshoku-dango.jpg",
+    "title": "Sanshoku Dango 001",
+    "artist": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Sanshoku_Dango_001.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-matcha-mochi.jpg",
+    "title": "Green Tea Mochi - 03",
+    "artist": "Poulpy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Tea_Mochi_-_03.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "absinthe": {
+  "night": [
+   {
+    "file": "3-wormwood-in-bloom.jpg",
+    "title": "Artemisia absinthium in Austria",
+    "artist": "Henderl",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Artemisia_absinthium_in_Austria.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-wormwood-flower-spray.jpg",
+    "title": "Artemisia absinthium NoviPazar1",
+    "artist": "Wlodzimierz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Artemisia_absinthium_NoviPazar1.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-wormwood-foliage.jpg",
+    "title": "Artemisia absinthium in Jardin Botanique de l'Aubrac",
+    "artist": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Artemisia_absinthium_in_Jardin_Botanique_de_l%27Aubrac.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-aniseed-on-leaf.jpg",
+    "title": "Pimpinella anisum",
+    "artist": "Thamizhpparithi Maari",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pimpinella_anisum.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "bottle-glass": {
+  "night": [
+   {
+    "file": "3-glowing-green-glass.jpg",
+    "title": "Glass Objects and Bottles Illuminated by Intense Color",
+    "artist": "A S M Jobaer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glass_Objects_and_Bottles_Illuminated_by_Intense_Color.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-inside-green-bottle.jpg",
+    "title": "Green Glass Bottle (54182239626)",
+    "artist": "Tony Webster",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Glass_Bottle_(54182239626).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-bottles-on-windowsill.jpg",
+    "title": "Dülmen, Alte Brennerei Löhning -- 2015 -- 8677-81",
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Alte_Brennerei_L%C3%B6hning_--_2015_--_8677-81.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-backlit-bottle-shelves.jpg",
+    "title": "47 green bottles - Flickr - conall..",
+    "artist": "Conall",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:47_green_bottles_-_Flickr_-_conall...jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "bordeaux": {
+  "night": [
+   {
+    "file": "3-chateau-kirwan-cellar.jpg",
+    "title": "Wine Cellar at Chateau Kirwan",
+    "artist": "Jon",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wine_Cellar_at_Chateau_Kirwan.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-red-wine-bottle-glass.jpg",
+    "title": "Bottle and glass of red wine",
+    "artist": "congerdesign",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Bottle_and_glass_of_red_wine.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-saint-emilion-vines.jpg",
+    "title": "Vignoble Saint-Emilion",
+    "artist": "Lauchantoiseau",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vignoble_Saint-Emilion.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-medoc-tower-vineyard.jpg",
+    "title": "Chateau La Tour de By Vignoble",
+    "artist": "Slywire",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chateau_La_Tour_de_By_Vignoble.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "lava-lamp": {
+  "night": [
+   {
+    "file": "3-lava-lamp-bar.jpg",
+    "title": "Lava Lamp inside Encounter Restaurant & Bar at Los Angeles International Airport…",
+    "artist": "Sam Howzit",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lava_Lamp_inside_Encounter_Restaurant_%26_Bar_at_Los_Angeles_International_Airport_(11300546333).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-floating-wax-blobs.jpg",
+    "title": "Ink&dye485 Flickr macro photo by Jordan Mudrack - close-up view colored ink dye paint…",
+    "artist": "Jordan Mudrack Photography",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ink%26dye485_Flickr_macro_photo_by_Jordan_Mudrack_-_close-up_view_colored_ink_dye_paint_wet_transparent_opaque_mediums_materials_forming_intricate_simple_abstract_patterns_shapes_images.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-lava-lamp-shelves.jpg",
+    "title": "Lava Lamps at Cloudflare 1 2022-12-04",
+    "artist": "FASTILY",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lava_Lamps_at_Cloudflare_1_2022-12-04.jpeg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-oil-water-blobs.jpg",
+    "title": "Oil, Water, Food Coloring - Flickr - Jochen Spieker",
+    "artist": "Jochen Spieker",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oil,_Water,_Food_Coloring_-_Flickr_-_Jochen_Spieker.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "aperitivo": {
+  "night": [
+   {
+    "file": "3-orange-aperitivo-glass.jpg",
+    "title": "Italian Aperitivo culture - pre-dinner evening drink as an appetizer (32876800955)",
+    "artist": "Ralf Steinberger",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Italian_Aperitivo_culture_-_pre-dinner_evening_drink_as_an_appetizer_(32876800955).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-negroni-on-the-rocks.jpg",
+    "title": "Negroni (cocktail)",
+    "artist": "Sudhertzen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Negroni_(cocktail).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-orange-halves.jpg",
+    "title": "Oranges - whole-halved-segment",
+    "artist": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-olives-on-branch.jpg",
+    "title": "OlivesCruzGrande",
+    "artist": "AlejandroLinaresGarcia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:OlivesCruzGrande.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "sherbet": {
+  "night": [
+   {
+    "file": "3-raspberry-sorbet-cup.jpg",
+    "title": "Glass cup with sorbet (5186725623)",
+    "artist": "star5112",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glass_cup_with_sorbet_(5186725623).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-sherbet-scoops-granite.jpg",
+    "title": "Ice cream Cup",
+    "artist": "Ahamed Kafir M",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ice_cream_Cup.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-rainbow-sherbet.jpg",
+    "title": "Rainbow Sherbet (38251341974)",
+    "artist": "Prayitno",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rainbow_Sherbet_(38251341974).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-raspberry-sherbet.jpg",
+    "title": "Homemade raspberry sherbert (4426007421)",
+    "artist": "star5112",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Homemade_raspberry_sherbert_(4426007421).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "gelato": {
+  "night": [
+   {
+    "file": "3-gelato-black-bowl.jpg",
+    "title": "Homemade ice cream in clipper lounge",
+    "artist": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Homemade_ice_cream_in_clipper_lounge.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-gelato-display-case.jpg",
+    "title": "\"\" Ice cream display (Crepes & Waffles, Quito) pic. bb8a",
+    "artist": "David Adam Kess",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%22%22_Ice_cream_display_(Crepes_%26_Waffles,_Quito)_pic._bb8a.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-gelato-tubs-closeup.jpg",
+    "title": "Gelato ice cream",
+    "artist": "rawpixel",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Gelato_ice_cream.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-gelato-roses-macarons.jpg",
+    "title": "Amorino Gelato Flowers and Macaroons",
+    "artist": "Rebecrs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amorino_Gelato_Flowers_and_Macaroons.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "brickwork": {
+  "night": [
+   {
+    "file": "3-fauti-masjid-brick-arches.jpg",
+    "title": "Fauti Masjid Interior",
+    "artist": "DeepanjanGhosh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fauti_Masjid_Interior.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-creeper-on-brick-wall.jpg",
+    "title": "Heale House and Garden Clematis",
+    "artist": "HARTLEPOOLMARINA2014",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Heale_House_and_Garden_Clematis.JPG",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-ivy-on-orange-brick.jpg",
+    "title": "11-11-28-angermuende-17",
+    "artist": "Ralf Roletschek - Fahrradtechnik auf fahrradmonteur.de",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:11-11-28-angermuende-17.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-creeper-tendrils-brick.jpg",
+    "title": "11-11-28-angermuende-16",
+    "artist": "Ralf Roletschek - Fahrradtechnik auf fahrradmonteur.de",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:11-11-28-angermuende-16.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "delft": {
+  "night": [
+   {
+    "file": "3-delftware-shelf-rijksmuseum.jpg",
+    "title": "Delft blue,rijksmuseum (54) (15009164407)",
+    "artist": "bertknot from scarborough, australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Delft_blue,rijksmuseum_(54)_(15009164407).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-delft-tile-plaques.jpg",
+    "title": "Delft blue,rijksmuseum (23) (15195780795)",
+    "artist": "bertknot from scarborough, australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Delft_blue,rijksmuseum_(23)_(15195780795).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-delft-tile-wall-lille.jpg",
+    "title": "Lille hospice comtesse carreaux cuisine",
+    "artist": "Velvet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lille_hospice_comtesse_carreaux_cuisine.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-delft-blue-vases.jpg",
+    "title": "Maakproces Delfts blauw aardewerk",
+    "artist": "Anneteoshea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Maakproces_Delfts_blauw_aardewerk.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "byzantine": {
+  "night": [
+   {
+    "file": "3-galla-placidia-deer.jpg",
+    "title": "The deer (left). Detail of the mosaic in Mausoleum of Galla Placidia. Ravenna, Italy",
+    "artist": "Ввласенко",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_deer_(left)._Detail_of_the_mosaic_in_Mausoleum_of_Galla_Placidia._Ravenna,_Italy.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-galla-placidia-star-ceiling.jpg",
+    "title": "Mausoleum of Galla Placidia ceiling mosaics",
+    "artist": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mausoleum_of_Galla_Placidia_ceiling_mosaics.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-hagia-sophia-gold-vault.jpg",
+    "title": "1. Ceiling mosaics, Hagia Sophia, Istanbul, Turkey",
+    "artist": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1._Ceiling_mosaics,_Hagia_Sophia,_Istanbul,_Turkey.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-byzantine-glass-tesserae.jpg",
+    "title": "Mosaic Tesserae",
+    "artist": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Mosaic_Tesserae_MET_2016_11_1_50_MED_s01.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "bauhaus": {
+  "night": [
+   {
+    "file": "3-bauhaus-dessau-workshop-wing.jpg",
+    "title": "Erleuchtete Fassadenseite des Bauhausgebäudes in Dessau, 2019",
+    "artist": "Leojng",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Erleuchtete_Fassadenseite_des_Bauhausgeb%C3%A4udes_in_Dessau,_2019.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-bauhaus-dessau-prellerhaus.jpg",
+    "title": "Wohnheimseite des Bauhausgebäudes in Dessau, 2019",
+    "artist": "Leojng",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wohnheimseite_des_Bauhausgeb%C3%A4udes_in_Dessau,_2019.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-kandinsky-yellow-red-blue.jpg",
+    "title": "Yellow-Red-Blue",
+    "artist": "Wassily Kandinsky",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gelb-Rot-Blau,_by_Wassily_Kandinsky.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-kandinsky-transverse-line.jpg",
+    "title": "Durchgehender Strich",
+    "artist": "Wassily Kandinsky",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Durchgehender_Strich_-_Wassily_Kandinsky.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "mid-century": {
+  "night": [
+   {
+    "file": "3-ph5-lamp-teal.jpg",
+    "title": "Louis Poulsen PH5 Poul Hennigsen",
+    "artist": "Richard Huber",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Louis_Poulsen_PH5_Poul_Hennigsen.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-la-concha-googie-night.jpg",
+    "title": "Neon Museum, Googie DSC02218 (29097352858)",
+    "artist": "Elizabeth K. Joseph",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neon_Museum,_Googie_DSC02218_(29097352858).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-mid-century-living-room.jpg",
+    "title": "Mid 20th-century interior design, Museum of the Home",
+    "artist": "JRennocks",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mid_20th-century_interior_design,_Museum_of_the_Home.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-eames-lcw-plywood-chair.jpg",
+    "title": "First Generation LCW Plywood Lounge Chair attributed to Charles Eames",
+    "artist": "Eames, Charles Ormand, Jr., 1907-1978",
+    "license": "No restrictions",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:First_Generation_LCW_Plywood_Lounge_Chair_attributed_to_Charles_Eames_-_DPLA_-_224bbbffbe211a35a03a26190e716884_(page_2).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "stained-glass": {
+  "night": [
+   {
+    "file": "3-nasir-al-mulk-light.jpg",
+    "title": "Nasir-al molk -1",
+    "artist": "Ayyoubsabawiki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nasir-al_molk_-1.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-saint-denis-rose-window.jpg",
+    "title": "Basilica of Saint Denis North Transept Rose Window, Paris, France - Diliff",
+    "artist": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Basilica_of_Saint_Denis_North_Transept_Rose_Window,_Paris,_France_-_Diliff.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-sagrada-familia-warm-glass.jpg",
+    "title": "Sagrada Familia Stained Glass 10",
+    "artist": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_Stained_Glass_10.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-sagrada-familia-cool-glass.jpg",
+    "title": "Stained Glass paintings at Sagrada Familia, Barcelona 09",
+    "artist": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stained_Glass_paintings_at_Sagrada_Familia,_Barcelona_09.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "tin-toy": {
+  "night": [
+   {
+    "file": "3-tin-toy-firemen.jpg",
+    "title": "Antique tin toy firemen (28413717583)",
+    "artist": "Thomas Quine",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Antique_tin_toy_firemen_(28413717583).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-clockwork-tin-ship.jpg",
+    "title": "Old tin toy clock work ship, pic1",
+    "artist": "Alf van Beem",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_tin_toy_clock_work_ship,_pic1.JPG",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-tin-rooster.jpg",
+    "title": "GKN-Blechhahn, um 1948 (Foto Sp b)",
+    "artist": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:GKN-Blechhahn,_um_1948_(Foto_Sp_b).JPG",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-tin-fire-engine.jpg",
+    "title": "Feuerwehrauto von Günthermann - tin toy (um 1950)",
+    "artist": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Feuerwehrauto_von_G%C3%BCnthermann_-_tin_toy_(um_1950).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "oxblood": {
+  "night": [
+   {
+    "file": "3-leather-banquette-cinema.jpg",
+    "title": "Salle d'attente, Cinéma du Parc",
+    "artist": "Shawn à Montréal",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Salle_d%27attente,_Cin%C3%A9ma_du_Parc.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-burgundy-leather-hides.jpg",
+    "title": "A bunch of magenta leather",
+    "artist": "m0851",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:A_bunch_of_magenta_leather.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-oxblood-wingback-chair.jpg",
+    "title": "Oxblood queen anne chair",
+    "artist": "Booby05",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oxblood_queen_anne_chair.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-chesterfield-hotel-lounge.jpg",
+    "title": "University Arms Hotel, Cambridge, July 2010 (01)",
+    "artist": "Ardfern",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:University_Arms_Hotel,_Cambridge,_July_2010_(01).JPG",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "shibori": {
+  "night": [
+   {
+    "file": "3-indigo-resist-cloth.jpg",
+    "title": "Blaudruckerei Wagner Blaudruck Musterstoffe 04",
+    "artist": "Geolina163",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blaudruckerei_Wagner_Blaudruck_Musterstoffe_04.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-arimatsu-shibori-cloths.jpg",
+    "title": "Arimatsu Shibori 2019-06 ac (1)",
+    "artist": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arimatsu_Shibori_2019-06_ac_(1).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-itajime-shibori-cloths.jpg",
+    "title": "Zeugfärberei Gutau Workshopergebnisse 10",
+    "artist": "Geolina163",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zeugf%C3%A4rberei_Gutau_Workshopergebnisse_10.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-shibori-circles-indigo.jpg",
+    "title": "Zeugfärberei Gutau Workshopergebnisse 9",
+    "artist": "Geolina163",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zeugf%C3%A4rberei_Gutau_Workshopergebnisse_9.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "mauve": {
+  "night": [
+   {
+    "file": "3-purple-silk-kosode.jpg",
+    "title": "Kosode (garment with small wrist openings), view 2, Edo period, 19th century, stream…",
+    "artist": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kosode_(garment_with_small_wrist_openings),_view_2,_Edo_period,_19th_century,_stream,_flowing_plant,_house_and_insect_cage_design_on_purple_and_light_green_tussah_silk_crepe_ground_-_Tokyo_National_Museum_-_DSC06000.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-baroque-silk-damask.jpg",
+    "title": "Damask with floral sprigs, Italy, Baroque, 1600-1650, silk two-tone damask - Royal…",
+    "artist": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Damask_with_floral_sprigs,_Italy,_Baroque,_1600-1650,_silk_two-tone_damask_-_Royal_Ontario_Museum_-_DSC04376.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-lilac-silk-damask.jpg",
+    "title": "Damask - pearlescent shine",
+    "artist": "BuhaM",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Damask_-_pearlescent_shine.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-woven-silk-texture.jpg",
+    "title": "Pink Woven Cotton Silk Fabric Texture Free Creative Commons (6962346249)",
+    "artist": "Pink Sherbet Photography",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pink_Woven_Cotton_Silk_Fabric_Texture_Free_Creative_Commons_(6962346249).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "tweed": {
+  "night": [
+   {
+    "file": "3-brown-twill-tweed.jpg",
+    "title": "Harristweed16",
+    "artist": "Giftzwerg 88",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Harristweed16.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-slate-check-tweed.jpg",
+    "title": "Harristweed17",
+    "artist": "Giftzwerg 88",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Harristweed17.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-houndstooth-tweed-weave.jpg",
+    "title": "Harris Tweed Sakko - Ausschnitt Stoff - Bild 001",
+    "artist": "Lupus in Saxonia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Harris_Tweed_Sakko_-_Ausschnitt_Stoff_-_Bild_001.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-donegal-herringbone-flecks.jpg",
+    "title": "Donegal Tweed",
+    "artist": "Toxophilus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Donegal_Tweed.JPG",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "tapestry": {
+  "night": [
+   {
+    "file": "3-millefleur-unicorn-stag.jpg",
+    "title": "Unicorn and Stag",
+    "artist": "Circle of Flemish Region",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Tapestry_Unicorn_Stag.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-millefleur-rabbits-cluny.jpg",
+    "title": "Cluny-Dame à la licorne-Detail 16",
+    "artist": "Salix",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cluny-Dame_%C3%A0_la_licorne-Detail_16.JPG",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-verdure-swans.jpg",
+    "title": "Interieur, gobelin in de Burgerzaal- De Verdures. De zwanen. Detail. T18 - Nijmegen…",
+    "artist": "Chris Booms / Paul van Galen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Interieur,_gobelin_in_de_Burgerzaal-_De_Verdures._De_zwanen._Detail._T18_-_Nijmegen_-_20421953_-_RCE.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-millefleur-madder-cluny.jpg",
+    "title": "Touch",
+    "artist": "anonymous",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cluny-Dame_%C3%A0_la_licorne-Detail_03.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "celadon": {
+  "night": [
+   {
+    "file": "3-longquan-celadon-censer.jpg",
+    "title": "Celadon Tripod Incense Burner with Bowstring Patterns, Longquan Ware",
+    "artist": "Siyuwj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Celadon_Tripod_Incense_Burner_with_Bowstring_Patterns,_Longquan_Ware.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-goryeo-crackled-crane-bowl.jpg",
+    "title": "Celadon, Goryeo Dynasty (17671504592)",
+    "artist": "Gary Todd",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Celadon,_Goryeo_Dynasty_(17671504592).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-joseon-crackled-bowl.jpg",
+    "title": "Bowl with greyish green, crackled glaze, Korea, Joseon, 15th century AD, stoneware…",
+    "artist": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Bowl_with_greyish_green,_crackled_glaze,_Korea,_Joseon,_15th_century_AD,_stoneware_-_%C3%96stasiatiska_museet,_Stockholm_-_DSC09428.JPG",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-incised-celadon-bowl.jpg",
+    "title": "Celadon Guimet 11",
+    "artist": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Celadon_Guimet_11.JPG",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "terracotta": {
+  "night": [
+   {
+    "file": "3-upturned-clay-pots.jpg",
+    "title": "Terracotta Pots (Unsplash)",
+    "artist": "Annie Spratt anniespratt",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Terracotta_Pots_(Unsplash).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-etruscan-clay-amphora.jpg",
+    "title": "Ánfora etrusca de vino. MARQ 01",
+    "artist": "Dorieo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%81nfora_etrusca_de_vino._MARQ_01.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-pile-of-clay-pots.jpg",
+    "title": "Clay Pots-IMG 7301-2",
+    "artist": "Bijay chaurasia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Clay_Pots-IMG_7301-2.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pompeii-amphorae.jpg",
+    "title": "Cart and amphoras (Pompeii)",
+    "artist": "Bernard Gagnon",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cart_and_amphoras_(Pompeii).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "gouache": {
+  "night": [
+   {
+    "file": "3-vesuvius-eruption-gouache.jpg",
+    "title": "Gran Eruzione del 1794",
+    "artist": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gran_Eruzione_del_1794.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-jaxa-moonlit-pier.jpg",
+    "title": "Seascape.",
+    "artist": "Soter Jaxa-Małachowski",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Soter_Jaxa-Ma%C5%82achowski_-_Pejza%C5%BC_morski_1941.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-hodler-silvaplana-lake.jpg",
+    "title": "Der Silvaplanersee im Herbst",
+    "artist": "Ferdinand Hodler",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hodler_-_Der_Silvaplanersee_im_Herbst_-_1907.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-reschreiter-hollental-glacier.jpg",
+    "title": "Rudolf Reschreiter Blick von der Höllentalangerhütte zum Höllentalgletscher und den…",
+    "artist": "Rudolf Reschreiter",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rudolf_Reschreiter_Blick_von_der_H%C3%B6llentalangerh%C3%BCtte_zum_H%C3%B6llentalgletscher_und_den_Riffelwandspitzen_1921.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "sepia": {
+  "night": [
+   {
+    "file": "3-le-gray-ship-and-tugboat.jpg",
+    "title": "Seascape with Sailing Ship and Tugboat",
+    "artist": "Gustave Le Gray",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gustave_Le_Gray_(French_-_Seascape_with_Sailing_Ship_and_Tugboat_-_Google_Art_Project.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-chauvassaignes-dark-hills.jpg",
+    "title": "Dark Landscape with Hills",
+    "artist": "Frank Chauvassaignes",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank_Chauvassaignes_-_Dark_Landscape_with_Hills_-_1999.196_-_Cleveland_Museum_of_Art.tif",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-muybridge-lone-tree.jpg",
+    "title": "Untitled (Landscape near Watsonville, California)",
+    "artist": "Eadweard J. Muybridge",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Eadweard_J._Muybridge_-_Untitled_(Landscape_near_Watsonville,_California)_-_1994.187_-_Cleveland_Museum_of_Art.tif",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-aswan-nile-ruin.jpg",
+    "title": "Aswan, Landscape, Pictures, 1870-1888",
+    "artist": "Antonio Beato",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Aswan,_Landscape,_Pictures,_1870-1888,_photo_5_of_9_-_Archivio_fotografico_Museo_Egizio,_Turin_INV33_010.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "blueprint": {
+  "night": [
+   {
+    "file": "3-carnegie-library-blueprint.jpg",
+    "title": "West Elevation, Saint Anthony Park Branch Library Blueprints, St. Paul, Minnesota",
+    "artist": "Hausler, Charles A., 1889-1981",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:West_Elevation,_Saint_Anthony_Park_Branch_Library_Blueprints,_St._Paul,_Minnesota_-_DPLA_-_6ab78ecd0854043ccb79fdc5f2800430_(cropped).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-ss-virgo-blueprint.jpg",
+    "title": "Ritning av ångaren SS Virgo - Andréexpeditionen",
+    "artist": "Andrées polarexpedition",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ritning_av_%C3%A5ngaren_SS_Virgo_-_Andr%C3%A9expeditionen.tif",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-bosse-mississippi-bluff.jpg",
+    "title": "Henry-Peter-Bosse-Cyanotype-Mississippi-03",
+    "artist": "Henry Peter Bosse (1844-1903)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry-Peter-Bosse-Cyanotype-Mississippi-03.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-bosse-mississippi-vista.jpg",
+    "title": "Henry-Peter-Bosse-Cyanotype-Mississippi-06",
+    "artist": "Henry Peter Bosse (1844-1903)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry-Peter-Bosse-Cyanotype-Mississippi-06.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "herbarium": {
+  "night": [
+   {
+    "file": "3-melica-nutans-specimen.jpg",
+    "title": "Melica nutans MHNT.BOT.2011.18.4",
+    "artist": "Roger Culos",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Melica_nutans_MHNT.BOT.2011.18.4.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-aegilops-specimen.jpg",
+    "title": "Aegilops geniculata MHNT.BOT.2011.18.8",
+    "artist": "Roger Culos",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aegilops_geniculata_MHNT.BOT.2011.18.8.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-aust-agder-herbarium-1906.jpg",
+    "title": "Herbarium fra Aust-Agder, 1906",
+    "artist": "Anders Torjussen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Herbarium_fra_Aust-Agder,_1906.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-herbarium-sheets-in-a-row.jpg",
+    "title": "Rubber clone specimens",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rubber_clone_specimens.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "antique-map": {
+  "night": [
+   {
+    "file": "3-coronelli-globes.jpg",
+    "title": "Globes de Coronelli (terrestre et celeste)",
+    "artist": "Zubro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Globes_de_Coronelli_(terrestre_et_celeste).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-vienna-celestial-globe.jpg",
+    "title": "Vienna - Celestial globe - 6777",
+    "artist": "Jorge Royan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vienna_-_Celestial_globe_-_6777.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-maggiolo-portolan-1563.jpg",
+    "title": "Giacomo Maggiolo 1563 Portolan chart (Central Europe) 20260724 110532",
+    "artist": "Iacopo Maggiolo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Giacomo_Maggiolo_1563_Portolan_chart_(Central_Europe)_20260724_110532.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-carta-marina-1539.jpg",
+    "title": "Carta marina et descriptio septemtrionalium terrarum ac mirabilium rerum in eis…",
+    "artist": "Olaus Magnus",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carta_Marina.jpeg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "sumi": {
+  "night": [
+   {
+    "file": "3-shohaku-dragon-and-clouds.jpg",
+    "title": "Dragon and Clouds",
+    "artist": "Soga Shōhaku",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dragon_and_Clouds_by_Soga_Shohaku,_1763,_set_of_eight_panels,_ink_on_paper_DSC02757.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-qu-ding-summer-mountains.jpg",
+    "title": "北宋 傳屈鼎 夏山圖 卷",
+    "artist": "Qu Ding",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%AE%8B_%E5%82%B3%E5%B1%88%E9%BC%8E_%E5%A4%8F%E5%B1%B1%E5%9C%96_%E5%8D%B7-Summer_Mountains_MET_DP151484.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-jeong-seon-inwang-after-rain.jpg",
+    "title": "Inwang jesaekdo",
+    "artist": "Jeong Seon",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Inwangjesaekdo.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-kuncan-spring-landscape.jpg",
+    "title": "Spring Landscape",
+    "artist": "Kuncan",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kuncan_-_Spring_Landscape_-_1966.367_-_Cleveland_Museum_of_Art.tif",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "newsprint": {
+  "night": [
+   {
+    "file": "3-linotype-keyboard.jpg",
+    "title": "Linotype typesetting machine (32658353528)",
+    "artist": "Richard Ash",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Linotype_typesetting_machine_(32658353528).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-linotype-deutsches-museum.jpg",
+    "title": "Munich - Deutsches Museum - 07-0541",
+    "artist": "Jorge Royan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Munich_-_Deutsches_Museum_-_07-0541.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-old-orchard-beach-1923-halftone.jpg",
+    "title": "Aerial photograph of Old Orchard Beach, Maine in 1923",
+    "artist": "Arthur M. Galaid, Boston photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Old_Orchard_Beach,_Maine_in_1923.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-bound-newspapers-panjim.jpg",
+    "title": "Old newspapers at the Central Library, Panjim, Goa",
+    "artist": "Fredericknoronha",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_newspapers_at_the_Central_Library,_Panjim,_Goa.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "chalkboard": {
+  "night": [
+   {
+    "file": "3-chalk-equations-bokeh.jpg",
+    "title": "Superbokehtheorie",
+    "artist": "Eric Wüstenhagen",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Superbokehtheorie.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-spring-blackboard.jpg",
+    "title": "黒板 4月 (5595045738)",
+    "artist": "hiro",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E9%BB%92%E6%9D%BF_4%E6%9C%88_(5595045738).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-pastel-chalk.jpg",
+    "title": "Pastel Chalk (46887606994)",
+    "artist": "Tanja-Milfoil",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pastel_Chalk_(46887606994).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-school-chalk-tray.jpg",
+    "title": "School Chalk Tray",
+    "artist": "Revisorius",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:School_Chalk_Tray.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "viridian": {
+  "night": [
+   {
+    "file": "3-kuindzhi-moonlit-dnieper.jpg",
+    "title": "0857Ha. Куинджи А.И. Лунная ночь на Днепре",
+    "artist": "Arkhip Kuindzhi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:0857Ha._%D0%9A%D1%83%D0%B8%D0%BD%D0%B4%D0%B6%D0%B8_%D0%90.%D0%98._%D0%9B%D1%83%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BD%D0%BE%D1%87%D1%8C_%D0%BD%D0%B0_%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%B5.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-polished-malachite.jpg",
+    "title": "Malachite polie (République démocratique du Congo)",
+    "artist": "Parent Géry",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Malachite_polie_(R%C3%A9publique_d%C3%A9mocratique_du_Congo).JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-monet-waterlilies-blue-green.jpg",
+    "title": "Waterlilies",
+    "artist": "Claude Monet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Waterlilies_-_Google_Art_Project.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-monet-nympheas-lily-pads.jpg",
+    "title": "Water Lilies",
+    "artist": "Claude Monet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nympheas_71293_3.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "petrol": {
+  "night": [
+   {
+    "file": "3-whistler-lagoon-venice.jpg",
+    "title": "Nocturne in Blue and Silver: The Lagoon, Venice",
+    "artist": "James McNeill Whistler",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Abbott_McNeill_Whistler_-_Nocturne_in_Blue_and_Silver-_The_Lagoon,_Venice_-_Google_Art_Project.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-dusk-on-gjende.jpg",
+    "title": "Dusk on Gjende, Norway - Flickr - Gael Varoquaux",
+    "artist": "Gael Varoquaux",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dusk_on_Gjende,_Norway_-_Flickr_-_Gael_Varoquaux.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-marbled-endpaper-stone.jpg",
+    "title": "Galileo-6",
+    "artist": "Galileo Galilei",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Galileo-6.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-condensation-on-glass.jpg",
+    "title": "Texture325-26 (5559430529)",
+    "artist": "Pink Sherbet Photography",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Texture325-26_(5559430529).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "fresco": {
+  "night": [
+   {
+    "file": "3-farnesina-black-wall.jpg",
+    "title": "Wall painting - figured frieze and garland and white miniaturistic landscapes on black…",
+    "artist": "ArchaiOptix",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wall_painting_-_figured_frieze_and_garland_and_white_miniaturistic_landscapes_on_black_background_-_Rome_(Villa_della_Farnesina_-_triclinium_C)_-_Roma_MNR_PMaT_-_06.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-livia-garden-daisies.jpg",
+    "title": "Fresco from the triclinium of the villa of Livia, wife of the Emperor Augustus, 30-20…",
+    "artist": "Prof. Mortel",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fresco_from_the_triclinium_of_the_villa_of_Livia,_wife_of_the_Emperor_Augustus,_30-20_BCE;_Palazzo_Massimo_alle_Terme,_Rome_(7).jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-akrotiri-spring-lilies.jpg",
+    "title": "Spring fresco from Akrotiri, NAMA BE 1974.29, 191200",
+    "artist": "Zde",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spring_fresco_from_Akrotiri,_NAMA_BE_1974.29,_191200.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-pompeii-swallow-fresco.jpg",
+    "title": "Bird (Detail) - Garden painting (30-35 AD) from Pompeii, House of the Golden Bracelet…",
+    "artist": "Carlo Raso",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bird_(Detail)_-_Garden_painting_(30-35_AD)_from_Pompeii,_House_of_the_Golden_Bracelet_-_Exhibition_%22Myth_and_Nature%22_at_Archaeological_Museum_of_Naples,_until_September_30,_2016_-_27699416421.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "watercolor": {
+  "night": [
+   {
+    "file": "3-spilliaert-beach-moon.jpg",
+    "title": "Strand met maan",
+    "artist": "Léon Spilliaert",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Strand_met_maan,_L%C3%A9on_Spilliaert,_Mu.ZEE_Oostende,_K000433.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-spilliaert-blue-basin.jpg",
+    "title": "De blauwe teil",
+    "artist": "Léon Spilliaert",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:De_blauwe_teil,_L%C3%A9on_Spilliaert,_Mu.ZEE_Oostende,_SM000058.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-cezanne-provence-landscape.jpg",
+    "title": "Landscape in Provence",
+    "artist": "Paul Cézanne",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_Landscape_in_Provence_-_Google_Art_Project.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-spilliaert-dunes.jpg",
+    "title": "Duinen",
+    "artist": "Léon Spilliaert",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Duinen,_L%C3%A9on_Spilliaert,_Mu.ZEE_Oostende,_SM000477.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "darkroom": {
+  "night": [
+   {
+    "file": "3-safelight-darkroom-bench.jpg",
+    "title": "WAU 2025 Congress - La Casa del Mango",
+    "artist": "Jorge Rosendo Negroe Álvarez",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WAU_2025_Congress_-_Casa_del_Mango_022.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-safelight-developing-tray.jpg",
+    "title": "WAU 2025 Congress - La Casa del Mango",
+    "artist": "Jorge Rosendo Negroe Álvarez",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WAU_2025_Congress_-_Casa_del_Mango_020.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-prints-drying-line.jpg",
+    "title": "WAU 2025 Congress - La Casa del Mango",
+    "artist": "Jorge Rosendo Negroe Álvarez",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WAU_2025_Congress_-_Casa_del_Mango_026.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-darkroom-developing-tray.jpg",
+    "title": "Eastman Kodak Darkroom Tray",
+    "artist": "Eastman Kodak Company",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastman_Kodak_Darkroom_Tray_-_DPLA_-_6d4d4f5c4399519ab48bed18a53562eb_(page_1).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "anaglyph": {
+  "night": [
+   {
+    "file": "3-phobos-anaglyph.jpg",
+    "title": "Phobos in 3-D ESA202291",
+    "artist": "European Space Agency",
+    "license": "CC BY-SA 3.0 igo",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Phobos_in_3-D_ESA202291.tiff",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-lin-garden-pond-anaglyph.jpg",
+    "title": "BanQiao Lin Garden in 3D No 3",
+    "artist": "Yaonanlien",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BanQiao_Lin_Garden_in_3D_No_3.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-tempe-terra-grabens-anaglyph.jpg",
+    "title": "3D anaglyph view of grabens in Tempe Terra ESA202852",
+    "artist": "European Space Agency",
+    "license": "CC BY-SA 3.0 igo",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:3D_anaglyph_view_of_grabens_in_Tempe_Terra_ESA202852.tiff",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-orchid-anaglyph.jpg",
+    "title": "3D CMS CC-BY (15549814168)",
+    "artist": "Carlos ZGZ",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:3D_CMS_CC-BY_(15549814168).jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "cross-process": {
+  "night": [
+   {
+    "file": "3-lough-foyle-aurora-cross-processed.jpg",
+    "title": "Aurora 2015 09 09-3 (21094984028)",
+    "artist": "john.purvis",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aurora_2015_09_09-3_(21094984028).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-lomo-sunset-sea.jpg",
+    "title": "Lomo Sunset (9121965870)",
+    "artist": "Paul",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lomo_Sunset_(9121965870).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-death-valley-kodachrome-c41.jpg",
+    "title": "Death Valley (49343995126)",
+    "artist": "Adan Garcia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Death_Valley_(49343995126).jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-mint-sky-dome-lomochrome-purple.jpg",
+    "title": "Parque Ibirapuera São Paulo MINOLTA SRT-101 Lomography Purple 2024-000017430001 16",
+    "artist": "Prburley",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parque_Ibirapuera_S%C3%A3o_Paulo_MINOLTA_SRT-101_Lomography_Purple_2024-000017430001_16.jpg",
+    "changes": "cropped and scaled"
+   }
+  ]
+ },
+ "thermal": {
+  "night": [
+   {
+    "file": "3-ceres-earth-heat-map.jpg",
+    "title": "CERES Radiation Fluxes (SVS30604 - ceres lw all average 2000-2015)",
+    "artist": "NASA's Scientific Visualization Studio - Marit Jentoft-Nilsen, Global Science and Technology, Inc./Amy Moran, Global Science and Technology, Inc./Heather Hanson",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:CERES_Radiation_Fluxes_(SVS30604_-_ceres_lw_all_average_2000-2015).png",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-milky-way-center-infrared.jpg",
+    "title": "Center of the Milky Way Galaxy IV – Composite",
+    "artist": "NASA/JPL-Caltech/ESA/CXC/STScI",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg",
+    "changes": "cropped and scaled"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-irma-viirs-thermal.jpg",
+    "title": "Irma 2017-09-08 0642Z",
+    "artist": "National Aeronautics and Space Administration, LANCE/EOSDIS Rapid Response, captured on Suomi NPP satellite",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Irma_2017-09-08_0642Z.jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-debby-infrared-heat-map.jpg",
+    "title": "Debby 2012-06-25 1835Z IR",
+    "artist": "NOAA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Debby_2012-06-25_1835Z_IR.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ },
+ "nitrate": {
+  "night": [
+   {
+    "file": "3-film-reels-stacked.jpg",
+    "title": "Kino Tatran",
+    "artist": "Martinmlynar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kino_Tatran.JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   },
+   {
+    "file": "4-projector-arc-lamp.jpg",
+    "title": "Regent Hokitika Interior MRD 06",
+    "artist": "Mike Dickison",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Regent_Hokitika_Interior_MRD_06.jpg",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ],
+  "day": [
+   {
+    "file": "3-film-can-with-leader.jpg",
+    "title": "16mm countdown (6498612331)",
+    "artist": "DRs Kulturarvsprojekt",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:16mm_countdown_(6498612331).jpg",
+    "changes": "cropped and scaled"
+   },
+   {
+    "file": "4-1910-projector-film-gate.jpg",
+    "title": "Mécanisme de projection 35 mm amateur (1910)",
+    "artist": "User:PODZO DI BORGO",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:M%C3%A9canisme_de_projection_35_mm_amateur_(1910).JPG",
+    "changes": "cropped, scaled and tinted with the theme palette"
+   }
+  ]
+ }
+}

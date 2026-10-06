@@ -1,0 +1,133 @@
+{
+  "anaglyph": {
+    "night": [
+      {
+        "name": "phobos-anaglyph",
+        "file": "File:Phobos in 3-D ESA202291.tiff",
+        "crop": [
+          0.5,
+          0.42
+        ]
+      },
+      {
+        "name": "lin-garden-pond-anaglyph",
+        "file": "File:BanQiao Lin Garden in 3D No 3.jpg",
+        "crop": [
+          0.5,
+          0.55
+        ]
+      }
+    ],
+    "day": [
+      {
+        "name": "tempe-terra-grabens-anaglyph",
+        "file": "File:3D anaglyph view of grabens in Tempe Terra ESA202852.tiff",
+        "crop": [
+          0.5,
+          0.45
+        ]
+      },
+      {
+        "name": "orchid-anaglyph",
+        "file": "File:3D CMS CC-BY (15549814168).jpg"
+      }
+    ]
+  },
+  "cross-process": {
+    "night": [
+      {
+        "name": "lough-foyle-aurora-cross-processed",
+        "file": "File:Aurora 2015 09 09-3 (21094984028).jpg",
+        "crop": [
+          0.5,
+          0.45
+        ]
+      },
+      {
+        "name": "lomo-sunset-sea",
+        "file": "File:Lomo Sunset (9121965870).jpg",
+        "grade": 0.3
+      }
+    ],
+    "day": [
+      {
+        "name": "death-valley-kodachrome-c41",
+        "file": "File:Death Valley (49343995126).jpg",
+        "crop": [
+          0.5,
+          0.42
+        ],
+        "grade": 0.3
+      },
+      {
+        "name": "mint-sky-dome-lomochrome-purple",
+        "file": "File:Parque Ibirapuera São Paulo MINOLTA SRT-101 Lomography Purple 2024-000017430001 16.jpg"
+      }
+    ]
+  },
+  "thermal": {
+    "night": [
+      {
+        "name": "ceres-earth-heat-map",
+        "file": "File:CERES Radiation Fluxes (SVS30604 - ceres lw all average 2000-2015).png"
+      },
+      {
+        "name": "milky-way-center-infrared",
+        "file": "File:Center of the Milky Way Galaxy IV – Composite.jpg",
+        "crop": [
+          0.5,
+          0.5
+        ],
+        "grade": 0
+      }
+    ],
+    "day": [
+      {
+        "name": "irma-viirs-thermal",
+        "file": "File:Irma 2017-09-08 0642Z.jpg",
+        "crop": [
+          0.5,
+          0.45
+        ]
+      },
+      {
+        "name": "debby-infrared-heat-map",
+        "file": "File:Debby 2012-06-25 1835Z IR.jpg",
+        "grade": 0.2
+      }
+    ]
+  },
+  "nitrate": {
+    "night": [
+      {
+        "name": "film-reels-stacked",
+        "file": "File:Kino Tatran.JPG",
+        "grade": 0.6
+      },
+      {
+        "name": "projector-arc-lamp",
+        "file": "File:Regent Hokitika Interior MRD 06.jpg",
+        "crop": [
+          0.5,
+          0.38
+        ],
+        "grade": 0.25
+      }
+    ],
+    "day": [
+      {
+        "name": "film-can-with-leader",
+        "file": "File:16mm countdown (6498612331).jpg",
+        "crop": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "name": "1910-projector-film-gate",
+        "file": "File:Mécanisme de projection 35 mm amateur (1910).JPG",
+        "grade": 0.25
+      }
+    ]
+  }
+}

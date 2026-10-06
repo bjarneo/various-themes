@@ -1,0 +1,132 @@
+{
+ "verdigris": {
+  "night": [
+   { "name": "copper-dome", "file": "File:Copper Dome (48514858807).jpg", "grade": 0 },
+   { "name": "michaelerkuppel-night", "file": "File:Michaelerplatz 9027.jpg", "grade": 0 }
+  ],
+  "day": [
+   { "name": "helsinki-cathedral-dome", "file": "File:Dome - Helsinki Lutheran Cathedral - DSC05574.JPG", "grade": 0 },
+   { "name": "copenhagen-spires", "file": "File:View south east from Rundetårn, Copenhagen 2.jpg", "grade": 0 }
+  ]
+ },
+ "oxide": {
+  "night": [
+   { "name": "rusty-chain", "file": "File:Very rusty chain in rain 4.jpg", "grade": 0 },
+   { "name": "rusty-rebar", "file": "File:Rusty rebar nets.jpg", "grade": 0 }
+  ],
+  "day": [
+   { "name": "rusty-plates", "file": "File:Rusty scrap plates 1.jpg", "grade": 0 },
+   { "name": "weathering-steel-corner", "file": "File:Richard Serra-Skulptur ohne Titel 1978-16-obere Ecke-2010-gje.jpg", "grade": 0.6 }
+  ]
+ },
+ "brass": {
+  "night": [
+   { "name": "orrery-gears", "file": "File:Orrery-MnM 15 NA 13-IMG 6376.JPG", "grade": 0 },
+   { "name": "clock-cogs", "file": "File:Clock Cogs.jpg", "grade": 0 }
+  ],
+  "day": [
+   { "name": "horn-valves", "file": "File:Horn, french (52689892685).jpg", "grade": 0 },
+   { "name": "horn-tubing", "file": "File:Horn, french (52689472151).jpg", "grade": 0 }
+  ]
+ },
+ "gunmetal": {
+  "night": [
+   { "name": "turbine-blades", "file": "File:Munich - Deutsches Museum - 07-0153.jpg", "grade": 0.45 },
+   { "name": "gear-teeth", "file": "File:Duisburg, Landschaftspark Duisburg-Nord, Hochofen 5 -- 2016 -- 1177 (bw).jpg", "grade": 0.3 }
+  ],
+  "day": [
+   { "name": "steel-wire-rope", "file": "File:Stainless steel wire rope.jpg", "grade": 0.35 },
+   { "name": "machined-crankshaft", "file": "File:Crankshaft jap grayscale.jpg", "grade": 0 }
+  ]
+ },
+ "carbon": {
+  "night": [
+   { "name": "carbon-weave", "file": "File:Woven carbon fiber fabric.jpg", "grade": 0 },
+   { "name": "carbon-loom", "file": "File:Carbon fibre weave.jpg", "grade": 0.5 }
+  ],
+  "day": [
+   { "name": "carbon-sheet", "file": "File:Ready to use carbon fiber sheet.jpg", "grade": 0 },
+   { "name": "carbon-tow", "file": "File:Carbon fiber bundle.jpg", "grade": 0.4 }
+  ]
+ },
+ "driftwood": {
+  "night": [
+   { "name": "driftwood-aurora", "file": "File:Lion Rock, driftwood and Aurora Australis.jpg", "grade": 0.3 },
+   { "name": "great-slave-lake-driftwood", "file": "File:Great Slave Lake Sunset over Driftwood.jpg", "grade": 0.3 }
+  ],
+  "day": [
+   { "name": "kaikoura-driftwood", "file": "File:Driftwood on the beach north of Kaikoura, Canterbury, New Zealand 02.jpg", "crop": [0.62, 0.5], "grade": 0 },
+   { "name": "driftwood-grain", "file": "File:Pattern Driftwood Double Bluff Whidbey Mar23 A7R 03958.jpg", "grade": 0 }
+  ]
+ },
+ "lichen": {
+  "night": [
+   { "name": "map-lichen", "file": "File:Map Lichen - Rhizocarpon geographicum (22724651116).jpg", "grade": 0 },
+   { "name": "crustose-lichen-stone", "file": "File:Crustose Lichen 7-13-10 (14328231290).jpg", "grade": 0 }
+  ],
+  "day": [
+   { "name": "lichen-boulder", "file": "File:Lichen, County Down, August 2009.JPG", "grade": 0 },
+   { "name": "sunburst-lichen", "file": "File:Yellow Map Lichen, Single-spored Map Lichen, and Elegant Sunburst Lichen at Huron National Wildlife Refuge (50009656537).jpg", "grade": 0 }
+  ]
+ },
+ "pebble": {
+  "night": [
+   { "name": "rethymno-pebbles", "file": "File:Pebbles in Rethymno's beach.jpg", "grade": 0 },
+   { "name": "inukshuk-moonrise", "file": "File:Vancouver Inukshuk.JPG", "grade": 0 }
+  ],
+  "day": [
+   { "name": "chesil-beach-stones", "file": "File:Chesil Beach stones, Dorset, England.jpg", "grade": 0 },
+   { "name": "stone-cairn", "file": "File:Каменная пирамидка на Айдаркуле.jpg", "grade": 0 }
+  ]
+ },
+ "nacre": {
+  "night": [
+   { "name": "greenlip-abalone", "file": "File:Haliotis laevigata 01.JPG", "grade": 0.3 },
+   { "name": "polished-nautilus", "file": "File:Nautilus shell Natural History Museum University of Pisa C 3302.jpg", "grade": 0.3 }
+  ],
+  "day": [
+   { "name": "abalone-nacre", "file": "File:Abalone shell (13785764994).jpg", "grade": 0 },
+   { "name": "abalone-nacre-layers", "file": "File:Abalone shell (13785447153).jpg", "grade": 0 }
+  ]
+ },
+ "reading-room": {
+  "night": [
+   { "name": "sainte-genevieve-lamps", "file": "File:Paris - bibliothèque Sainte-Geneviève - 2026-09-16 14-03-55 005.jpg", "grade": 0 },
+   { "name": "sainte-genevieve-green-lamp", "file": "File:Paris - bibliothèque Sainte-Geneviève - 2026-09-16 14-03-55 009.jpg", "grade": 0 }
+  ],
+  "day": [
+   { "name": "salle-labrouste", "file": "File:Salle Labrouste BNF INHA.jpg", "grade": 0 },
+   { "name": "sainte-genevieve-hall", "file": "File:Salle de lecture Bibliotheque Sainte-Genevieve n01.jpg", "grade": 0 }
+  ]
+ },
+ "adobe": {
+  "night": [
+   { "name": "abo-pueblo-night", "file": "File:Abo Pueblo ruins in New Mexico.jpg", "grade": 0 },
+   { "name": "pueblo-bonito-walls", "file": "File:PUEBLO BONITO - Chaco Culture National Historical Park , New Mexico, US - panoramio (17).jpg", "grade": 0 }
+  ],
+  "day": [
+   { "name": "taos-pueblo-turquoise-doors", "file": "File:Taos Pueblo, New Mexico.jpg", "grade": 0 },
+   { "name": "taos-pueblo-turquoise-trim", "file": "File:Taos Pueblo (13) (15783703008).jpg", "grade": 0.2 }
+  ]
+ },
+ "brutalist": {
+  "night": [
+   { "name": "barbican-lake-night", "file": "File:Barbican Estate 2023 night 04.jpg", "grade": 0.35 },
+   { "name": "park-hill-dusk", "file": "File:Sunlight on Park Hill 19th January 2020.jpg", "grade": 0.3 }
+  ],
+  "day": [
+   { "name": "habitat-67", "file": "File:Habitat 67 (8126687023).jpg", "grade": 0 },
+   { "name": "barbican-towers", "file": "File:London - Barbican Estate (5).jpg", "grade": 0.3 }
+  ]
+ },
+ "resistor": {
+  "night": [
+   { "name": "banded-resistors", "file": "File:Dirty resistors (6952366994).jpg", "crop": [0.5, 0.4], "grade": 0 },
+   { "name": "power-resistors", "file": "File:Dirty resistors (6952368086).jpg", "grade": 0 }
+  ],
+  "day": [
+   { "name": "precision-resistors-tape", "file": "File:С2-10-1W individually-trimmed precision resistors (Erkon) 02.jpg", "grade": 0 },
+   { "name": "pcb-solder-traces", "file": "File:RS 42471-12 PCB solder side.jpg", "grade": 0 }
+  ]
+ }
+}

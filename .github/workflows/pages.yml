@@ -1,0 +1,49 @@
+# Publishes site/ to GitHub Pages. The workflow copies install.sh and every
+# colors.toml into the site, so the curl install and the Aether links work.
+# The 6K backgrounds and the preview.png files stay out of the checkout,
+# because the site uses the smaller copies in site/assets/.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/*/*/backgrounds/
+            !/*/*/preview.png
+            !/.github/
+      - name: Copy install.sh and the palettes into the site
+        run: |
+          cp install.sh site/
+          for f in */night/colors.toml */day/colors.toml; do
+            mkdir -p "site/${f%/*}"
+            cp "$f" "site/$f"
+          done
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

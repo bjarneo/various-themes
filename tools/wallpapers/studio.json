@@ -1,0 +1,284 @@
+{
+ "sepia": {
+  "night": [
+   {
+    "name": "le-gray-ship-and-tugboat",
+    "file": "File:Gustave Le Gray (French - Seascape with Sailing Ship and Tugboat - Google Art Project.jpg",
+    "crop": [
+     0.5,
+     0.6
+    ],
+    "grade": 0.4
+   },
+   {
+    "name": "chauvassaignes-dark-hills",
+    "file": "File:Frank Chauvassaignes - Dark Landscape with Hills - 1999.196 - Cleveland Museum of Art.tif",
+    "grade": 0.3,
+    "crop": [
+     0.5,
+     0.56
+    ]
+   }
+  ],
+  "day": [
+   {
+    "name": "muybridge-lone-tree",
+    "file": "File:Eadweard J. Muybridge - Untitled (Landscape near Watsonville, California) - 1994.187 - Cleveland Museum of Art.tif",
+    "grade": 0.5
+   },
+   {
+    "name": "aswan-nile-ruin",
+    "file": "File:Aswan, Landscape, Pictures, 1870-1888, photo 5 of 9 - Archivio fotografico Museo Egizio, Turin INV33 010.jpg",
+    "crop": [
+     0.5,
+     0.42
+    ],
+    "grade": 0.2
+   }
+  ]
+ },
+ "blueprint": {
+  "night": [
+   {
+    "name": "carnegie-library-blueprint",
+    "file": "File:West Elevation, Saint Anthony Park Branch Library Blueprints, St. Paul, Minnesota - DPLA - 6ab78ecd0854043ccb79fdc5f2800430 (cropped).jpg",
+    "grade": 0.4
+   },
+   {
+    "name": "ss-virgo-blueprint",
+    "file": "File:Ritning av ångaren SS Virgo - Andréexpeditionen.tif",
+    "grade": 0.4
+   }
+  ],
+  "day": [
+   {
+    "name": "bosse-mississippi-bluff",
+    "file": "File:Henry-Peter-Bosse-Cyanotype-Mississippi-03.jpg",
+    "crop": [
+     0.5,
+     0.45
+    ],
+    "grade": 0.3
+   },
+   {
+    "name": "bosse-mississippi-vista",
+    "file": "File:Henry-Peter-Bosse-Cyanotype-Mississippi-06.jpg",
+    "crop": [
+     0.5,
+     0.45
+    ],
+    "grade": 0.3
+   }
+  ]
+ },
+ "herbarium": {
+  "night": [
+   {
+    "name": "melica-nutans-specimen",
+    "file": "File:Melica nutans MHNT.BOT.2011.18.4.jpg",
+    "crop": [
+     0.5,
+     0.46
+    ],
+    "grade": 0.2
+   },
+   {
+    "name": "aegilops-specimen",
+    "file": "File:Aegilops geniculata MHNT.BOT.2011.18.8.jpg",
+    "grade": 0.2
+   }
+  ],
+  "day": [
+   {
+    "name": "aust-agder-herbarium-1906",
+    "file": "File:Herbarium fra Aust-Agder, 1906.jpg",
+    "grade": 0
+   },
+   {
+    "name": "herbarium-sheets-in-a-row",
+    "file": "File:Rubber clone specimens.jpg",
+    "grade": 0.15
+   }
+  ]
+ },
+ "antique-map": {
+  "night": [
+   {
+    "name": "coronelli-globes",
+    "file": "File:Globes de Coronelli (terrestre et celeste).jpg",
+    "crop": [
+     0.5,
+     0.42
+    ],
+    "grade": 0
+   },
+   {
+    "name": "vienna-celestial-globe",
+    "file": "File:Vienna - Celestial globe - 6777.jpg",
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "maggiolo-portolan-1563",
+    "file": "File:Giacomo Maggiolo 1563 Portolan chart (Central Europe) 20260724 110532.jpg",
+    "grade": 0
+   },
+   {
+    "name": "carta-marina-1539",
+    "file": "File:Carta Marina.jpeg",
+    "grade": 0
+   }
+  ]
+ },
+ "sumi": {
+  "night": [
+   {
+    "name": "shohaku-dragon-and-clouds",
+    "file": "File:Dragon and Clouds by Soga Shohaku, 1763, set of eight panels, ink on paper DSC02757.JPG",
+    "grade": 0.5
+   },
+   {
+    "name": "qu-ding-summer-mountains",
+    "file": "File:北宋 傳屈鼎 夏山圖 卷-Summer Mountains MET DP151484.jpg",
+    "grade": 0.5
+   }
+  ],
+  "day": [
+   {
+    "name": "jeong-seon-inwang-after-rain",
+    "file": "File:Inwangjesaekdo.jpg",
+    "grade": 0
+   },
+   {
+    "name": "kuncan-spring-landscape",
+    "file": "File:Kuncan - Spring Landscape - 1966.367 - Cleveland Museum of Art.tif",
+    "grade": 0.3
+   }
+  ]
+ },
+ "newsprint": {
+  "night": [
+   {
+    "name": "linotype-keyboard",
+    "file": "File:Linotype typesetting machine (32658353528).jpg",
+    "grade": 0.3
+   },
+   {
+    "name": "linotype-deutsches-museum",
+    "file": "File:Munich - Deutsches Museum - 07-0541.jpg",
+    "grade": 0.3
+   }
+  ],
+  "day": [
+   {
+    "name": "old-orchard-beach-1923-halftone",
+    "file": "File:Aerial photograph of Old Orchard Beach, Maine in 1923.jpg",
+    "crop": [
+     0.5,
+     0.46
+    ],
+    "grade": 0.15
+   },
+   {
+    "name": "bound-newspapers-panjim",
+    "file": "File:Old newspapers at the Central Library, Panjim, Goa.jpg",
+    "crop": [
+     0.5,
+     0.62
+    ],
+    "grade": 0.15
+   }
+  ]
+ },
+ "chalkboard": {
+  "night": [
+   {
+    "name": "chalk-equations-bokeh",
+    "file": "File:Superbokehtheorie.jpg",
+    "grade": 0
+   },
+   {
+    "name": "spring-blackboard",
+    "file": "File:黒板 4月 (5595045738).jpg",
+    "grade": 0
+   }
+  ],
+  "day": [
+   {
+    "name": "pastel-chalk",
+    "file": "File:Pastel Chalk (46887606994).jpg",
+    "grade": 0.15
+   },
+   {
+    "name": "school-chalk-tray",
+    "file": "File:School Chalk Tray.jpg",
+    "grade": 0
+   }
+  ]
+ },
+ "viridian": {
+  "night": [
+   {
+    "name": "kuindzhi-moonlit-dnieper",
+    "file": "File:0857Ha. Куинджи А.И. Лунная ночь на Днепре.jpg",
+    "crop": [
+     0.5,
+     0.49
+    ],
+    "grade": 0.25
+   },
+   {
+    "name": "polished-malachite",
+    "file": "File:Malachite polie (République démocratique du Congo).JPG",
+    "grade": 0.45
+   }
+  ],
+  "day": [
+   {
+    "name": "monet-waterlilies-blue-green",
+    "file": "File:Claude Monet - Waterlilies - Google Art Project.jpg",
+    "crop": [
+     0.5,
+     0.3
+    ],
+    "grade": 0.2
+   },
+   {
+    "name": "monet-nympheas-lily-pads",
+    "file": "File:Nympheas 71293 3.jpg",
+    "crop": [
+     0.45,
+     0.35
+    ],
+    "grade": 0.2
+   }
+  ]
+ },
+ "petrol": {
+  "night": [
+   {
+    "name": "whistler-lagoon-venice",
+    "file": "File:James Abbott McNeill Whistler - Nocturne in Blue and Silver- The Lagoon, Venice - Google Art Project.jpg",
+    "grade": 0.3
+   },
+   {
+    "name": "dusk-on-gjende",
+    "file": "File:Dusk on Gjende, Norway - Flickr - Gael Varoquaux.jpg",
+    "grade": 0.35
+   }
+  ],
+  "day": [
+   {
+    "name": "marbled-endpaper-stone",
+    "file": "File:Galileo-6.jpg",
+    "grade": 0.6
+   },
+   {
+    "name": "condensation-on-glass",
+    "file": "File:Texture325-26 (5559430529).jpg",
+    "grade": 0.3
+   }
+  ]
+ }
+}

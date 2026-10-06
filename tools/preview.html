@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Desktop preview</title>
+<!--
+  Draws an Omarchy desktop with the colors of 1 theme variant: the bar, the
+  wordmark background, and 3 terminal windows like workspace 8 of the real
+  captures: Neovim on the left, a system monitor and a music player on the
+  right. tools/preview.mjs calls paint() and takes a screenshot.
+-->
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1440px; height: 900px; overflow: hidden; }
+  body { font: 12.5px/1.45 "JetBrainsMono Nerd Font", "JetBrains Mono", monospace; color: var(--fg); background: var(--bg) center / cover no-repeat; }
+  .bar { position: absolute; inset: 0 0 auto; height: 26px; display: flex; align-items: center; gap: 14px; padding: 0 12px; background: var(--bg); color: var(--fg); font-size: 12px; }
+  .bar .ws { display: flex; gap: 10px; }
+  .bar .ws span { color: var(--dim); }
+  .bar .ws .on { color: var(--accent); }
+  .bar .mid { margin: 0 auto; }
+  .bar .right { display: flex; gap: 14px; color: var(--fg); }
+  .win { position: absolute; background: var(--bg); border: 2px solid var(--inactive); border-radius: 0; overflow: hidden; }
+  .win.active { border-image: var(--active) 1; }
+  pre { margin: 0; font: inherit; white-space: pre; }
+  .nvim { left: 10px; top: 36px; width: 704px; height: 854px; display: flex; flex-direction: column; }
+  .nvim .buf { flex: 1; padding: 6px 0; }
+  .ln { display: flex; }
+  .ln .n { width: 44px; text-align: right; padding-right: 12px; color: var(--muted); }
+  .ln.cur { background: var(--lighter); }
+  .ln.cur .n { color: var(--orange); }
+  .status { display: flex; gap: 10px; padding: 2px 0; background: var(--dark); color: var(--dfg); }
+  .status .mode { background: var(--accent); color: var(--bg); padding: 0 8px; font-weight: 700; }
+  .status .fill { flex: 1; }
+  .cmd { padding: 2px 8px; color: var(--dfg); }
+  .top { left: 724px; top: 36px; width: 706px; height: 422px; padding: 8px 12px; }
+  .player { left: 724px; top: 468px; width: 706px; height: 422px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+  .box { border: 1px solid var(--muted); padding: 6px 10px; position: relative; }
+  .box .title { position: absolute; top: -9px; left: 10px; background: var(--bg); padding: 0 4px; color: var(--accent); }
+  .graph { display: flex; align-items: flex-end; gap: 2px; height: 86px; }
+  .graph i { flex: 1; display: block; }
+  .meter { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
+  .meter b { width: 58px; font-weight: 400; color: var(--dfg); }
+  .meter span { flex: 1; height: 8px; background: var(--selection); position: relative; }
+  .meter span i { position: absolute; inset: 0 auto 0 0; display: block; }
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 0 6px 0 0; white-space: nowrap; }
+  .viz { flex: 1; display: flex; align-items: flex-end; gap: 3px; }
+  .viz i { flex: 1; display: block; }
+  .prog { height: 6px; background: var(--selection); position: relative; }
+  .prog i { position: absolute; inset: 0 auto 0 0; width: 38%; background: var(--accent); display: block; }
+</style>
+</head>
+<body>
+<div class="bar"><div class="ws"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span class="on">8</span></div><div class="mid" id="clock"></div><div class="right"><span>󰂯</span><span>󰖩</span><span>󰕾</span><span>󰁹 86%</span></div></div>
+<div class="win nvim active" id="nvim"></div>
+<div class="win top" id="top"></div>
+<div class="win player" id="player"></div>
+<script>
+const esc = s => String(s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+function rng(seed) { return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+// A small highlighter for the theme file that Neovim shows.
+const KEYWORDS = new Set(['import', 'from', 'export', 'const', 'function', 'return', 'if', 'for', 'of', 'new', 'type', 'await', 'async']);
+function highlight(line) {
+  const re = /(\/\/.*$)|('[^']*')|(\b\d+(?:\.\d+)?\b)|([A-Za-z_$][\w$]*)|(\s+)|(.)/g;
+  let m, out = '';
+  while ((m = re.exec(line))) {
+    const [tok, com, str, num, id] = m;
+    if (com) out += `<span style="color:var(--muted);font-style:italic">${esc(tok)}</span>`;
+    else if (str) out += `<span style="color:var(--green)">${esc(tok)}</span>`;
+    else if (num) out += `<span style="color:var(--orange)">${tok}</span>`;
+    else if (id && KEYWORDS.has(tok)) out += `<span style="color:var(--magenta)">${tok}</span>`;
+    else if (id && /^[A-Z]/.test(tok)) out += `<span style="color:var(--yellow)">${tok}</span>`;
+    else if (id && line.slice(re.lastIndex).startsWith('(')) out += `<span style="color:var(--blue)">${tok}</span>`;
+    else if (id) out += `<span style="color:var(--fg)">${tok}</span>`;
+    else out += `<span style="color:var(--cyan)">${esc(tok)}</span>`;
+  }
+  return out;
+}
+
+function code(t) {
+  const c = t.colors;
+  return [
+    `// ${t.name}: ${t.patternLabel.toLowerCase()}`,
+    `import { contrast } from './palettes.mjs'`,
+    '',
+    `export const ${t.theme.replace(/-(.)/g, (_, x) => x.toUpperCase())} = {`,
+    `  background: '${c.background}',`,
+    `  foreground: '${c.foreground}',`,
+    `  accent: '${c.accent}',`,
+    `  red: '${c.red}',`,
+    `  green: '${c.green}',`,
+    `  yellow: '${c.yellow}',`,
+    `  blue: '${c.blue}',`,
+    `  magenta: '${c.magenta}',`,
+    `  cyan: '${c.cyan}',`,
+    '}',
+    '',
+    '// Each normal color reaches 4.5:1 against the background.',
+    `export function check(theme: Palette): boolean {`,
+    `  for (const key of SLOTS) {`,
+    `    if (contrast(theme[key], theme.background) < 4.5) return false`,
+    '  }',
+    `  return true`,
+    '}',
+    '',
+    `export async function apply(name: string) {`,
+    `  await run('omarchy', ['theme', 'set', name])`,
+    '}',
+  ];
+}
+
+function paint(t, wallpaper) {
+  const c = t.colors, r = rng(t.index * 97 + (t.variant === 'day' ? 1 : 0));
+  const vars = {
+    '--bg': c.background, '--fg': c.foreground, '--dim': c.dark_foreground, '--dfg': c.dark_foreground, '--muted': c.muted,
+    '--accent': c.accent, '--lighter': c.lighter_background, '--dark': c.dark_background, '--selection': c.selection,
+    '--red': c.red, '--green': c.green, '--yellow': c.yellow, '--blue': c.blue, '--magenta': c.magenta, '--cyan': c.cyan, '--orange': c.orange,
+    '--active': `linear-gradient(45deg, ${t.border[0]}, ${t.border[1]})`, '--inactive': c.muted + 'aa',
+  };
+  Object.entries(vars).forEach(([k, v]) => document.documentElement.style.setProperty(k, v));
+  document.body.style.backgroundImage = wallpaper ? `url("${wallpaper}")` : 'none';
+  document.getElementById('clock').textContent = 'Tuesday 09:41';
+
+  const lines = code(t), cur = 9;
+  const body = lines.map((l, i) => `<div class="ln${i === cur ? ' cur' : ''}"><span class="n">${i === cur ? i + 1 : Math.abs(i - cur)}</span><pre>${highlight(l)}</pre></div>`).join('');
+  const filler = Array.from({ length: 52 - lines.length }, () => '<div class="ln"><span class="n" style="color:var(--lighter)">~</span></div>').join('');
+  document.getElementById('nvim').innerHTML = `<div class="buf">${body}${filler}</div><div class="status"><span class="mode">NORMAL</span><span> main</span><span>themes/${t.theme}.ts</span><span class="fill"></span><span>typescript</span><span>${cur + 1}:3</span></div><div class="cmd">"themes/${t.theme}.ts" ${lines.length}L written</div>`;
+
+  const cpu = Array.from({ length: 72 }, (_, i) => .2 + .5 * Math.abs(Math.sin(i / 7 + r() * .6)) + r() * .25);
+  const col = v => (v > .72 ? c.magenta : v > .5 ? c.blue : c.cyan);
+  const procs = [['nvim', 4.1], ['ghostty', 2.6], ['hyprland', 1.9], ['cliamp', 1.2], ['pixeltop', .8], ['chromium', .6]];
+  document.getElementById('top').innerHTML = `
+    <div class="box"><span class="title">cpu</span><div class="graph">${cpu.map(v => `<i style="height:${Math.min(100, v * 100)}%;background:${col(v)}"></i>`).join('')}</div></div>
+    <div class="box" style="margin-top:14px"><span class="title">mem</span>
+      ${[['used', .46, c.green], ['cache', .28, c.yellow], ['swap', .08, c.red]].map(([n, v, k]) => `<div class="meter"><b>${n}</b><span><i style="width:${v * 100}%;background:${k}"></i></span><em style="font-style:normal">${Math.round(v * 100)}%</em></div>`).join('')}</div>
+    <div class="box" style="margin-top:14px"><span class="title">proc</span><table>${procs.map(([n, v], i) => `<tr><td style="color:${i === 0 ? c.accent : c.foreground}">${n}</td><td style="color:var(--dfg)">${1200 + i * 317}</td><td style="text-align:right;color:${v > 2 ? c.yellow : c.foreground}">${v.toFixed(1)}%</td></tr>`).join('')}</table></div>`;
+
+  const bars = Array.from({ length: 48 }, (_, i) => .15 + .8 * Math.abs(Math.sin(i / 5 + r())) * (1 - i / 70));
+  const vcol = v => (v > .7 ? c.magenta : v > .45 ? c.accent : c.cyan);
+  document.getElementById('player').innerHTML = `
+    <div><span style="color:var(--accent)">▶</span> ${esc(t.base)} sessions <span style="color:var(--dfg)">· side A</span></div>
+    <div style="color:var(--dfg)">03:12 / 08:24 · 44.1 kHz · flac</div>
+    <div class="prog"><i></i></div>
+    <div class="viz">${bars.map(v => `<i style="height:${v * 100}%;background:${vcol(v)}"></i>`).join('')}</div>
+    <div style="color:var(--dfg)">[space] pause  [n] next  [/] search</div>`;
+}
+</script>
+</body>
+</html>

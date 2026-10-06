@@ -1,0 +1,132 @@
+{
+ "seaglass": {
+  "night": [
+   {"name": "glass-beach-rocks", "file": "File:Glass Beach - 36767310643.jpg", "crop": [0.5, 0.55], "grade": 0.3},
+   {"name": "fort-bragg-amber-glass", "file": "File:Sea glass at Glass Beach in Fort Bragg 2.jpg", "crop": [0.5, 0.85], "grade": 0.3}
+  ],
+  "day": [
+   {"name": "glass-bay-aqua-glass", "file": "File:Кусочки битого стекла в бухте Стеклянная во Владивостоке.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "glass-bay-surf", "file": "File:Бухте Стеклянная во Владивостоке усыпана кусочками битого стекла.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ]
+ },
+ "seafoam": {
+  "night": [
+   {"name": "crashing-waves-aerial", "file": "File:Crashing waves (Unsplash).jpg", "crop": [0.5, 0.5], "grade": 0.4},
+   {"name": "oahu-surf-aerial", "file": "File:Hawaii helicopter view of ocean Oahu.jpg", "crop": [0.5, 0.5], "grade": 0.5}
+  ],
+  "day": [
+   {"name": "palm-coast-surf-aerial", "file": "File:Ocean waves drone view of Palm Coast beach.jpg", "crop": [0.5, 0.5], "grade": 0.5},
+   {"name": "sea-foam-rock", "file": "File:Sea foam around a rock (Unsplash).jpg", "crop": [0.5, 0.5], "grade": 0.5}
+  ]
+ },
+ "regatta": {
+  "night": [
+   {"name": "sailboat-sunset-storm", "file": "File:Sailboat on water at sunset.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "sloop-orange-dusk", "file": "File:Ship at sunset.jpg", "crop": [0.5, 0.55], "grade": 0}
+  ],
+  "day": [
+   {"name": "cowes-week-fleet", "file": "File:Cowes Week 2017 - geograph.org.uk - 5487433.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "cowes-week-start", "file": "File:Cowes Week 2018 - geograph.org.uk - 5867927.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ]
+ },
+ "poolside": {
+  "night": [
+   {"name": "livingstone-pool-night", "file": "File:Swimming pool Livingstone by night - panoramio.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "pool-glow-palms-night", "file": "File:Swimming pool at night (37833944571).jpg", "crop": [0.5, 0.0], "grade": 0}
+  ],
+  "day": [
+   {"name": "twin-palms-pool", "file": "File:Frank Sinatra's Twin Palms Estate, a spectacular example of mid-century architecture in the heart of Palm Springs, California LCCN2013635061.tif", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "pool-palm-reflections", "file": "File:Swimming Pool in a hotel in Tamil Nadu 03.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ]
+ },
+ "koi-pond": {
+  "night": [
+   {"name": "koi-tuntorp-red", "file": "File:Koi in a garden pond in Tuntorp 5.jpg", "crop": [0.5, 0.45], "grade": 0},
+   {"name": "koi-dark-pond-hong-kong", "file": "File:Koi in a fish pond in Hong Kong (Feb. 2016).jpg", "crop": [0.5, 0.5], "grade": 0.15}
+  ],
+  "day": [
+   {"name": "koi-almaty-green-pond", "file": "File:Алматы, ботсад, карпы кои в пруду (1).jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "koi-pale-pond", "file": "File:Koi in a fish pond-1.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ]
+ },
+ "kelp": {
+  "night": [
+   {"name": "kelp-forest-beagle-channel", "file": "File:Macrocystis pyrifera Canal Beagle.jpg", "crop": [0.5, 0.75], "grade": 0.25},
+   {"name": "kelp-bed-ouessant", "file": "File:Paysage de laminaires à Ouessant (Ifremer 00565-67735 - 24712).jpg", "crop": [0.5, 0.5], "grade": 0}
+  ],
+  "day": [
+   {"name": "kelp-bed-molene", "file": "File:Paysage de laminaires à Molène (Ifremer 00753-86498 - 44332).jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "kelp-canopy-glacier-bay", "file": "File:Kelp forest aerial survey view Glacier Bay National Park-Alaska-RM-009 (52503070553).jpg", "crop": [0.5, 0.65], "grade": 0}
+  ]
+ },
+ "mariana": {
+  "night": [
+   {"name": "glowing-moon-jellies", "file": "File:Pilatph8.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "chrysaora-dark-water", "file": "File:Meduse-Chrysaora hysoscella-Nausicaa-07-2024-Luc-Viatour.jpg", "crop": [0.5, 0.5], "grade": 0.2}
+  ],
+  "day": [
+   {"name": "moon-jellies-pale-blue", "file": "File:Aurelia aurita 03.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "barrel-jellyfish-sunlit", "file": "File:Fatamorgana - Rhizostoma Pulmo.JPG", "crop": [0.5, 0.45], "grade": 0}
+  ]
+ },
+ "harbor": {
+  "night": [
+   {"name": "stykkisholmur-harbour-night", "file": "File:Stykkisholmur Harbour at night (21907475888).jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "hjalteyri-boats-night", "file": "File:Hafen Hjalteyri - panoramio.jpg", "crop": [0.5, 0.55], "grade": 0}
+  ],
+  "day": [
+   {"name": "koyilandy-harbour-boats", "file": "File:Koyilandy harbour 03736.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "yvoire-harbour-sailboats", "file": "File:Sailing boats moored in the harbour, Yvoire, Haute-Savoie.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ]
+ },
+ "flamingo": {
+  "night": [
+   {"name": "flamingos-sunset-lagoon", "file": "File:Doha beach with flamingos at sunset in Kuwait 01.jpg", "crop": [0.5, 0.7], "grade": 0.4},
+   {"name": "flamingo-head-dark", "file": "File:American Flamingo Head Profile Close-Up - Looking Right 4.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ],
+  "day": [
+   {"name": "flamingos-djerba-lagoon", "file": "File:Un groupe de flamants roses à Guellala - Djerba.jpg", "crop": [0.5, 0.6], "grade": 0},
+   {"name": "flamingos-pink-bay", "file": "File:Greater flamingos at sunset in Kuwait Bay.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ]
+ },
+ "peacock": {
+  "night": [
+   {"name": "peacock-feather-eye", "file": "File:Beautiful peacock feathers.jpg", "crop": [0.5, 0.45], "grade": 0},
+   {"name": "peacock-feather-barbs", "file": "File:Перо павлина.jpg", "crop": [0.5, 0.5], "grade": 0.15}
+  ],
+  "day": [
+   {"name": "peacock-feathers-white", "file": "File:Peacock Feather02.JPG", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "peacock-train-eyes", "file": "File:Wall of Peacock Feathers - Flickr - Eric Kilby.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ]
+ },
+ "kingfisher": {
+  "night": [
+   {"name": "kingfisher-diving-splash", "file": "File:Létající drahokam.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "kingfisher-river-rock", "file": "File:Ledňáček říční (Alcedo atthis), říčka Rokytka v Praze 05.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ],
+  "day": [
+   {"name": "kingfisher-blue-water", "file": "File:Common Kingfisher 2025 09 12.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "kingfisher-flight-reflection", "file": "File:Common Kingfisher in flight with a catch.jpg", "crop": [0.5, 0.5], "grade": 0.2}
+  ]
+ },
+ "jewel-beetle": {
+  "night": [
+   {"name": "chrysodema-wings-open", "file": "File:Chrysodema dalmanni.jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "emerald-ash-borer-macro", "file": "File:Emerald ash borer, side, md 2016-03-03-17.18.jpg", "crop": [0.5, 0.5], "grade": 0.25}
+  ],
+  "day": [
+   {"name": "tamamushi-beetle", "file": "File:Chrysochroa fulgidissima (48723501341).jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "teal-jewel-beetle-flowers", "file": "File:Jewel Beetle (6368395285).jpg", "crop": [0.5, 0.5], "grade": 0}
+  ]
+ },
+ "pastel-goth": {
+  "night": [
+   {"name": "rosy-maple-moth-verbena", "file": "File:- 7715 – Dryocampa rubicunda – Rosy Maple Moth (46880929995).jpg", "crop": [0.5, 0.5], "grade": 0},
+   {"name": "lilac-dawn-crescent", "file": "File:Crescent moon at dawn over Kolukkumalai Peak, Kerala.jpg", "crop": [0.5, 0.5], "grade": 0}
+  ],
+  "day": [
+   {"name": "belt-of-venus-sea", "file": "File:Venus belt minus 5.jpg", "crop": [0.5, 0.4], "grade": 0},
+   {"name": "luna-moth-white", "file": "File:Actias luna UMFS 2.jpg", "crop": [0.5, 0.4], "grade": 0}
+  ]
+ }
+}

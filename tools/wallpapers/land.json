@@ -1,0 +1,132 @@
+{
+  "mangrove": {
+    "night": [
+      {"name": "mangrove-roots-dark-water", "file": "File:Mangrove Roots 1.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "mangrove-roots-detail", "file": "File:Detail of mangrove roots.jpg", "crop": [0.5, 0.55], "grade": 0}
+    ],
+    "day": [
+      {"name": "mangrove-islet", "file": "File:Mangrove Islet.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "mangrove-ashtamudi-mist", "file": "File:Mangrove Reflection Wide Ashtamudi Kollam Kerala Mar22 A7C 01464.jpg", "crop": [0.5, 0.5], "grade": 0}
+    ]
+  },
+  "kyoto-moss": {
+    "night": [
+      {"name": "saihoji-moss-shadows", "file": "File:Saihoji Temple moss gardens, Kyoto (6289621641).jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "sanzen-in-moss-lantern", "file": "File:200828 Sanzen-in Kyoto Japan01s3.jpg", "crop": [0.5, 0.55], "grade": 0}
+    ],
+    "day": [
+      {"name": "gioji-moss-mounds", "file": "File:Giō-ji - Kyoto - DSC06276.JPG", "crop": [0.5, 0.6], "grade": 0},
+      {"name": "gioji-moss-garden", "file": "File:Giō-ji - Kyoto - DSC06265.JPG", "crop": [0.5, 0.55], "grade": 0}
+    ]
+  },
+  "spruce": {
+    "night": [
+      {"name": "pokljuka-spruce-milky-way", "file": "File:Winter night at Pokljuka forest in Slovenia.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "riisitunturi-spruce-twilight", "file": "File:Riisitunturi, Finland - 49786050856.jpg", "crop": [0.5, 0.45], "grade": 0}
+    ],
+    "day": [
+      {"name": "denali-first-snow-spruce", "file": "File:Scene from the first snow, near mile 8 of the Denali Park Road, on Tuesday, October 10, 2017. (c0f93981-ce54-46b2-9ed1-b8d44b6778ee).JPG", "crop": [0.5, 0.55], "grade": 0},
+      {"name": "banff-frosty-spruce", "file": "File:Banff park at frosty day (52718917178).jpg", "crop": [0.5, 0.5], "grade": 0}
+    ]
+  },
+  "fjord": {
+    "night": [
+      {"name": "lofoten-aurora-fjord", "file": "File:Lofoten, Norway (Unsplash).jpg", "crop": [0.5, 0.55], "grade": 0},
+      {"name": "lauklines-aurora-fjord", "file": "File:Northern Lights at Lauklines Norway.jpg", "crop": [0.5, 0.6], "grade": 0}
+    ],
+    "day": [
+      {"name": "austnesfjorden-cirrus", "file": "File:Cirrus front over Austnesfjorden, Austvågøya, Lofoten, Norway, 2015 April.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "raftsundet-winter-peaks", "file": "File:Raftsund Berge.jpg", "crop": [0.5, 0.55], "grade": 0}
+    ]
+  },
+  "infrared": {
+    "night": [
+      {"name": "infrared-park-pond", "file": "File:Just another day at the park (9593736082).jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "infrared-pink-forest-bridge", "file": "File:Meadowside Nature Center in Infrared (52356364638).jpg", "crop": [0.5, 0.45], "grade": 0}
+    ],
+    "day": [
+      {"name": "infrared-pink-treeline", "file": "File:Landschaft Ladeburger Schäferpfühle in Infrarot - Ansicht von Norden.png", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "infrared-pagny-pond", "file": "File:Pagny-le-Château 2011 08 20 08 IR.jpg", "crop": [0.5, 0.45], "grade": 0}
+    ]
+  },
+  "meadow": {
+    "night": [
+      {"name": "meadow-fireflies-field", "file": "File:Field-of-fireflies-wilkes-ecology-preserve-photo-by-tyler-savitski.jpg", "crop": [0.5, 0.55], "grade": 0},
+      {"name": "meadow-lupines-fireflies", "file": "File:Lupines and Fireflies No. 4 (14505155544).jpg", "crop": [0.5, 0.5], "grade": 0}
+    ],
+    "day": [
+      {"name": "smoky-mountains-meadow", "file": "File:Meadow in the Smoky Mountains (41923p).jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "steinalm-flower-meadow", "file": "File:Blumenwiese bei der Steinalm.jpg", "crop": [0.5, 0.4], "grade": 0}
+    ]
+  },
+  "peat": {
+    "night": [
+      {"name": "luhasoo-bog-milky-way", "file": "File:In the photo there is one Perseid, Milky Way and Andromega galaxy and light pollution on the horizon - Luhasoo bog in Estonia.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "kemeri-bog-pool-dawn", "file": "File:Morning in Kemeri.jpg", "crop": [0.5, 0.5], "grade": 0}
+    ],
+    "day": [
+      {"name": "kakerdaja-bog-fog", "file": "File:Hommikune udu Kakerdaja rabas.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "mannikjarve-bog-pools", "file": "File:Männikjärve raba tornist.jpg", "crop": [0.5, 0.55], "grade": 0}
+    ]
+  },
+  "olive-grove": {
+    "night": [
+      {"name": "moneglia-olive-grove-sunset", "file": "File:Sunset at olive grove (Moneglia, IT) (15274111609).jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "ripe-olives-branch", "file": "File:Olive grove Kamou ac (2).jpg", "crop": [0.5, 0.5], "grade": 0}
+    ],
+    "day": [
+      {"name": "spello-olive-hillside", "file": "File:Olive Groves Fields Spello Umbria Sep23 A7C 07785.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "van-gogh-olive-trees-yellow-sky", "file": "File:Vincent van Gogh Olive Trees MIA 517.jpg", "crop": [0.5, 0.37], "grade": 0}
+    ]
+  },
+  "moorland": {
+    "night": [
+      {"name": "highland-heather-dusk", "file": "File:Highland Heather - Flickr - ABel-Photo.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "dartmoor-dewstone-sunset", "file": "File:Dewstone Sunset Landscape (30415175045).jpg", "crop": [0.5, 0.45], "grade": 0}
+    ],
+    "day": [
+      {"name": "north-york-moors-heather", "file": "File:The sea of purple in North York Moors 03.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "westruper-heide-mist", "file": "File:Haltern am See, Westruper Heide -- 2021 -- 4752.jpg", "crop": [0.5, 0.55], "grade": 0}
+    ]
+  },
+  "overcast": {
+    "night": [
+      {"name": "sun-break-over-dark-sea", "file": "File:Sun breaking through clouds over ocean.jpg", "crop": [0.5, 0.45], "grade": 0},
+      {"name": "dark-clouds-pale-sun", "file": "File:Iridescent clouds during snowfall 1.jpg", "crop": [0.5, 0.4], "grade": 0}
+    ],
+    "day": [
+      {"name": "lake-hawea-sun-rays", "file": "File:Sun over Lake Hawea, New Zealand.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "grey-sky-sun-rays-sea", "file": "File:Sun Rays Clouds Beach Uthandi Chennai Aug22 D72 24916.jpg", "crop": [0.5, 0.42], "grade": 0}
+    ]
+  },
+  "planetarium": {
+    "night": [
+      {"name": "southern-sky-milky-way-arch", "file": "File:360-degree Panorama of the Southern Sky.jpg", "crop": [0.73, 0.5], "grade": 0},
+      {"name": "pedra-azul-milky-way", "file": "File:Pedra Azul Milky Way.jpg", "crop": [0.5, 0.45], "grade": 0}
+    ],
+    "day": [
+      {"name": "eise-eisinga-orrery-ceiling", "file": "File:Planetarium Eise Eisinga in Franeker.jpg", "crop": [0.5, 0.42], "grade": 0},
+      {"name": "hemisferic-planetarium-valencia", "file": "File:El Hemisférico, Ciudad de las Artes y las Ciencias, Valencia, España, 2014-06-29, DD 37.JPG", "crop": [0.5, 0.5], "grade": 0}
+    ]
+  },
+  "ice-cave": {
+    "night": [
+      {"name": "blue-ice-cave-stream", "file": "File:Blue Ice Cave - Flickr - Eric Kilby.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "glacier-ice-cave-opening", "file": "File:Natural glacier ice cave (16281963418).jpg", "crop": [0.5, 0.45], "grade": 0}
+    ],
+    "day": [
+      {"name": "blackcomb-glacier-ice-arch", "file": "File:Ice cave inside glacier Whistler Blackcomb.jpg", "crop": [0.5, 0.5], "grade": 0},
+      {"name": "bogdanovich-glacier-ice-cave", "file": "File:Ледовая стена пещеры Октябрьская ледника Богдановича (3).jpg", "crop": [0.5, 0.45], "grade": 0}
+    ]
+  },
+  "forge": {
+    "night": [
+      {"name": "forge-glowing-coals", "file": "File:Schmiedefeuer, Hammerschmiede, Mühlehorn.jpg", "crop": [0.5, 0.45], "grade": 0},
+      {"name": "forge-fire-flames", "file": "File:Making a pan 03.jpg", "crop": [0.5, 0.6], "grade": 0}
+    ],
+    "day": [
+      {"name": "smithy-anvil-hearth", "file": "File:Schönberg am Kamp Museum Alte Schmiede Schauschmiede-0004.jpg", "crop": [0.5, 0.55], "grade": 0},
+      {"name": "smithy-tongs-on-wall", "file": "File:Münster, Freilichtmuseum Mühlenhof, Schmiede -- 2018 -- 2164.jpg", "crop": [0.5, 0.5], "grade": 0}
+    ]
+  }
+}

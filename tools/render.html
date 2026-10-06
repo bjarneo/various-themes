@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Background renderer</title>
+<!--
+  Draws the 3 backgrounds of a theme variant on a canvas. tools/render.mjs
+  opens this page in headless Chromium and calls renderImage().
+
+    wordmark  0-omarchy-wordmark.jpg   the Omarchy wordmark in the theme colors
+    scene     1-<scene>.jpg            a picture of the theme subject
+    card      2-palette-card.jpg       the slots, ramps and contrast of the variant
+
+  Open this file in a browser and call preview('kyoto-moss', 'night', 'card')
+  in the console to look at one background.
+-->
+<style>
+  html, body { margin: 0; background: #111; }
+  canvas { display: block; max-width: 100%; height: auto; }
+</style>
+<script src="lib.js"></script>
+<script src="scenes/garden.js"></script>
+<script src="scenes/land.js"></script>
+<script src="scenes/water.js"></script>
+<script src="scenes/still.js"></script>
+<script src="scenes/studio.js"></script>
+<script src="scenes/pattern.js"></script>
+<script src="scenes/matter.js"></script>
+</head>
+<body>
+<script>
+const SERIF = '"Noto Serif", Georgia, serif';
+const MONO = '"JetBrainsMono Nerd Font", "JetBrains Mono", "Liberation Mono", monospace';
+
+// The palette object that every drawing gets. It holds all colors.toml keys
+// plus the 16 ANSI colors, night (true for the dark variant) and the theme data.
+function paletteOf(theme) {
+  return { ...theme.colors, ...theme, colors: undefined, night: theme.colors.mode === 'dark', bg: theme.colors.background, fg: theme.colors.foreground };
+}
+
+// ---------- 0-omarchy-wordmark ----------
+
+// The 6 normal slots, sorted by the lightness that they have on screen.
+const SLOT_KEYS = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan'];
+
+function wordmark(ctx, P, r) {
+  const night = P.night, cx = W / 2, cy = 500;
+  const box = logoBox(cx, cy, 720);
+  ctx.fillStyle = P.background; ctx.fillRect(0, 0, W, H);
+
+  // A soft light behind the wordmark.
+  ctx.fillStyle = radial(ctx, cx, cy, 0, 900, night
+    ? [[0, rgba(P.accent, .16)], [.45, rgba(P.accent, .05)], [1, rgba(P.background, 0)]]
+    : [[0, rgba('#ffffff', .55)], [.5, rgba(P.accent, .05)], [1, rgba(P.background, 0)]]);
+  ctx.fillRect(0, 0, W, H);
+
+  const pattern = P.pattern;
+  const normal = SLOT_KEYS.map(k => P[k]);
+  const bright = SLOT_KEYS.map(k => P[`bright_${k}`]);
+  const byLight = [...normal].sort((a, b) => toOklch(a).L - toOklch(b).L);
+  let fill = P.accent;
+
+  if (pattern === 'family') {
+    // Bokeh in the tints of the family slots.
+    const fam = SLOT_KEYS.filter(k => Math.abs(((toOklch(P[k]).h - toOklch(P.accent).h) % 360 + 540) % 360 - 180) < 45).map(k => P[k]);
+    ctx.save(); ctx.filter = blurPx(6);
+    for (let i = 0; i < 70; i++) {
+      const x = r() * W, y = r() * H, s = 6 + r() ** 2 * 60;
+      ctx.globalAlpha = (night ? .05 : .07) + r() * .08;
+      ctx.fillStyle = fam[Math.floor(r() * fam.length)] || P.accent;
+      ctx.beginPath(); circle(ctx, x, y, s); ctx.fill();
+    }
+    ctx.restore();
+    fill = linear(ctx, 0, 0, 0, 285, [[0, P.bright_blue], [.55, P.blue], [1, mixHex(P.blue, P.background, .25)]]);
+  } else if (pattern === 'mono') {
+    // The lightness ladder of the 6 slots as steps from the top to the bottom.
+    const steps = night ? byLight : [...byLight].reverse();
+    steps.forEach((c, i) => { ctx.fillStyle = rgba(c, night ? .03 + i * .012 : .025 + i * .01); ctx.fillRect(0, i * H / 6, W, H / 6 + 1); });
+    fill = linear(ctx, 0, 0, 0, 285, [[0, byLight[5]], [1, byLight[2]]]);
+  } else if (pattern === 'duotone') {
+    // Halftone dots, as in a 2 color print.
+    const [a, b] = P.border;
+    for (let y = 30; y < H; y += 26) for (let x = 30; x < W; x += 26) {
+      const d = Math.hypot(x - cx, (y - cy) * 1.7) / W;
+      const rad = clamp(4.2 - d * 7, .6, 4.2);
+      ctx.fillStyle = rgba((x + y) % 52 === 4 ? a : b, night ? .1 : .13);
+      ctx.beginPath(); circle(ctx, x, y, rad); ctx.fill();
+    }
+  } else if (pattern === 'analogous') {
+    // A sweep through the hues of the arc.
+    const sorted = [...normal].sort((p, q) => toOklch(p).h - toOklch(q).h);
+    const g = ctx.createConicGradient(-Math.PI / 2, cx, cy);
+    sorted.forEach((c, i) => g.addColorStop(i / sorted.length, rgba(c, night ? .22 : .2)));
+    g.addColorStop(1, rgba(sorted[0], night ? .22 : .2));
+    ctx.save(); ctx.filter = blurPx(90); ctx.fillStyle = g; ctx.beginPath(); circle(ctx, cx, cy, 520); ctx.fill(); ctx.restore();
+    fill = linear(ctx, 0, 0, 1215, 0, sorted.map((c, i) => [i / (sorted.length - 1), c]));
+  } else if (pattern === 'earth') {
+    paper(ctx, P, hashSeed(P.slug), 1.2);
+    fill = P.foreground;
+  } else if (pattern === 'signal') {
+    // Fine grid lines, like drafting paper.
+    ctx.strokeStyle = rgba(P.muted, night ? .16 : .22); ctx.lineWidth = 1;
+    ctx.beginPath();
+    for (let x = 0; x <= W; x += 48) { ctx.moveTo(x + .5, 0); ctx.lineTo(x + .5, H); }
+    for (let y = 0; y <= H; y += 48) { ctx.moveTo(0, y + .5); ctx.lineTo(W, y + .5); }
+    ctx.stroke();
+    fill = P.foreground;
+  } else if (pattern === 'spectrum') {
+    fill = linear(ctx, 0, 0, 1215, 0, [[0, P.red], [.2, P.yellow], [.4, P.green], [.6, P.cyan], [.8, P.blue], [1, P.magenta]]);
+  } else if (pattern === 'pastel') {
+    ctx.save(); ctx.filter = blurPx(120);
+    bright.forEach((c, i) => {
+      const a = i / bright.length * Math.PI * 2;
+      ctx.fillStyle = rgba(c, night ? .16 : .3);
+      ctx.beginPath(); circle(ctx, cx + Math.cos(a) * 520, cy + Math.sin(a) * 260, 260); ctx.fill();
+    });
+    ctx.restore();
+    fill = linear(ctx, 0, 0, 1215, 285, night ? [[0, P.bright_magenta], [.5, P.bright_blue], [1, P.bright_cyan]] : [[0, P.magenta], [.5, P.blue], [1, P.cyan]]);
+  }
+
+  if (pattern === 'duotone') {
+    // The wordmark printed twice, a little out of register.
+    const [a, b] = P.border, off = 9;
+    ctx.save(); ctx.globalCompositeOperation = night ? 'screen' : 'multiply';
+    drawLogo(ctx, box.x - off, box.y - off * .6, box.scale, a);
+    drawLogo(ctx, box.x + off, box.y + off * .6, box.scale, b);
+    ctx.restore();
+  } else if (pattern === 'earth') {
+    // Pressed into the paper: a light edge below and a dark edge above.
+    drawLogo(ctx, box.x, box.y + 3, box.scale, rgba(night ? '#000000' : '#ffffff', night ? .5 : .8));
+    drawLogo(ctx, box.x, box.y - 2, box.scale, rgba(night ? '#ffffff' : '#000000', night ? .06 : .12));
+    drawLogo(ctx, box.x, box.y, box.scale, mixHex(P.foreground, P.background, .12));
+  } else {
+    // A faint reflection on the floor below the wordmark.
+    const [rc, rx] = layer();
+    rx.save(); rx.translate(0, (box.y + box.h) * 2 + 24); rx.scale(1, -1); drawLogo(rx, box.x, box.y, box.scale, fill); rx.restore();
+    rx.globalCompositeOperation = 'destination-in';
+    rx.fillStyle = linear(rx, 0, box.y + box.h + 24, 0, box.y + box.h * 1.9, [[0, 'rgba(0,0,0,.14)'], [1, 'rgba(0,0,0,0)']]);
+    rx.fillRect(0, 0, W, H);
+    ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.filter = blurPx(3); ctx.drawImage(rc, 0, 0); ctx.restore();
+    if (night) bloom(ctx, x => drawLogo(x, box.x, box.y, box.scale, fill), [70, 20], pattern === 'signal' ? [.25, .2] : [.55, .45]);
+    drawLogo(ctx, box.x, box.y, box.scale, fill);
+  }
+
+  if (pattern === 'signal') {
+    // The signal color as 1 square after the wordmark, like a stamp.
+    const sig = toOklch(P.accent).C >= .03 ? P.accent : P.red;
+    ctx.fillStyle = sig;
+    ctx.fillRect(box.x + box.w + 26, box.y + box.h - 44, 44, 44);
+  }
+
+  // The 6 normal and 6 bright colors.
+  const sw = 54, gap = 12, total = 6 * sw + 5 * gap, sx = cx - total / 2, sy = box.y + box.h + 170;
+  SLOT_KEYS.forEach((k, i) => {
+    ctx.fillStyle = P[k]; ctx.fillRect(sx + i * (sw + gap), sy, sw, 9);
+    ctx.fillStyle = P[`bright_${k}`]; ctx.fillRect(sx + i * (sw + gap), sy + 15, sw, 9);
+  });
+
+  vignette(ctx, P, night ? .5 : .12);
+  grain(ctx, hashSeed(P.slug) + 7, night ? .05 : .035);
+}
+
+// ---------- 2-palette-card ----------
+
+const NAMES = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white'];
+
+function text(ctx, s, x, y, font, color, opts = {}) {
+  ctx.font = font; ctx.fillStyle = color; ctx.textAlign = opts.align || 'left'; ctx.textBaseline = opts.base || 'alphabetic';
+  if (opts.spacing) ctx.letterSpacing = `${opts.spacing}px`; else ctx.letterSpacing = '0px';
+  ctx.fillText(s, x, y);
+}
+function wrap(ctx, s, x, y, maxW, lineH, font, color) {
+  ctx.font = font; ctx.letterSpacing = '0px';
+  const words = s.split(' '); let line = '', yy = y;
+  for (const w of words) {
+    const test = line ? `${line} ${w}` : w;
+    if (ctx.measureText(test).width > maxW && line) { text(ctx, line, x, yy, font, color); line = w; yy += lineH; } else line = test;
+  }
+  if (line) text(ctx, line, x, yy, font, color);
+  return yy;
+}
+function chip(ctx, x, y, w, h, color, edge) {
+  ctx.fillStyle = color; ctx.fillRect(x, y, w, h);
+  ctx.strokeStyle = edge; ctx.lineWidth = 1; ctx.strokeRect(x + .5, y + .5, w - 1, h - 1);
+}
+
+function card(ctx, P, r) {
+  const night = P.night;
+  ctx.fillStyle = P.background; ctx.fillRect(0, 0, W, H);
+  const dim = P.dark_foreground, edge = rgba(P.foreground, night ? .14 : .18);
+
+  // A faint grid of dots, as on a proof sheet.
+  ctx.fillStyle = rgba(P.muted, night ? .22 : .28);
+  for (let y = 40; y < H; y += 40) for (let x = 40; x < W; x += 40) ctx.fillRect(x - 1, y - 1, 2, 2);
+
+  const L = 120;
+  // Left column: the name and the rule of the pattern.
+  text(ctx, `${P.patternLabel.toUpperCase()}  ·  ${String(P.index).padStart(3, '0')} / ${P.total}`, L, 170, `500 17px ${MONO}`, dim, { spacing: 3 });
+  text(ctx, P.base, L, 280, `400 96px ${SERIF}`, P.foreground);
+  ctx.font = `400 96px ${SERIF}`; const nameW = ctx.measureText(P.base).width;
+  text(ctx, P.label.toLowerCase(), L + nameW + 22, 280, `400 30px ${MONO}`, P.accent);
+  ctx.fillStyle = P.accent; ctx.fillRect(L, 318, 72, 4);
+  let y = wrap(ctx, P.desc, L, 384, 700, 36, `400 21px ${MONO}`, P.light_foreground);
+  y += 58;
+  text(ctx, 'PATTERN', L, y, `500 15px ${MONO}`, dim, { spacing: 3 });
+  y = wrap(ctx, `${P.patternLabel}. ${P.patternDesc}`, L, y + 34, 700, 32, `400 19px ${MONO}`, P.foreground);
+
+  // The window border gradient and the icon theme.
+  y += 58;
+  text(ctx, 'WINDOW BORDER', L, y, `500 15px ${MONO}`, dim, { spacing: 3 });
+  ctx.fillStyle = linear(ctx, L, 0, L + 330, 0, [[0, P.border[0]], [1, P.border[1]]]);
+  ctx.fillRect(L, y + 18, 330, 12);
+  text(ctx, 'ICONS', L + 400, y, `500 15px ${MONO}`, dim, { spacing: 3 });
+  text(ctx, P.icons, L + 400, y + 32, `400 19px ${MONO}`, P.foreground);
+
+  // Right column: the 16 terminal colors.
+  const R = 960, tw = 98, th = 74, tg = 12;
+  text(ctx, 'TERMINAL COLORS  ·  CONTRAST AGAINST THE BACKGROUND', R, 170, `500 15px ${MONO}`, dim, { spacing: 3 });
+  P.ansi.forEach((hex, i) => {
+    const row = i < 8 ? 0 : 1, col = i % 8, x = R + col * (tw + tg), yy = 196 + row * (th + 70);
+    chip(ctx, x, yy, tw, th, hex, edge);
+    text(ctx, `${i > 7 ? 'br ' : ''}${NAMES[col]}`, x, yy + th + 26, `500 15px ${MONO}`, P.foreground);
+    text(ctx, `${hex.slice(1)}  ${P.ratios[i]}`, x, yy + th + 48, `400 14px ${MONO}`, dim);
+  });
+
+  // The slots, with the slots that left their usual hue.
+  let sy = 520;
+  text(ctx, 'SLOTS', R, sy, `500 15px ${MONO}`, dim, { spacing: 3 });
+  P.slots.forEach((s, i) => {
+    const col = i % 2, row = Math.floor(i / 2), x = R + col * 430, yy = sy + 38 + row * 44;
+    ctx.fillStyle = s.hex; ctx.fillRect(x, yy - 18, 22, 22);
+    text(ctx, s.key, x + 36, yy, `500 18px ${MONO}`, P.foreground);
+    text(ctx, s.moved ? `holds ${s.name}` : s.name, x + 140, yy, `400 18px ${MONO}`, s.moved ? P.accent : P.light_foreground);
+  });
+
+  // The background and text ramps.
+  sy = 740;
+  text(ctx, 'BACKGROUND RAMP', R, sy, `500 15px ${MONO}`, dim, { spacing: 3 });
+  const ramp = [['darker', P.darker_background], ['dark', P.dark_background], ['background', P.background], ['lighter', P.lighter_background], ['selection', P.selection], ['muted', P.muted]];
+  ramp.forEach(([n, hex], i) => {
+    const x = R + i * 140;
+    chip(ctx, x, sy + 18, 128, 46, hex, edge);
+    text(ctx, n, x, sy + 90, `400 15px ${MONO}`, P.foreground);
+  });
+  sy = 870;
+  text(ctx, 'TEXT RAMP', R, sy, `500 15px ${MONO}`, dim, { spacing: 3 });
+  P.textRamp.forEach(([n, hex, k], i) => {
+    const x = R + i * 210;
+    text(ctx, 'Aa', x, sy + 58, `400 40px ${SERIF}`, hex);
+    text(ctx, n, x + 62, sy + 42, `400 15px ${MONO}`, P.foreground);
+    text(ctx, `${k}:1`, x + 62, sy + 62, `400 14px ${MONO}`, dim);
+  });
+
+  text(ctx, `${P.slug}  ·  omarchy theme set ${P.slug}`, L, 960, `400 17px ${MONO}`, dim);
+  grain(ctx, hashSeed(P.slug) + 11, night ? .035 : .025);
+}
+
+// ---------- 1-scene ----------
+
+// A plain gradient for a scene that does not exist yet.
+function missing(ctx, P) {
+  skyGradient(ctx, [[0, P.lighter_background], [1, P.darker_background]]);
+  text(ctx, `${P.motif}/${P.scene}`, W / 2, H / 2, `400 40px ${MONO}`, P.muted, { align: 'center' });
+}
+
+// ---------- entry points ----------
+
+async function ready() {
+  await Promise.all([`400 96px ${SERIF}`, `400 20px ${MONO}`, `500 20px ${MONO}`].map(f => document.fonts.load(f)));
+}
+
+// Draws one background and returns it as a data URL.
+async function renderImage(theme, kind, w, h, type = 'image/jpeg', quality = .9) {
+  await ready();
+  S = w / W;
+  const c = document.createElement('canvas');
+  c.width = w; c.height = h;
+  const ctx = c.getContext('2d');
+  ctx.scale(S, S);
+  const P = paletteOf(theme);
+  const r = rng(hashSeed(`${theme.slug}:${kind}`));
+  if (kind === 'wordmark') wordmark(ctx, P, r);
+  else if (kind === 'card') card(ctx, P, r);
+  else (SCENES[`${theme.motif}/${theme.scene}`] || missing)(ctx, P, r);
+  return c.toDataURL(type, quality);
+}
+
+// For a look in a browser: preview(theme object, kind).
+async function preview(theme, kind = 'scene', w = 1920) {
+  const url = await renderImage(theme, kind, w, Math.round(w * 9 / 16), 'image/png');
+  const img = new Image(); img.src = url; document.body.replaceChildren(img);
+}
+</script>
+</body>
+</html>
